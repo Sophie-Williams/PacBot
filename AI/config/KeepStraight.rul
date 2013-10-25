@@ -1,0 +1,46 @@
+# Normally go forward in a path
+(AND	(NOT (Obstacle_North))
+		(OR		(OR		(AND	(W_KSFOUR)
+								(E_KSFOUR))
+						(AND	(W_KSTHREE)
+								(E_KSTHREE)))
+				(OR		(AND	(W_KSTWO)
+								(E_KSTWO))
+						(AND	(W_KSONE)
+								(E_KSONE))))) => 	(TanSpeed VERY_SLOW_FORWARD)
+                            						(RotSpeed AHEAD)
+                            						(Debug EIGHT);
+
+# The robot is close to the left wall but a little further from the right wall
+(AND	(W_KSFOUR)
+		(OR		(E_KSTHREE)
+				(OR		(E_KSTWO)
+						(E_KSONE)))) 	=> 	(RotSpeed VERY_SLOW_RIGHT)
+											(TanSpeed VERY_SLOW_FORWARD)
+											(Debug NINE);
+(AND	(W_KSTHREE)
+		(OR		(E_KSTWO)
+				(E_KSONE))) 			=>	(RotSpeed VERY_SLOW_RIGHT)
+											(TanSpeed VERY_SLOW_FORWARD)
+											(Debug TEN);
+(AND	(W_KSTWO)
+		(E_KSONE))						=>	(RotSpeed VERY_SLOW_RIGHT)
+											(TanSpeed VERY_SLOW_FORWARD)
+											(Debug ELEVEN);
+		
+# The robot is close to the right wall but a little further from the left wall
+(AND	(E_KSFOUR)
+		(OR		(W_KSTHREE)
+				(OR		(W_KSTWO)
+						(W_KSONE))))	=>	(RotSpeed VERY_SLOW_LEFT)
+											(TanSpeed VERY_SLOW_FORWARD)
+											(Debug TWELVE);
+(AND	(E_KSTHREE)
+		(OR		(W_KSTWO)
+				(W_KSONE))) 			=>	(RotSpeed VERY_SLOW_LEFT)
+											(TanSpeed VERY_SLOW_FORWARD)
+											(Debug THIRTEEN);
+(AND	(E_KSTWO)
+		(W_KSONE))						=>	(RotSpeed VERY_SLOW_LEFT)
+											(TanSpeed VERY_SLOW_FORWARD)
+											(Debug FOURTEEN);

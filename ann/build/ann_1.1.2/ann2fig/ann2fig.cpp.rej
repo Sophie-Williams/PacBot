@@ -1,0 +1,11 @@
+--- ./ann2fig/ann2fig.cpp.orig	2009-01-06 11:01:08.000000000 -0800
++++ ./ann2fig/ann2fig.cpp	2009-01-06 11:01:35.000000000 -0800
+@@ -94,7 +96,7 @@
+ //	Error handler
+ //----------------------------------------------------------------------
+ 
+-void Error(char *msg, ANNerr level)
++void Error(const char *msg, ANNerr level)
+ {
+ 	if (level == ANNabort) {
+ 		cerr << "ann2fig: ERROR------->" << msg << "<-------------ERROR\n";

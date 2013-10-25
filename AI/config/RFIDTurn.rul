@@ -1,0 +1,18 @@
+(RFIDPriority_Left)			=>		(&DEL.RotSpeed ANY)
+									(&DEL.TanSpeed ANY)
+									(RotSpeed LEFT)
+									(TanSpeed STEADY)
+									(Debug TWENTYTHREE);
+								
+								
+(RFIDPriority_Right)		=>		(&DEL.RotSpeed ANY)
+									(&DEL.TanSpeed ANY)
+									(RotSpeed RIGHT)
+									(TanSpeed STEADY)
+									(Debug TWENTYFOUR);
+								
+(RFIDPriority_Backwards)	=>		(&DEL.RotSpeed ANY)
+									(&DEL.TanSpeed ANY)
+									(RotSpeed VERY_FAST_RIGHT)
+									(TanSpeed STEADY)
+									(Debug TWENTYFOUR);

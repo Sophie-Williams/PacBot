@@ -1,0 +1,16 @@
+<package>
+  <description brief="PhantomRobot">
+
+     PhantomRobot - reads via bluetooth whether 
+     		    there was contact between robots
+
+  </description>
+  <author>Mikel</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/PhantomRobot</url>
+  <depend package="roscpp"/>
+
+</package>
+
+

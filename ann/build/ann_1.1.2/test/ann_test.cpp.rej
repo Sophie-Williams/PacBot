@@ -1,0 +1,19 @@
+--- ./test/ann_test.cpp.orig	2009-01-06 10:58:37.000000000 -0800
++++ ./test/ann_test.cpp	2009-01-06 10:59:11.000000000 -0800
+@@ -37,6 +37,7 @@
+ #include <ctime>						// clock
+ #include <cmath>						// math routines
+ #include <string>						// C string ops
++#include <string.h>
+ #include <fstream>						// file I/O
+ 
+ #include <ANN/ANN.h>					// ANN declarations
+@@ -370,7 +371,7 @@
+ //----------------------------------------------------------------------
+ 
+ void Error(								// error routine
+-	char				*msg,			// error message
++	const char			*msg,			// error message
+ 	ANNerr				level)			// abort afterwards
+ {
+ 	if (level == ANNabort) {

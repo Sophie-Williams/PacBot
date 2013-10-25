@@ -1,0 +1,20 @@
+<package>
+  <description brief="AI">
+
+     AI
+
+  </description>
+  <author>Mikel Vuka</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/AI</url>
+  <depend package="brian" />
+  <depend package="fuzzy" />
+  <depend package="Echoes"/>
+  <depend package="SpyKee"/>
+  <depend package="Vision"/>
+  <depend package="roscpp"/>
+  <depend package="PhantomRobot" />
+</package>
+
+

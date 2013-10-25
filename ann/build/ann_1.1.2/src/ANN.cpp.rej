@@ -1,0 +1,19 @@
+--- ./src/ANN.cpp.orig	2009-01-06 10:55:10.000000000 -0800
++++ ./src/ANN.cpp	2009-01-06 11:00:32.000000000 -0800
+@@ -24,6 +24,7 @@
+ //		Added performance counting to annDist()
+ //----------------------------------------------------------------------
+ 
++#include <stdlib.h>
+ #include <ANN/ANNx.h>					// all ANN includes
+ #include <ANN/ANNperf.h>				// ANN performance 
+ 
+@@ -163,7 +164,7 @@
+ //	Error handler
+ //----------------------------------------------------------------------
+ 
+-void annError(char *msg, ANNerr level)
++void annError(const char *msg, ANNerr level)
+ {
+ 	if (level == ANNabort) {
+ 		cerr << "ANN: ERROR------->" << msg << "<-------------ERROR\n";

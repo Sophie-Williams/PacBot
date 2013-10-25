@@ -1,0 +1,46 @@
+# Forget what you were doing before, this is a serious matter!
+(Is_Rotating_Ahead) => 	(&DEL.TanSpeed ANY)
+						(&DEL.RotSpeed ANY);
+
+# If you're in super mode and the ghost is near, attack him!
+(AND	(Is_SuperMode)
+		(Ghost_Near))	=>	(RotSpeed AHEAD)
+							(TanSpeed VERY_FAST_FORWARD)
+							(Debug FIFTEEN);
+							
+(AND	(AND	(NOT (Is_SuperMode))
+				(Ghost_Near))
+		(AND	(Obstacle_East)
+				(NOT (Obstacle_West)))) => 	(RotSpeed VERY_FAST_LEFT)
+											(TanSpeed STEADY)
+											(Debug SIXTEEN);
+
+(AND	(AND	(NOT (Is_SuperMode))
+				(Ghost_Near))
+		(AND	(Obstacle_West)
+				(NOT (Obstacle_East)))) =>	(RotSpeed VERY_FAST_RIGHT)
+											(TanSpeed STEADY)
+											(Debug SEVENTEEN);
+
+(AND	(AND	(NOT (Is_SuperMode))
+				(Ghost_Near))
+		(AND	(Obstacle_East)
+				(Obstacle_West)))	=> 	(RotSpeed VERY_FAST_RIGHT)
+										(TanSpeed STEADY)
+										(Debug EIGHTEEN);
+
+(AND	(AND	(NOT (Is_SuperMode))
+				(Ghost_Near))
+		(AND	(NOT (Obstacle_East))
+				(AND	(NOT (Obstacle_West))
+						(Random_Left)))) =>		(RotSpeed VERY_FAST_LEFT)
+												(TanSpeed STEADY)
+												(Debug NINETEEN);
+											
+(AND	(AND	(NOT (Is_SuperMode))
+				(Ghost_Near))
+		(AND	(NOT (Obstacle_East))
+				(AND	(NOT (Obstacle_West))
+						(Random_Right)))) =>	(RotSpeed VERY_FAST_RIGHT)
+												(TanSpeed STEADY)
+												(Debug TWENTY);

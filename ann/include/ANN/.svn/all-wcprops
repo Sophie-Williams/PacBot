@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/pacbot/!svn/ver/2/PacBot/ann/include/ANN
+END
+ANNx.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/pacbot/!svn/ver/2/PacBot/ann/include/ANN/ANNx.h
+END
+ANNperf.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/pacbot/!svn/ver/2/PacBot/ann/include/ANN/ANNperf.h
+END
+ANN.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/pacbot/!svn/ver/2/PacBot/ann/include/ANN/ANN.h
+END

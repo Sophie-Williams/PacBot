@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/mikel/workspace/ros/PacBot/PacBot/AI/build/devel/setup.sh
