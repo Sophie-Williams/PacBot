@@ -26,29 +26,29 @@ Zone.h
 opencv2/opencv.hpp
 ../include/opencv2/opencv.hpp
 
-/home/mikel/workspace/ros/PacBot/PacBot/LittleEndian/src/LittleObject.cpp
+/home/mikel/workspace/ros/PacBot/LittleEndian/src/LittleObject.cpp
 LittleObject.h
-/home/mikel/workspace/ros/PacBot/PacBot/LittleEndian/src/LittleObject.h
+/home/mikel/workspace/ros/PacBot/LittleEndian/src/LittleObject.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/LittleEndian/src/Zone.cpp
+/home/mikel/workspace/ros/PacBot/LittleEndian/src/Zone.cpp
 iostream
 -
 Zone.h
-/home/mikel/workspace/ros/PacBot/PacBot/LittleEndian/src/Zone.h
+/home/mikel/workspace/ros/PacBot/LittleEndian/src/Zone.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/LittleEndian/src/littleendian.cpp
+/home/mikel/workspace/ros/PacBot/LittleEndian/src/littleendian.cpp
 iostream
 -
 vector
 -
 opencv2/opencv.hpp
-/home/mikel/workspace/ros/PacBot/PacBot/LittleEndian/src/opencv2/opencv.hpp
+/home/mikel/workspace/ros/PacBot/LittleEndian/src/opencv2/opencv.hpp
 fstream
 -
 ros/ros.h
-/home/mikel/workspace/ros/PacBot/PacBot/LittleEndian/src/ros/ros.h
+/home/mikel/workspace/ros/PacBot/LittleEndian/src/ros/ros.h
 LittleObject.h
-/home/mikel/workspace/ros/PacBot/PacBot/LittleEndian/src/LittleObject.h
+/home/mikel/workspace/ros/PacBot/LittleEndian/src/LittleObject.h
 
 /opt/ros/groovy/include/XmlRpcDecl.h
 ros/macros.h

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian
+CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/Brian/brian
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build
+CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/Brian/brian/build
 
 # Utility rule file for tests.
 
@@ -60,6 +60,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mikel/workspace/ros/PacBot/Brian/brian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/Brian/brian /home/mikel/workspace/ros/PacBot/Brian/brian /home/mikel/workspace/ros/PacBot/Brian/brian/build /home/mikel/workspace/ros/PacBot/Brian/brian/build /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

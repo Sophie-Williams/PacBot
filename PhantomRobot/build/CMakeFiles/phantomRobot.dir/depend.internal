@@ -3,11 +3,11 @@
 
 CMakeFiles/phantomRobot.dir/src/BTReader.cpp.o
  ../include/BTReader.h
- /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/src/BTReader.cpp
+ /home/mikel/workspace/ros/PacBot/PhantomRobot/src/BTReader.cpp
 CMakeFiles/phantomRobot.dir/src/main.cpp.o
  ../include/BTReader.h
  ../msg_gen/cpp/include/PhantomRobot/PhantomMsg.h
- /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/src/main.cpp
+ /home/mikel/workspace/ros/PacBot/PhantomRobot/src/main.cpp
  /opt/ros/groovy/include/XmlRpcDecl.h
  /opt/ros/groovy/include/XmlRpcValue.h
  /opt/ros/groovy/include/ros/advertise_options.h

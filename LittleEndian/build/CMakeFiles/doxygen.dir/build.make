@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/PacBot/LittleEndian
+CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/LittleEndian
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/PacBot/LittleEndian/build
+CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/LittleEndian/build
 
 # Utility rule file for doxygen.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/PacBot/LittleEndian/build
 include CMakeFiles/doxygen.dir/progress.make
 
 CMakeFiles/doxygen:
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/LittleEndian/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/LittleEndian/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "doxygen found"
 
 doxygen: CMakeFiles/doxygen
@@ -62,6 +62,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/mikel/workspace/ros/PacBot/PacBot/LittleEndian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/PacBot/LittleEndian /home/mikel/workspace/ros/PacBot/PacBot/LittleEndian /home/mikel/workspace/ros/PacBot/PacBot/LittleEndian/build /home/mikel/workspace/ros/PacBot/PacBot/LittleEndian/build /home/mikel/workspace/ros/PacBot/PacBot/LittleEndian/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mikel/workspace/ros/PacBot/LittleEndian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/LittleEndian /home/mikel/workspace/ros/PacBot/LittleEndian /home/mikel/workspace/ros/PacBot/LittleEndian/build /home/mikel/workspace/ros/PacBot/LittleEndian/build /home/mikel/workspace/ros/PacBot/LittleEndian/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

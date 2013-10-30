@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/PacBot/LittleEndian
+CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/LittleEndian
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/PacBot/LittleEndian/build
+CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/LittleEndian/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -60,6 +60,6 @@ CMakeFiles/_catkin_empty_exported_target.dir/clean:
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/mikel/workspace/ros/PacBot/PacBot/LittleEndian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/PacBot/LittleEndian /home/mikel/workspace/ros/PacBot/PacBot/LittleEndian /home/mikel/workspace/ros/PacBot/PacBot/LittleEndian/build /home/mikel/workspace/ros/PacBot/PacBot/LittleEndian/build /home/mikel/workspace/ros/PacBot/PacBot/LittleEndian/build/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mikel/workspace/ros/PacBot/LittleEndian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/LittleEndian /home/mikel/workspace/ros/PacBot/LittleEndian /home/mikel/workspace/ros/PacBot/LittleEndian/build /home/mikel/workspace/ros/PacBot/LittleEndian/build /home/mikel/workspace/ros/PacBot/LittleEndian/build/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/depend
 

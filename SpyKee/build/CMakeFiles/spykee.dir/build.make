@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/PacBot/SpyKee
+CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/SpyKee
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/build
+CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/SpyKee/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/spykee.dir/depend.make
@@ -66,17 +66,17 @@ CMakeFiles/spykee.dir/src/spykee.cpp.o: /opt/ros/groovy/share/xmlrpcpp/package.x
 CMakeFiles/spykee.dir/src/spykee.cpp.o: /opt/ros/groovy/share/roscpp/package.xml
 CMakeFiles/spykee.dir/src/spykee.cpp.o: /opt/ros/groovy/share/geometry_msgs/package.xml
 CMakeFiles/spykee.dir/src/spykee.cpp.o: /opt/ros/groovy/share/sensor_msgs/package.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/SpyKee/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/spykee.dir/src/spykee.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/spykee.dir/src/spykee.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/src/spykee.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/spykee.dir/src/spykee.cpp.o -c /home/mikel/workspace/ros/PacBot/SpyKee/src/spykee.cpp
 
 CMakeFiles/spykee.dir/src/spykee.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spykee.dir/src/spykee.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/src/spykee.cpp > CMakeFiles/spykee.dir/src/spykee.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/SpyKee/src/spykee.cpp > CMakeFiles/spykee.dir/src/spykee.cpp.i
 
 CMakeFiles/spykee.dir/src/spykee.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spykee.dir/src/spykee.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/src/spykee.cpp -o CMakeFiles/spykee.dir/src/spykee.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/SpyKee/src/spykee.cpp -o CMakeFiles/spykee.dir/src/spykee.cpp.s
 
 CMakeFiles/spykee.dir/src/spykee.cpp.o.requires:
 .PHONY : CMakeFiles/spykee.dir/src/spykee.cpp.o.requires
@@ -104,17 +104,17 @@ CMakeFiles/spykee.dir/src/SpykeeManager.cpp.o: /opt/ros/groovy/share/xmlrpcpp/pa
 CMakeFiles/spykee.dir/src/SpykeeManager.cpp.o: /opt/ros/groovy/share/roscpp/package.xml
 CMakeFiles/spykee.dir/src/SpykeeManager.cpp.o: /opt/ros/groovy/share/geometry_msgs/package.xml
 CMakeFiles/spykee.dir/src/SpykeeManager.cpp.o: /opt/ros/groovy/share/sensor_msgs/package.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/SpyKee/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/spykee.dir/src/SpykeeManager.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/spykee.dir/src/SpykeeManager.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/src/SpykeeManager.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/spykee.dir/src/SpykeeManager.cpp.o -c /home/mikel/workspace/ros/PacBot/SpyKee/src/SpykeeManager.cpp
 
 CMakeFiles/spykee.dir/src/SpykeeManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spykee.dir/src/SpykeeManager.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/src/SpykeeManager.cpp > CMakeFiles/spykee.dir/src/SpykeeManager.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/SpyKee/src/SpykeeManager.cpp > CMakeFiles/spykee.dir/src/SpykeeManager.cpp.i
 
 CMakeFiles/spykee.dir/src/SpykeeManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spykee.dir/src/SpykeeManager.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/src/SpykeeManager.cpp -o CMakeFiles/spykee.dir/src/SpykeeManager.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/SpyKee/src/SpykeeManager.cpp -o CMakeFiles/spykee.dir/src/SpykeeManager.cpp.s
 
 CMakeFiles/spykee.dir/src/SpykeeManager.cpp.o.requires:
 .PHONY : CMakeFiles/spykee.dir/src/SpykeeManager.cpp.o.requires
@@ -142,17 +142,17 @@ CMakeFiles/spykee.dir/src/PracticalSocket.cpp.o: /opt/ros/groovy/share/xmlrpcpp/
 CMakeFiles/spykee.dir/src/PracticalSocket.cpp.o: /opt/ros/groovy/share/roscpp/package.xml
 CMakeFiles/spykee.dir/src/PracticalSocket.cpp.o: /opt/ros/groovy/share/geometry_msgs/package.xml
 CMakeFiles/spykee.dir/src/PracticalSocket.cpp.o: /opt/ros/groovy/share/sensor_msgs/package.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/SpyKee/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/spykee.dir/src/PracticalSocket.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/spykee.dir/src/PracticalSocket.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/src/PracticalSocket.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/spykee.dir/src/PracticalSocket.cpp.o -c /home/mikel/workspace/ros/PacBot/SpyKee/src/PracticalSocket.cpp
 
 CMakeFiles/spykee.dir/src/PracticalSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spykee.dir/src/PracticalSocket.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/src/PracticalSocket.cpp > CMakeFiles/spykee.dir/src/PracticalSocket.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/SpyKee/src/PracticalSocket.cpp > CMakeFiles/spykee.dir/src/PracticalSocket.cpp.i
 
 CMakeFiles/spykee.dir/src/PracticalSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spykee.dir/src/PracticalSocket.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/src/PracticalSocket.cpp -o CMakeFiles/spykee.dir/src/PracticalSocket.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/SpyKee/src/PracticalSocket.cpp -o CMakeFiles/spykee.dir/src/PracticalSocket.cpp.s
 
 CMakeFiles/spykee.dir/src/PracticalSocket.cpp.o.requires:
 .PHONY : CMakeFiles/spykee.dir/src/PracticalSocket.cpp.o.requires
@@ -194,6 +194,6 @@ CMakeFiles/spykee.dir/clean:
 .PHONY : CMakeFiles/spykee.dir/clean
 
 CMakeFiles/spykee.dir/depend:
-	cd /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/PacBot/SpyKee /home/mikel/workspace/ros/PacBot/PacBot/SpyKee /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/build /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/build /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/build/CMakeFiles/spykee.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mikel/workspace/ros/PacBot/SpyKee/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/SpyKee /home/mikel/workspace/ros/PacBot/SpyKee /home/mikel/workspace/ros/PacBot/SpyKee/build /home/mikel/workspace/ros/PacBot/SpyKee/build /home/mikel/workspace/ros/PacBot/SpyKee/build/CMakeFiles/spykee.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/spykee.dir/depend
 

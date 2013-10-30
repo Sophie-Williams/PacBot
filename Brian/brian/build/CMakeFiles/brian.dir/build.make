@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian
+CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/Brian/brian
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build
+CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/Brian/brian/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/brian.dir/depend.make
@@ -50,44 +50,44 @@ include CMakeFiles/brian.dir/progress.make
 include CMakeFiles/brian.dir/flags.make
 
 ../src/predgram.tab.cpp: ../prs/predgram.y
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "[BISON][PredParser] Building parser with bison 2.5"
-	cd /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian && /usr/bin/bison --defines="/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/include/predgram.tab.h" -p pred -d -o /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predgram.tab.cpp prs/predgram.y
+	cd /home/mikel/workspace/ros/PacBot/Brian/brian && /usr/bin/bison --defines="/home/mikel/workspace/ros/PacBot/Brian/brian/include/predgram.tab.h" -p pred -d -o /home/mikel/workspace/ros/PacBot/Brian/brian/src/predgram.tab.cpp prs/predgram.y
 
 ../src/predgram.tab.hpp: ../src/predgram.tab.cpp
 
 ../src/predflex.cpp: ../prs/predflex.l
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "[FLEX][PredScanner] Building scanner with flex 2.5.35"
-	cd /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian && /usr/bin/flex -Ppred -o/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predflex.cpp prs/predflex.l
+	cd /home/mikel/workspace/ros/PacBot/Brian/brian && /usr/bin/flex -Ppred -o/home/mikel/workspace/ros/PacBot/Brian/brian/src/predflex.cpp prs/predflex.l
 
 ../src/rulesgram.tab.cpp: ../prs/rulesgram.y
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "[BISON][RulesParser] Building parser with bison 2.5"
-	cd /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian && /usr/bin/bison --defines="/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/include/rulesgram.tab.h" -p rules -d -o /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/rulesgram.tab.cpp prs/rulesgram.y
+	cd /home/mikel/workspace/ros/PacBot/Brian/brian && /usr/bin/bison --defines="/home/mikel/workspace/ros/PacBot/Brian/brian/include/rulesgram.tab.h" -p rules -d -o /home/mikel/workspace/ros/PacBot/Brian/brian/src/rulesgram.tab.cpp prs/rulesgram.y
 
 ../src/rulesgram.tab.hpp: ../src/rulesgram.tab.cpp
 
 ../src/rulesflex.cpp: ../prs/rulesflex.l
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "[FLEX][RulesScanner] Building scanner with flex 2.5.35"
-	cd /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian && /usr/bin/flex -Prules -o/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/rulesflex.cpp prs/rulesflex.l
+	cd /home/mikel/workspace/ros/PacBot/Brian/brian && /usr/bin/flex -Prules -o/home/mikel/workspace/ros/PacBot/Brian/brian/src/rulesflex.cpp prs/rulesflex.l
 
 CMakeFiles/brian.dir/src/brian.cpp.o: CMakeFiles/brian.dir/flags.make
 CMakeFiles/brian.dir/src/brian.cpp.o: ../src/brian.cpp
 CMakeFiles/brian.dir/src/brian.cpp.o: ../manifest.xml
-CMakeFiles/brian.dir/src/brian.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_5)
+CMakeFiles/brian.dir/src/brian.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/fuzzy/manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/brian.dir/src/brian.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/brian.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/brian.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/brian.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/brian/src/brian.cpp
 
 CMakeFiles/brian.dir/src/brian.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brian.dir/src/brian.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/brian.cpp > CMakeFiles/brian.dir/src/brian.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Brian/brian/src/brian.cpp > CMakeFiles/brian.dir/src/brian.cpp.i
 
 CMakeFiles/brian.dir/src/brian.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brian.dir/src/brian.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/brian.cpp -o CMakeFiles/brian.dir/src/brian.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Brian/brian/src/brian.cpp -o CMakeFiles/brian.dir/src/brian.cpp.s
 
 CMakeFiles/brian.dir/src/brian.cpp.o.requires:
 .PHONY : CMakeFiles/brian.dir/src/brian.cpp.o.requires
@@ -101,18 +101,18 @@ CMakeFiles/brian.dir/src/brian.cpp.o.provides.build: CMakeFiles/brian.dir/src/br
 CMakeFiles/brian.dir/src/behavior_eng.cpp.o: CMakeFiles/brian.dir/flags.make
 CMakeFiles/brian.dir/src/behavior_eng.cpp.o: ../src/behavior_eng.cpp
 CMakeFiles/brian.dir/src/behavior_eng.cpp.o: ../manifest.xml
-CMakeFiles/brian.dir/src/behavior_eng.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_6)
+CMakeFiles/brian.dir/src/behavior_eng.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/fuzzy/manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/brian.dir/src/behavior_eng.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/behavior_eng.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/behavior_eng.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/behavior_eng.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/brian/src/behavior_eng.cpp
 
 CMakeFiles/brian.dir/src/behavior_eng.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brian.dir/src/behavior_eng.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/behavior_eng.cpp > CMakeFiles/brian.dir/src/behavior_eng.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Brian/brian/src/behavior_eng.cpp > CMakeFiles/brian.dir/src/behavior_eng.cpp.i
 
 CMakeFiles/brian.dir/src/behavior_eng.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brian.dir/src/behavior_eng.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/behavior_eng.cpp -o CMakeFiles/brian.dir/src/behavior_eng.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Brian/brian/src/behavior_eng.cpp -o CMakeFiles/brian.dir/src/behavior_eng.cpp.s
 
 CMakeFiles/brian.dir/src/behavior_eng.cpp.o.requires:
 .PHONY : CMakeFiles/brian.dir/src/behavior_eng.cpp.o.requires
@@ -126,18 +126,18 @@ CMakeFiles/brian.dir/src/behavior_eng.cpp.o.provides.build: CMakeFiles/brian.dir
 CMakeFiles/brian.dir/src/can_doer.cpp.o: CMakeFiles/brian.dir/flags.make
 CMakeFiles/brian.dir/src/can_doer.cpp.o: ../src/can_doer.cpp
 CMakeFiles/brian.dir/src/can_doer.cpp.o: ../manifest.xml
-CMakeFiles/brian.dir/src/can_doer.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_7)
+CMakeFiles/brian.dir/src/can_doer.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/fuzzy/manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/brian.dir/src/can_doer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/can_doer.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/can_doer.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/can_doer.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/brian/src/can_doer.cpp
 
 CMakeFiles/brian.dir/src/can_doer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brian.dir/src/can_doer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/can_doer.cpp > CMakeFiles/brian.dir/src/can_doer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Brian/brian/src/can_doer.cpp > CMakeFiles/brian.dir/src/can_doer.cpp.i
 
 CMakeFiles/brian.dir/src/can_doer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brian.dir/src/can_doer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/can_doer.cpp -o CMakeFiles/brian.dir/src/can_doer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Brian/brian/src/can_doer.cpp -o CMakeFiles/brian.dir/src/can_doer.cpp.s
 
 CMakeFiles/brian.dir/src/can_doer.cpp.o.requires:
 .PHONY : CMakeFiles/brian.dir/src/can_doer.cpp.o.requires
@@ -151,18 +151,18 @@ CMakeFiles/brian.dir/src/can_doer.cpp.o.provides.build: CMakeFiles/brian.dir/src
 CMakeFiles/brian.dir/src/compose.cpp.o: CMakeFiles/brian.dir/flags.make
 CMakeFiles/brian.dir/src/compose.cpp.o: ../src/compose.cpp
 CMakeFiles/brian.dir/src/compose.cpp.o: ../manifest.xml
-CMakeFiles/brian.dir/src/compose.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_8)
+CMakeFiles/brian.dir/src/compose.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/fuzzy/manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/brian.dir/src/compose.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/compose.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/compose.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/compose.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/brian/src/compose.cpp
 
 CMakeFiles/brian.dir/src/compose.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brian.dir/src/compose.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/compose.cpp > CMakeFiles/brian.dir/src/compose.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Brian/brian/src/compose.cpp > CMakeFiles/brian.dir/src/compose.cpp.i
 
 CMakeFiles/brian.dir/src/compose.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brian.dir/src/compose.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/compose.cpp -o CMakeFiles/brian.dir/src/compose.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Brian/brian/src/compose.cpp -o CMakeFiles/brian.dir/src/compose.cpp.s
 
 CMakeFiles/brian.dir/src/compose.cpp.o.requires:
 .PHONY : CMakeFiles/brian.dir/src/compose.cpp.o.requires
@@ -176,18 +176,18 @@ CMakeFiles/brian.dir/src/compose.cpp.o.provides.build: CMakeFiles/brian.dir/src/
 CMakeFiles/brian.dir/src/preacher.cpp.o: CMakeFiles/brian.dir/flags.make
 CMakeFiles/brian.dir/src/preacher.cpp.o: ../src/preacher.cpp
 CMakeFiles/brian.dir/src/preacher.cpp.o: ../manifest.xml
-CMakeFiles/brian.dir/src/preacher.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_9)
+CMakeFiles/brian.dir/src/preacher.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/fuzzy/manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/brian.dir/src/preacher.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/preacher.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/preacher.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/preacher.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/brian/src/preacher.cpp
 
 CMakeFiles/brian.dir/src/preacher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brian.dir/src/preacher.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/preacher.cpp > CMakeFiles/brian.dir/src/preacher.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Brian/brian/src/preacher.cpp > CMakeFiles/brian.dir/src/preacher.cpp.i
 
 CMakeFiles/brian.dir/src/preacher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brian.dir/src/preacher.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/preacher.cpp -o CMakeFiles/brian.dir/src/preacher.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Brian/brian/src/preacher.cpp -o CMakeFiles/brian.dir/src/preacher.cpp.s
 
 CMakeFiles/brian.dir/src/preacher.cpp.o.requires:
 .PHONY : CMakeFiles/brian.dir/src/preacher.cpp.o.requires
@@ -201,18 +201,18 @@ CMakeFiles/brian.dir/src/preacher.cpp.o.provides.build: CMakeFiles/brian.dir/src
 CMakeFiles/brian.dir/src/predicate.cpp.o: CMakeFiles/brian.dir/flags.make
 CMakeFiles/brian.dir/src/predicate.cpp.o: ../src/predicate.cpp
 CMakeFiles/brian.dir/src/predicate.cpp.o: ../manifest.xml
-CMakeFiles/brian.dir/src/predicate.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_10)
+CMakeFiles/brian.dir/src/predicate.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/fuzzy/manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/brian.dir/src/predicate.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/predicate.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predicate.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/predicate.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/brian/src/predicate.cpp
 
 CMakeFiles/brian.dir/src/predicate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brian.dir/src/predicate.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predicate.cpp > CMakeFiles/brian.dir/src/predicate.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Brian/brian/src/predicate.cpp > CMakeFiles/brian.dir/src/predicate.cpp.i
 
 CMakeFiles/brian.dir/src/predicate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brian.dir/src/predicate.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predicate.cpp -o CMakeFiles/brian.dir/src/predicate.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Brian/brian/src/predicate.cpp -o CMakeFiles/brian.dir/src/predicate.cpp.s
 
 CMakeFiles/brian.dir/src/predicate.cpp.o.requires:
 .PHONY : CMakeFiles/brian.dir/src/predicate.cpp.o.requires
@@ -226,18 +226,18 @@ CMakeFiles/brian.dir/src/predicate.cpp.o.provides.build: CMakeFiles/brian.dir/sr
 CMakeFiles/brian.dir/src/predicate_list.cpp.o: CMakeFiles/brian.dir/flags.make
 CMakeFiles/brian.dir/src/predicate_list.cpp.o: ../src/predicate_list.cpp
 CMakeFiles/brian.dir/src/predicate_list.cpp.o: ../manifest.xml
-CMakeFiles/brian.dir/src/predicate_list.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_11)
+CMakeFiles/brian.dir/src/predicate_list.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/fuzzy/manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/brian.dir/src/predicate_list.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/predicate_list.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predicate_list.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/predicate_list.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/brian/src/predicate_list.cpp
 
 CMakeFiles/brian.dir/src/predicate_list.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brian.dir/src/predicate_list.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predicate_list.cpp > CMakeFiles/brian.dir/src/predicate_list.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Brian/brian/src/predicate_list.cpp > CMakeFiles/brian.dir/src/predicate_list.cpp.i
 
 CMakeFiles/brian.dir/src/predicate_list.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brian.dir/src/predicate_list.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predicate_list.cpp -o CMakeFiles/brian.dir/src/predicate_list.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Brian/brian/src/predicate_list.cpp -o CMakeFiles/brian.dir/src/predicate_list.cpp.s
 
 CMakeFiles/brian.dir/src/predicate_list.cpp.o.requires:
 .PHONY : CMakeFiles/brian.dir/src/predicate_list.cpp.o.requires
@@ -251,18 +251,18 @@ CMakeFiles/brian.dir/src/predicate_list.cpp.o.provides.build: CMakeFiles/brian.d
 CMakeFiles/brian.dir/src/predicate_list_debug.cpp.o: CMakeFiles/brian.dir/flags.make
 CMakeFiles/brian.dir/src/predicate_list_debug.cpp.o: ../src/predicate_list_debug.cpp
 CMakeFiles/brian.dir/src/predicate_list_debug.cpp.o: ../manifest.xml
-CMakeFiles/brian.dir/src/predicate_list_debug.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_12)
+CMakeFiles/brian.dir/src/predicate_list_debug.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/fuzzy/manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/brian.dir/src/predicate_list_debug.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/predicate_list_debug.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predicate_list_debug.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/predicate_list_debug.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/brian/src/predicate_list_debug.cpp
 
 CMakeFiles/brian.dir/src/predicate_list_debug.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brian.dir/src/predicate_list_debug.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predicate_list_debug.cpp > CMakeFiles/brian.dir/src/predicate_list_debug.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Brian/brian/src/predicate_list_debug.cpp > CMakeFiles/brian.dir/src/predicate_list_debug.cpp.i
 
 CMakeFiles/brian.dir/src/predicate_list_debug.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brian.dir/src/predicate_list_debug.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predicate_list_debug.cpp -o CMakeFiles/brian.dir/src/predicate_list_debug.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Brian/brian/src/predicate_list_debug.cpp -o CMakeFiles/brian.dir/src/predicate_list_debug.cpp.s
 
 CMakeFiles/brian.dir/src/predicate_list_debug.cpp.o.requires:
 .PHONY : CMakeFiles/brian.dir/src/predicate_list_debug.cpp.o.requires
@@ -276,18 +276,18 @@ CMakeFiles/brian.dir/src/predicate_list_debug.cpp.o.provides.build: CMakeFiles/b
 CMakeFiles/brian.dir/src/proposed_action_list.cpp.o: CMakeFiles/brian.dir/flags.make
 CMakeFiles/brian.dir/src/proposed_action_list.cpp.o: ../src/proposed_action_list.cpp
 CMakeFiles/brian.dir/src/proposed_action_list.cpp.o: ../manifest.xml
-CMakeFiles/brian.dir/src/proposed_action_list.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_13)
+CMakeFiles/brian.dir/src/proposed_action_list.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/fuzzy/manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/brian.dir/src/proposed_action_list.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/proposed_action_list.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/proposed_action_list.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/proposed_action_list.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/brian/src/proposed_action_list.cpp
 
 CMakeFiles/brian.dir/src/proposed_action_list.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brian.dir/src/proposed_action_list.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/proposed_action_list.cpp > CMakeFiles/brian.dir/src/proposed_action_list.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Brian/brian/src/proposed_action_list.cpp > CMakeFiles/brian.dir/src/proposed_action_list.cpp.i
 
 CMakeFiles/brian.dir/src/proposed_action_list.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brian.dir/src/proposed_action_list.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/proposed_action_list.cpp -o CMakeFiles/brian.dir/src/proposed_action_list.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Brian/brian/src/proposed_action_list.cpp -o CMakeFiles/brian.dir/src/proposed_action_list.cpp.s
 
 CMakeFiles/brian.dir/src/proposed_action_list.cpp.o.requires:
 .PHONY : CMakeFiles/brian.dir/src/proposed_action_list.cpp.o.requires
@@ -301,18 +301,18 @@ CMakeFiles/brian.dir/src/proposed_action_list.cpp.o.provides.build: CMakeFiles/b
 CMakeFiles/brian.dir/src/proposed_action_list_debug.cpp.o: CMakeFiles/brian.dir/flags.make
 CMakeFiles/brian.dir/src/proposed_action_list_debug.cpp.o: ../src/proposed_action_list_debug.cpp
 CMakeFiles/brian.dir/src/proposed_action_list_debug.cpp.o: ../manifest.xml
-CMakeFiles/brian.dir/src/proposed_action_list_debug.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_14)
+CMakeFiles/brian.dir/src/proposed_action_list_debug.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/fuzzy/manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/brian.dir/src/proposed_action_list_debug.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/proposed_action_list_debug.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/proposed_action_list_debug.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/proposed_action_list_debug.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/brian/src/proposed_action_list_debug.cpp
 
 CMakeFiles/brian.dir/src/proposed_action_list_debug.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brian.dir/src/proposed_action_list_debug.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/proposed_action_list_debug.cpp > CMakeFiles/brian.dir/src/proposed_action_list_debug.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Brian/brian/src/proposed_action_list_debug.cpp > CMakeFiles/brian.dir/src/proposed_action_list_debug.cpp.i
 
 CMakeFiles/brian.dir/src/proposed_action_list_debug.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brian.dir/src/proposed_action_list_debug.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/proposed_action_list_debug.cpp -o CMakeFiles/brian.dir/src/proposed_action_list_debug.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Brian/brian/src/proposed_action_list_debug.cpp -o CMakeFiles/brian.dir/src/proposed_action_list_debug.cpp.s
 
 CMakeFiles/brian.dir/src/proposed_action_list_debug.cpp.o.requires:
 .PHONY : CMakeFiles/brian.dir/src/proposed_action_list_debug.cpp.o.requires
@@ -326,18 +326,18 @@ CMakeFiles/brian.dir/src/proposed_action_list_debug.cpp.o.provides.build: CMakeF
 CMakeFiles/brian.dir/src/wanter_eng.cpp.o: CMakeFiles/brian.dir/flags.make
 CMakeFiles/brian.dir/src/wanter_eng.cpp.o: ../src/wanter_eng.cpp
 CMakeFiles/brian.dir/src/wanter_eng.cpp.o: ../manifest.xml
-CMakeFiles/brian.dir/src/wanter_eng.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_15)
+CMakeFiles/brian.dir/src/wanter_eng.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/fuzzy/manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/brian.dir/src/wanter_eng.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/wanter_eng.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/wanter_eng.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/wanter_eng.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/brian/src/wanter_eng.cpp
 
 CMakeFiles/brian.dir/src/wanter_eng.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brian.dir/src/wanter_eng.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/wanter_eng.cpp > CMakeFiles/brian.dir/src/wanter_eng.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Brian/brian/src/wanter_eng.cpp > CMakeFiles/brian.dir/src/wanter_eng.cpp.i
 
 CMakeFiles/brian.dir/src/wanter_eng.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brian.dir/src/wanter_eng.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/wanter_eng.cpp -o CMakeFiles/brian.dir/src/wanter_eng.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Brian/brian/src/wanter_eng.cpp -o CMakeFiles/brian.dir/src/wanter_eng.cpp.s
 
 CMakeFiles/brian.dir/src/wanter_eng.cpp.o.requires:
 .PHONY : CMakeFiles/brian.dir/src/wanter_eng.cpp.o.requires
@@ -351,18 +351,18 @@ CMakeFiles/brian.dir/src/wanter_eng.cpp.o.provides.build: CMakeFiles/brian.dir/s
 CMakeFiles/brian.dir/src/weight_want.cpp.o: CMakeFiles/brian.dir/flags.make
 CMakeFiles/brian.dir/src/weight_want.cpp.o: ../src/weight_want.cpp
 CMakeFiles/brian.dir/src/weight_want.cpp.o: ../manifest.xml
-CMakeFiles/brian.dir/src/weight_want.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_16)
+CMakeFiles/brian.dir/src/weight_want.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/fuzzy/manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/brian.dir/src/weight_want.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/weight_want.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/weight_want.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/weight_want.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/brian/src/weight_want.cpp
 
 CMakeFiles/brian.dir/src/weight_want.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brian.dir/src/weight_want.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/weight_want.cpp > CMakeFiles/brian.dir/src/weight_want.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Brian/brian/src/weight_want.cpp > CMakeFiles/brian.dir/src/weight_want.cpp.i
 
 CMakeFiles/brian.dir/src/weight_want.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brian.dir/src/weight_want.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/weight_want.cpp -o CMakeFiles/brian.dir/src/weight_want.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Brian/brian/src/weight_want.cpp -o CMakeFiles/brian.dir/src/weight_want.cpp.s
 
 CMakeFiles/brian.dir/src/weight_want.cpp.o.requires:
 .PHONY : CMakeFiles/brian.dir/src/weight_want.cpp.o.requires
@@ -376,18 +376,18 @@ CMakeFiles/brian.dir/src/weight_want.cpp.o.provides.build: CMakeFiles/brian.dir/
 CMakeFiles/brian.dir/src/weight_want_list.cpp.o: CMakeFiles/brian.dir/flags.make
 CMakeFiles/brian.dir/src/weight_want_list.cpp.o: ../src/weight_want_list.cpp
 CMakeFiles/brian.dir/src/weight_want_list.cpp.o: ../manifest.xml
-CMakeFiles/brian.dir/src/weight_want_list.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_17)
+CMakeFiles/brian.dir/src/weight_want_list.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/fuzzy/manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/brian.dir/src/weight_want_list.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/weight_want_list.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/weight_want_list.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/weight_want_list.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/brian/src/weight_want_list.cpp
 
 CMakeFiles/brian.dir/src/weight_want_list.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brian.dir/src/weight_want_list.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/weight_want_list.cpp > CMakeFiles/brian.dir/src/weight_want_list.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Brian/brian/src/weight_want_list.cpp > CMakeFiles/brian.dir/src/weight_want_list.cpp.i
 
 CMakeFiles/brian.dir/src/weight_want_list.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brian.dir/src/weight_want_list.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/weight_want_list.cpp -o CMakeFiles/brian.dir/src/weight_want_list.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Brian/brian/src/weight_want_list.cpp -o CMakeFiles/brian.dir/src/weight_want_list.cpp.s
 
 CMakeFiles/brian.dir/src/weight_want_list.cpp.o.requires:
 .PHONY : CMakeFiles/brian.dir/src/weight_want_list.cpp.o.requires
@@ -401,18 +401,18 @@ CMakeFiles/brian.dir/src/weight_want_list.cpp.o.provides.build: CMakeFiles/brian
 CMakeFiles/brian.dir/src/weight_want_list_debug.cpp.o: CMakeFiles/brian.dir/flags.make
 CMakeFiles/brian.dir/src/weight_want_list_debug.cpp.o: ../src/weight_want_list_debug.cpp
 CMakeFiles/brian.dir/src/weight_want_list_debug.cpp.o: ../manifest.xml
-CMakeFiles/brian.dir/src/weight_want_list_debug.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_18)
+CMakeFiles/brian.dir/src/weight_want_list_debug.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/fuzzy/manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/brian.dir/src/weight_want_list_debug.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/weight_want_list_debug.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/weight_want_list_debug.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/weight_want_list_debug.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/brian/src/weight_want_list_debug.cpp
 
 CMakeFiles/brian.dir/src/weight_want_list_debug.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brian.dir/src/weight_want_list_debug.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/weight_want_list_debug.cpp > CMakeFiles/brian.dir/src/weight_want_list_debug.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Brian/brian/src/weight_want_list_debug.cpp > CMakeFiles/brian.dir/src/weight_want_list_debug.cpp.i
 
 CMakeFiles/brian.dir/src/weight_want_list_debug.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brian.dir/src/weight_want_list_debug.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/weight_want_list_debug.cpp -o CMakeFiles/brian.dir/src/weight_want_list_debug.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Brian/brian/src/weight_want_list_debug.cpp -o CMakeFiles/brian.dir/src/weight_want_list_debug.cpp.s
 
 CMakeFiles/brian.dir/src/weight_want_list_debug.cpp.o.requires:
 .PHONY : CMakeFiles/brian.dir/src/weight_want_list_debug.cpp.o.requires
@@ -426,18 +426,18 @@ CMakeFiles/brian.dir/src/weight_want_list_debug.cpp.o.provides.build: CMakeFiles
 CMakeFiles/brian.dir/src/engine_objects.cpp.o: CMakeFiles/brian.dir/flags.make
 CMakeFiles/brian.dir/src/engine_objects.cpp.o: ../src/engine_objects.cpp
 CMakeFiles/brian.dir/src/engine_objects.cpp.o: ../manifest.xml
-CMakeFiles/brian.dir/src/engine_objects.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_19)
+CMakeFiles/brian.dir/src/engine_objects.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/fuzzy/manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/brian.dir/src/engine_objects.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/engine_objects.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/engine_objects.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/engine_objects.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/brian/src/engine_objects.cpp
 
 CMakeFiles/brian.dir/src/engine_objects.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brian.dir/src/engine_objects.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/engine_objects.cpp > CMakeFiles/brian.dir/src/engine_objects.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Brian/brian/src/engine_objects.cpp > CMakeFiles/brian.dir/src/engine_objects.cpp.i
 
 CMakeFiles/brian.dir/src/engine_objects.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brian.dir/src/engine_objects.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/engine_objects.cpp -o CMakeFiles/brian.dir/src/engine_objects.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Brian/brian/src/engine_objects.cpp -o CMakeFiles/brian.dir/src/engine_objects.cpp.s
 
 CMakeFiles/brian.dir/src/engine_objects.cpp.o.requires:
 .PHONY : CMakeFiles/brian.dir/src/engine_objects.cpp.o.requires
@@ -451,18 +451,18 @@ CMakeFiles/brian.dir/src/engine_objects.cpp.o.provides.build: CMakeFiles/brian.d
 CMakeFiles/brian.dir/src/rules_behav.cpp.o: CMakeFiles/brian.dir/flags.make
 CMakeFiles/brian.dir/src/rules_behav.cpp.o: ../src/rules_behav.cpp
 CMakeFiles/brian.dir/src/rules_behav.cpp.o: ../manifest.xml
-CMakeFiles/brian.dir/src/rules_behav.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_20)
+CMakeFiles/brian.dir/src/rules_behav.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/fuzzy/manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/brian.dir/src/rules_behav.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/rules_behav.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/rules_behav.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/rules_behav.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/brian/src/rules_behav.cpp
 
 CMakeFiles/brian.dir/src/rules_behav.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brian.dir/src/rules_behav.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/rules_behav.cpp > CMakeFiles/brian.dir/src/rules_behav.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Brian/brian/src/rules_behav.cpp > CMakeFiles/brian.dir/src/rules_behav.cpp.i
 
 CMakeFiles/brian.dir/src/rules_behav.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brian.dir/src/rules_behav.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/rules_behav.cpp -o CMakeFiles/brian.dir/src/rules_behav.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Brian/brian/src/rules_behav.cpp -o CMakeFiles/brian.dir/src/rules_behav.cpp.s
 
 CMakeFiles/brian.dir/src/rules_behav.cpp.o.requires:
 .PHONY : CMakeFiles/brian.dir/src/rules_behav.cpp.o.requires
@@ -476,17 +476,17 @@ CMakeFiles/brian.dir/src/rules_behav.cpp.o.provides.build: CMakeFiles/brian.dir/
 CMakeFiles/brian.dir/src/predflex.cpp.o: CMakeFiles/brian.dir/flags.make
 CMakeFiles/brian.dir/src/predflex.cpp.o: ../src/predflex.cpp
 CMakeFiles/brian.dir/src/predflex.cpp.o: ../src/predgram.tab.hpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/brian.dir/src/predflex.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/predflex.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predflex.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/predflex.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/brian/src/predflex.cpp
 
 CMakeFiles/brian.dir/src/predflex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brian.dir/src/predflex.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predflex.cpp > CMakeFiles/brian.dir/src/predflex.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Brian/brian/src/predflex.cpp > CMakeFiles/brian.dir/src/predflex.cpp.i
 
 CMakeFiles/brian.dir/src/predflex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brian.dir/src/predflex.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predflex.cpp -o CMakeFiles/brian.dir/src/predflex.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Brian/brian/src/predflex.cpp -o CMakeFiles/brian.dir/src/predflex.cpp.s
 
 CMakeFiles/brian.dir/src/predflex.cpp.o.requires:
 .PHONY : CMakeFiles/brian.dir/src/predflex.cpp.o.requires
@@ -499,17 +499,17 @@ CMakeFiles/brian.dir/src/predflex.cpp.o.provides.build: CMakeFiles/brian.dir/src
 
 CMakeFiles/brian.dir/src/predgram.tab.cpp.o: CMakeFiles/brian.dir/flags.make
 CMakeFiles/brian.dir/src/predgram.tab.cpp.o: ../src/predgram.tab.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/brian.dir/src/predgram.tab.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/predgram.tab.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predgram.tab.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/predgram.tab.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/brian/src/predgram.tab.cpp
 
 CMakeFiles/brian.dir/src/predgram.tab.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brian.dir/src/predgram.tab.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predgram.tab.cpp > CMakeFiles/brian.dir/src/predgram.tab.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Brian/brian/src/predgram.tab.cpp > CMakeFiles/brian.dir/src/predgram.tab.cpp.i
 
 CMakeFiles/brian.dir/src/predgram.tab.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brian.dir/src/predgram.tab.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predgram.tab.cpp -o CMakeFiles/brian.dir/src/predgram.tab.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Brian/brian/src/predgram.tab.cpp -o CMakeFiles/brian.dir/src/predgram.tab.cpp.s
 
 CMakeFiles/brian.dir/src/predgram.tab.cpp.o.requires:
 .PHONY : CMakeFiles/brian.dir/src/predgram.tab.cpp.o.requires
@@ -522,17 +522,17 @@ CMakeFiles/brian.dir/src/predgram.tab.cpp.o.provides.build: CMakeFiles/brian.dir
 
 CMakeFiles/brian.dir/src/rulesgram.tab.cpp.o: CMakeFiles/brian.dir/flags.make
 CMakeFiles/brian.dir/src/rulesgram.tab.cpp.o: ../src/rulesgram.tab.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/brian.dir/src/rulesgram.tab.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/rulesgram.tab.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/rulesgram.tab.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/rulesgram.tab.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/brian/src/rulesgram.tab.cpp
 
 CMakeFiles/brian.dir/src/rulesgram.tab.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brian.dir/src/rulesgram.tab.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/rulesgram.tab.cpp > CMakeFiles/brian.dir/src/rulesgram.tab.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Brian/brian/src/rulesgram.tab.cpp > CMakeFiles/brian.dir/src/rulesgram.tab.cpp.i
 
 CMakeFiles/brian.dir/src/rulesgram.tab.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brian.dir/src/rulesgram.tab.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/rulesgram.tab.cpp -o CMakeFiles/brian.dir/src/rulesgram.tab.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Brian/brian/src/rulesgram.tab.cpp -o CMakeFiles/brian.dir/src/rulesgram.tab.cpp.s
 
 CMakeFiles/brian.dir/src/rulesgram.tab.cpp.o.requires:
 .PHONY : CMakeFiles/brian.dir/src/rulesgram.tab.cpp.o.requires
@@ -546,17 +546,17 @@ CMakeFiles/brian.dir/src/rulesgram.tab.cpp.o.provides.build: CMakeFiles/brian.di
 CMakeFiles/brian.dir/src/rulesflex.cpp.o: CMakeFiles/brian.dir/flags.make
 CMakeFiles/brian.dir/src/rulesflex.cpp.o: ../src/rulesflex.cpp
 CMakeFiles/brian.dir/src/rulesflex.cpp.o: ../src/rulesgram.tab.hpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/brian.dir/src/rulesflex.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/rulesflex.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/rulesflex.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/brian.dir/src/rulesflex.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/brian/src/rulesflex.cpp
 
 CMakeFiles/brian.dir/src/rulesflex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brian.dir/src/rulesflex.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/rulesflex.cpp > CMakeFiles/brian.dir/src/rulesflex.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Brian/brian/src/rulesflex.cpp > CMakeFiles/brian.dir/src/rulesflex.cpp.i
 
 CMakeFiles/brian.dir/src/rulesflex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brian.dir/src/rulesflex.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/rulesflex.cpp -o CMakeFiles/brian.dir/src/rulesflex.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Brian/brian/src/rulesflex.cpp -o CMakeFiles/brian.dir/src/rulesflex.cpp.s
 
 CMakeFiles/brian.dir/src/rulesflex.cpp.o.requires:
 .PHONY : CMakeFiles/brian.dir/src/rulesflex.cpp.o.requires
@@ -655,6 +655,6 @@ CMakeFiles/brian.dir/depend: ../src/predflex.cpp
 CMakeFiles/brian.dir/depend: ../src/rulesgram.tab.cpp
 CMakeFiles/brian.dir/depend: ../src/rulesgram.tab.hpp
 CMakeFiles/brian.dir/depend: ../src/rulesflex.cpp
-	cd /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles/brian.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mikel/workspace/ros/PacBot/Brian/brian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/Brian/brian /home/mikel/workspace/ros/PacBot/Brian/brian /home/mikel/workspace/ros/PacBot/Brian/brian/build /home/mikel/workspace/ros/PacBot/Brian/brian/build /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles/brian.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/brian.dir/depend
 

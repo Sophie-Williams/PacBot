@@ -66,7 +66,7 @@ typedef union YYSTYPE
 
 
 /* Line 2068 of yacc.c  */
-#line 70 "/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/shapegram.tab.h"
+#line 70 "/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/shapegram.tab.h"
 } YYSTYPE;
 # define YYSTYPE_IS_TRIVIAL 1
 # define yystype YYSTYPE /* obsolescent; will be withdrawn */

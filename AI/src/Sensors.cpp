@@ -14,6 +14,9 @@ Sensors::Sensors(GameControl& gameControl) : gameControl(gameControl)
 	ghostDistance = 0;
 	ghostBlobWidth = 0;
 	ghostBlobHeight = 0;
+	horizon = 0;
+	timeToEscapeGhost = 0;
+	rfidPriority = 0;
 }
 
 void Sensors::sonarCallBack(const Echoes::Sonar& msg)
@@ -47,6 +50,14 @@ void Sensors::videoCallBack(const Vision::Results& msg)
 	if (ghostFound && ghostBlobHeight > 45)
 	{
 		startEscapingFromGhost = clock();
+		if (ir[EAST] > 1000 && ir[WEST] > 1000)
+		{
+			timeToEscapeGhost = 5;
+		}
+		else
+		{
+			timeToEscapeGhost = 3;
+		}
 	}
 }
 
@@ -133,6 +144,7 @@ int Sensors::calculateRFIDPriority(int priority)
 void Sensors::updateHorizon(int rotSpeed)
 {
 	horizon += rotSpeed;
+	cout << "Horizon: " << horizon << endl;
 }
 
 int Sensors::getHorizon()
@@ -160,6 +172,6 @@ int Sensors::getGhostBlobHeight()
 bool Sensors::isEscapingFromGhost()
 {
 	double durationOfEscape = 100 * (clock() - startEscapingFromGhost) / (double)CLOCKS_PER_SEC;
-	if (durationOfEscape > 3) return false;
+	if (durationOfEscape > timeToEscapeGhost) return false;
 	return true;
 }

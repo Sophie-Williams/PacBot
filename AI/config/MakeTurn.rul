@@ -5,7 +5,7 @@
                 (NOT (Is_Rotating_Right)))) =>  (&DEL.TanSpeed ANY)
 												(&DEL.RotSpeed ANY)
 												(TanSpeed STEADY)  
-                								(RotSpeed VERY_SLOW_LEFT)
+                								(RotSpeed LEFT)
                 								(Debug ZERO);
 
 # If there is an obstacle and has to go right
@@ -15,7 +15,7 @@
                 (NOT (Is_Rotating_Left)))) =>   (&DEL.TanSpeed ANY)
 												(&DEL.RotSpeed ANY)
 												(TanSpeed STEADY)
-                								(RotSpeed VERY_SLOW_RIGHT)
+                								(RotSpeed RIGHT)
                 								(Debug ONE);
                 
 # If there is an obstacle and can't go right or left
@@ -26,7 +26,7 @@
 						(NOT	(Is_Rotating_Right))))) =>	(&DEL.TanSpeed ANY)
 															(&DEL.RotSpeed ANY)
 															(TanSpeed STEADY)
-															(RotSpeed VERY_SLOW_LEFT)
+															(RotSpeed LEFT)
 															(Debug TWO);
 								
 (AND	(AND	(Obstacle_North)
@@ -36,7 +36,7 @@
 						(NOT	(Is_Rotating_Left))))) =>	(&DEL.TanSpeed ANY)
 															(&DEL.RotSpeed ANY)
 															(TanSpeed STEADY)
-															(RotSpeed VERY_SLOW_RIGHT)
+															(RotSpeed RIGHT)
 															(Debug THREE);
 											
 # If there is an obstacle and can go either way, choose at random.
@@ -47,7 +47,7 @@
 						(NOT	(Is_Rotating_Right))))) =>	(&DEL.TanSpeed ANY)
 															(&DEL.RotSpeed ANY)
 															(TanSpeed STEADY)
-															(RotSpeed VERY_SLOW_LEFT)
+															(RotSpeed LEFT)
 															(Debug FOUR);
 								
 (AND	(AND	(Obstacle_North)
@@ -57,20 +57,20 @@
 						(NOT	(Is_Rotating_Left))))) =>	(&DEL.TanSpeed ANY)
 															(&DEL.RotSpeed ANY)
 															(TanSpeed STEADY)
-															(RotSpeed VERY_SLOW_RIGHT)
+															(RotSpeed RIGHT)
 															(Debug FIVE);
 
 # Rotation
 (AND	(Is_Rotating_Left)
 		(Obstacle_North)) =>	(&DEL.TanSpeed ANY)
 								(&DEL.RotSpeed ANY)
-								(RotSpeed VERY_SLOW_LEFT)
+								(RotSpeed LEFT)
 								(TanSpeed STEADY)
 								(Debug SIX);	
 (AND	(Is_Rotating_Right)
 		(Obstacle_North)) =>	(&DEL.TanSpeed ANY)
 								(&DEL.RotSpeed ANY)
-								(RotSpeed VERY_SLOW_RIGHT)
+								(RotSpeed RIGHT)
 								(TanSpeed STEADY)
 								(Debug SEVEN);
 								

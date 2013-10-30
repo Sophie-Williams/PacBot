@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/PacBot/Vision
+CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/Vision
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/PacBot/Vision/build
+CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/Vision/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/vision.dir/depend.make
@@ -66,24 +66,24 @@ CMakeFiles/vision.dir/src/Blob.cpp.o: /opt/ros/groovy/share/xmlrpcpp/package.xml
 CMakeFiles/vision.dir/src/Blob.cpp.o: /opt/ros/groovy/share/roscpp/package.xml
 CMakeFiles/vision.dir/src/Blob.cpp.o: /opt/ros/groovy/share/geometry_msgs/package.xml
 CMakeFiles/vision.dir/src/Blob.cpp.o: /opt/ros/groovy/share/sensor_msgs/package.xml
-CMakeFiles/vision.dir/src/Blob.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/manifest.xml
+CMakeFiles/vision.dir/src/Blob.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/manifest.xml
 CMakeFiles/vision.dir/src/Blob.cpp.o: /opt/ros/groovy/share/catkin/package.xml
 CMakeFiles/vision.dir/src/Blob.cpp.o: /opt/ros/groovy/share/rospack/package.xml
 CMakeFiles/vision.dir/src/Blob.cpp.o: /opt/ros/groovy/share/roslib/package.xml
 CMakeFiles/vision.dir/src/Blob.cpp.o: /opt/ros/groovy/share/opencv2/package.xml
-CMakeFiles/vision.dir/src/Blob.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/ann/manifest.xml
-CMakeFiles/vision.dir/src/Blob.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/msg_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Vision/build/CMakeFiles $(CMAKE_PROGRESS_1)
+CMakeFiles/vision.dir/src/Blob.cpp.o: /home/mikel/workspace/ros/PacBot/ann/manifest.xml
+CMakeFiles/vision.dir/src/Blob.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/msg_gen/generated
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Vision/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/vision.dir/src/Blob.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/vision.dir/src/Blob.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/Blob.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/vision.dir/src/Blob.cpp.o -c /home/mikel/workspace/ros/PacBot/Vision/src/Blob.cpp
 
 CMakeFiles/vision.dir/src/Blob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vision.dir/src/Blob.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/Blob.cpp > CMakeFiles/vision.dir/src/Blob.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Vision/src/Blob.cpp > CMakeFiles/vision.dir/src/Blob.cpp.i
 
 CMakeFiles/vision.dir/src/Blob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vision.dir/src/Blob.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/Blob.cpp -o CMakeFiles/vision.dir/src/Blob.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Vision/src/Blob.cpp -o CMakeFiles/vision.dir/src/Blob.cpp.s
 
 CMakeFiles/vision.dir/src/Blob.cpp.o.requires:
 .PHONY : CMakeFiles/vision.dir/src/Blob.cpp.o.requires
@@ -111,24 +111,24 @@ CMakeFiles/vision.dir/src/BlobBuffer.cpp.o: /opt/ros/groovy/share/xmlrpcpp/packa
 CMakeFiles/vision.dir/src/BlobBuffer.cpp.o: /opt/ros/groovy/share/roscpp/package.xml
 CMakeFiles/vision.dir/src/BlobBuffer.cpp.o: /opt/ros/groovy/share/geometry_msgs/package.xml
 CMakeFiles/vision.dir/src/BlobBuffer.cpp.o: /opt/ros/groovy/share/sensor_msgs/package.xml
-CMakeFiles/vision.dir/src/BlobBuffer.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/manifest.xml
+CMakeFiles/vision.dir/src/BlobBuffer.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/manifest.xml
 CMakeFiles/vision.dir/src/BlobBuffer.cpp.o: /opt/ros/groovy/share/catkin/package.xml
 CMakeFiles/vision.dir/src/BlobBuffer.cpp.o: /opt/ros/groovy/share/rospack/package.xml
 CMakeFiles/vision.dir/src/BlobBuffer.cpp.o: /opt/ros/groovy/share/roslib/package.xml
 CMakeFiles/vision.dir/src/BlobBuffer.cpp.o: /opt/ros/groovy/share/opencv2/package.xml
-CMakeFiles/vision.dir/src/BlobBuffer.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/ann/manifest.xml
-CMakeFiles/vision.dir/src/BlobBuffer.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/msg_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Vision/build/CMakeFiles $(CMAKE_PROGRESS_2)
+CMakeFiles/vision.dir/src/BlobBuffer.cpp.o: /home/mikel/workspace/ros/PacBot/ann/manifest.xml
+CMakeFiles/vision.dir/src/BlobBuffer.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/msg_gen/generated
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Vision/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/vision.dir/src/BlobBuffer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/vision.dir/src/BlobBuffer.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/BlobBuffer.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/vision.dir/src/BlobBuffer.cpp.o -c /home/mikel/workspace/ros/PacBot/Vision/src/BlobBuffer.cpp
 
 CMakeFiles/vision.dir/src/BlobBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vision.dir/src/BlobBuffer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/BlobBuffer.cpp > CMakeFiles/vision.dir/src/BlobBuffer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Vision/src/BlobBuffer.cpp > CMakeFiles/vision.dir/src/BlobBuffer.cpp.i
 
 CMakeFiles/vision.dir/src/BlobBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vision.dir/src/BlobBuffer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/BlobBuffer.cpp -o CMakeFiles/vision.dir/src/BlobBuffer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Vision/src/BlobBuffer.cpp -o CMakeFiles/vision.dir/src/BlobBuffer.cpp.s
 
 CMakeFiles/vision.dir/src/BlobBuffer.cpp.o.requires:
 .PHONY : CMakeFiles/vision.dir/src/BlobBuffer.cpp.o.requires
@@ -156,24 +156,24 @@ CMakeFiles/vision.dir/src/ColorClassifier.cpp.o: /opt/ros/groovy/share/xmlrpcpp/
 CMakeFiles/vision.dir/src/ColorClassifier.cpp.o: /opt/ros/groovy/share/roscpp/package.xml
 CMakeFiles/vision.dir/src/ColorClassifier.cpp.o: /opt/ros/groovy/share/geometry_msgs/package.xml
 CMakeFiles/vision.dir/src/ColorClassifier.cpp.o: /opt/ros/groovy/share/sensor_msgs/package.xml
-CMakeFiles/vision.dir/src/ColorClassifier.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/manifest.xml
+CMakeFiles/vision.dir/src/ColorClassifier.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/manifest.xml
 CMakeFiles/vision.dir/src/ColorClassifier.cpp.o: /opt/ros/groovy/share/catkin/package.xml
 CMakeFiles/vision.dir/src/ColorClassifier.cpp.o: /opt/ros/groovy/share/rospack/package.xml
 CMakeFiles/vision.dir/src/ColorClassifier.cpp.o: /opt/ros/groovy/share/roslib/package.xml
 CMakeFiles/vision.dir/src/ColorClassifier.cpp.o: /opt/ros/groovy/share/opencv2/package.xml
-CMakeFiles/vision.dir/src/ColorClassifier.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/ann/manifest.xml
-CMakeFiles/vision.dir/src/ColorClassifier.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/msg_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Vision/build/CMakeFiles $(CMAKE_PROGRESS_3)
+CMakeFiles/vision.dir/src/ColorClassifier.cpp.o: /home/mikel/workspace/ros/PacBot/ann/manifest.xml
+CMakeFiles/vision.dir/src/ColorClassifier.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/msg_gen/generated
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Vision/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/vision.dir/src/ColorClassifier.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/vision.dir/src/ColorClassifier.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/ColorClassifier.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/vision.dir/src/ColorClassifier.cpp.o -c /home/mikel/workspace/ros/PacBot/Vision/src/ColorClassifier.cpp
 
 CMakeFiles/vision.dir/src/ColorClassifier.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vision.dir/src/ColorClassifier.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/ColorClassifier.cpp > CMakeFiles/vision.dir/src/ColorClassifier.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Vision/src/ColorClassifier.cpp > CMakeFiles/vision.dir/src/ColorClassifier.cpp.i
 
 CMakeFiles/vision.dir/src/ColorClassifier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vision.dir/src/ColorClassifier.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/ColorClassifier.cpp -o CMakeFiles/vision.dir/src/ColorClassifier.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Vision/src/ColorClassifier.cpp -o CMakeFiles/vision.dir/src/ColorClassifier.cpp.s
 
 CMakeFiles/vision.dir/src/ColorClassifier.cpp.o.requires:
 .PHONY : CMakeFiles/vision.dir/src/ColorClassifier.cpp.o.requires
@@ -201,24 +201,24 @@ CMakeFiles/vision.dir/src/ColorDataset.cpp.o: /opt/ros/groovy/share/xmlrpcpp/pac
 CMakeFiles/vision.dir/src/ColorDataset.cpp.o: /opt/ros/groovy/share/roscpp/package.xml
 CMakeFiles/vision.dir/src/ColorDataset.cpp.o: /opt/ros/groovy/share/geometry_msgs/package.xml
 CMakeFiles/vision.dir/src/ColorDataset.cpp.o: /opt/ros/groovy/share/sensor_msgs/package.xml
-CMakeFiles/vision.dir/src/ColorDataset.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/manifest.xml
+CMakeFiles/vision.dir/src/ColorDataset.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/manifest.xml
 CMakeFiles/vision.dir/src/ColorDataset.cpp.o: /opt/ros/groovy/share/catkin/package.xml
 CMakeFiles/vision.dir/src/ColorDataset.cpp.o: /opt/ros/groovy/share/rospack/package.xml
 CMakeFiles/vision.dir/src/ColorDataset.cpp.o: /opt/ros/groovy/share/roslib/package.xml
 CMakeFiles/vision.dir/src/ColorDataset.cpp.o: /opt/ros/groovy/share/opencv2/package.xml
-CMakeFiles/vision.dir/src/ColorDataset.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/ann/manifest.xml
-CMakeFiles/vision.dir/src/ColorDataset.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/msg_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Vision/build/CMakeFiles $(CMAKE_PROGRESS_4)
+CMakeFiles/vision.dir/src/ColorDataset.cpp.o: /home/mikel/workspace/ros/PacBot/ann/manifest.xml
+CMakeFiles/vision.dir/src/ColorDataset.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/msg_gen/generated
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Vision/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/vision.dir/src/ColorDataset.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/vision.dir/src/ColorDataset.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/ColorDataset.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/vision.dir/src/ColorDataset.cpp.o -c /home/mikel/workspace/ros/PacBot/Vision/src/ColorDataset.cpp
 
 CMakeFiles/vision.dir/src/ColorDataset.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vision.dir/src/ColorDataset.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/ColorDataset.cpp > CMakeFiles/vision.dir/src/ColorDataset.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Vision/src/ColorDataset.cpp > CMakeFiles/vision.dir/src/ColorDataset.cpp.i
 
 CMakeFiles/vision.dir/src/ColorDataset.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vision.dir/src/ColorDataset.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/ColorDataset.cpp -o CMakeFiles/vision.dir/src/ColorDataset.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Vision/src/ColorDataset.cpp -o CMakeFiles/vision.dir/src/ColorDataset.cpp.s
 
 CMakeFiles/vision.dir/src/ColorDataset.cpp.o.requires:
 .PHONY : CMakeFiles/vision.dir/src/ColorDataset.cpp.o.requires
@@ -246,24 +246,24 @@ CMakeFiles/vision.dir/src/DistanceCalculator.cpp.o: /opt/ros/groovy/share/xmlrpc
 CMakeFiles/vision.dir/src/DistanceCalculator.cpp.o: /opt/ros/groovy/share/roscpp/package.xml
 CMakeFiles/vision.dir/src/DistanceCalculator.cpp.o: /opt/ros/groovy/share/geometry_msgs/package.xml
 CMakeFiles/vision.dir/src/DistanceCalculator.cpp.o: /opt/ros/groovy/share/sensor_msgs/package.xml
-CMakeFiles/vision.dir/src/DistanceCalculator.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/manifest.xml
+CMakeFiles/vision.dir/src/DistanceCalculator.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/manifest.xml
 CMakeFiles/vision.dir/src/DistanceCalculator.cpp.o: /opt/ros/groovy/share/catkin/package.xml
 CMakeFiles/vision.dir/src/DistanceCalculator.cpp.o: /opt/ros/groovy/share/rospack/package.xml
 CMakeFiles/vision.dir/src/DistanceCalculator.cpp.o: /opt/ros/groovy/share/roslib/package.xml
 CMakeFiles/vision.dir/src/DistanceCalculator.cpp.o: /opt/ros/groovy/share/opencv2/package.xml
-CMakeFiles/vision.dir/src/DistanceCalculator.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/ann/manifest.xml
-CMakeFiles/vision.dir/src/DistanceCalculator.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/msg_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Vision/build/CMakeFiles $(CMAKE_PROGRESS_5)
+CMakeFiles/vision.dir/src/DistanceCalculator.cpp.o: /home/mikel/workspace/ros/PacBot/ann/manifest.xml
+CMakeFiles/vision.dir/src/DistanceCalculator.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/msg_gen/generated
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Vision/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/vision.dir/src/DistanceCalculator.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/vision.dir/src/DistanceCalculator.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/DistanceCalculator.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/vision.dir/src/DistanceCalculator.cpp.o -c /home/mikel/workspace/ros/PacBot/Vision/src/DistanceCalculator.cpp
 
 CMakeFiles/vision.dir/src/DistanceCalculator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vision.dir/src/DistanceCalculator.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/DistanceCalculator.cpp > CMakeFiles/vision.dir/src/DistanceCalculator.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Vision/src/DistanceCalculator.cpp > CMakeFiles/vision.dir/src/DistanceCalculator.cpp.i
 
 CMakeFiles/vision.dir/src/DistanceCalculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vision.dir/src/DistanceCalculator.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/DistanceCalculator.cpp -o CMakeFiles/vision.dir/src/DistanceCalculator.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Vision/src/DistanceCalculator.cpp -o CMakeFiles/vision.dir/src/DistanceCalculator.cpp.s
 
 CMakeFiles/vision.dir/src/DistanceCalculator.cpp.o.requires:
 .PHONY : CMakeFiles/vision.dir/src/DistanceCalculator.cpp.o.requires
@@ -291,24 +291,24 @@ CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.o: /opt/ros/groovy/share/xmlrpcpp/pa
 CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.o: /opt/ros/groovy/share/roscpp/package.xml
 CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.o: /opt/ros/groovy/share/geometry_msgs/package.xml
 CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.o: /opt/ros/groovy/share/sensor_msgs/package.xml
-CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/manifest.xml
+CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/manifest.xml
 CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.o: /opt/ros/groovy/share/catkin/package.xml
 CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.o: /opt/ros/groovy/share/rospack/package.xml
 CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.o: /opt/ros/groovy/share/roslib/package.xml
 CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.o: /opt/ros/groovy/share/opencv2/package.xml
-CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/ann/manifest.xml
-CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/msg_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Vision/build/CMakeFiles $(CMAKE_PROGRESS_6)
+CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.o: /home/mikel/workspace/ros/PacBot/ann/manifest.xml
+CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/msg_gen/generated
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Vision/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/ImageAnalyzer.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.o -c /home/mikel/workspace/ros/PacBot/Vision/src/ImageAnalyzer.cpp
 
 CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/ImageAnalyzer.cpp > CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Vision/src/ImageAnalyzer.cpp > CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.i
 
 CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/ImageAnalyzer.cpp -o CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Vision/src/ImageAnalyzer.cpp -o CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.s
 
 CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.o.requires:
 .PHONY : CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.o.requires
@@ -336,24 +336,24 @@ CMakeFiles/vision.dir/src/PixelMap.cpp.o: /opt/ros/groovy/share/xmlrpcpp/package
 CMakeFiles/vision.dir/src/PixelMap.cpp.o: /opt/ros/groovy/share/roscpp/package.xml
 CMakeFiles/vision.dir/src/PixelMap.cpp.o: /opt/ros/groovy/share/geometry_msgs/package.xml
 CMakeFiles/vision.dir/src/PixelMap.cpp.o: /opt/ros/groovy/share/sensor_msgs/package.xml
-CMakeFiles/vision.dir/src/PixelMap.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/manifest.xml
+CMakeFiles/vision.dir/src/PixelMap.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/manifest.xml
 CMakeFiles/vision.dir/src/PixelMap.cpp.o: /opt/ros/groovy/share/catkin/package.xml
 CMakeFiles/vision.dir/src/PixelMap.cpp.o: /opt/ros/groovy/share/rospack/package.xml
 CMakeFiles/vision.dir/src/PixelMap.cpp.o: /opt/ros/groovy/share/roslib/package.xml
 CMakeFiles/vision.dir/src/PixelMap.cpp.o: /opt/ros/groovy/share/opencv2/package.xml
-CMakeFiles/vision.dir/src/PixelMap.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/ann/manifest.xml
-CMakeFiles/vision.dir/src/PixelMap.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/msg_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Vision/build/CMakeFiles $(CMAKE_PROGRESS_7)
+CMakeFiles/vision.dir/src/PixelMap.cpp.o: /home/mikel/workspace/ros/PacBot/ann/manifest.xml
+CMakeFiles/vision.dir/src/PixelMap.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/msg_gen/generated
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Vision/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/vision.dir/src/PixelMap.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/vision.dir/src/PixelMap.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/PixelMap.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/vision.dir/src/PixelMap.cpp.o -c /home/mikel/workspace/ros/PacBot/Vision/src/PixelMap.cpp
 
 CMakeFiles/vision.dir/src/PixelMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vision.dir/src/PixelMap.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/PixelMap.cpp > CMakeFiles/vision.dir/src/PixelMap.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Vision/src/PixelMap.cpp > CMakeFiles/vision.dir/src/PixelMap.cpp.i
 
 CMakeFiles/vision.dir/src/PixelMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vision.dir/src/PixelMap.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/PixelMap.cpp -o CMakeFiles/vision.dir/src/PixelMap.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Vision/src/PixelMap.cpp -o CMakeFiles/vision.dir/src/PixelMap.cpp.s
 
 CMakeFiles/vision.dir/src/PixelMap.cpp.o.requires:
 .PHONY : CMakeFiles/vision.dir/src/PixelMap.cpp.o.requires
@@ -381,24 +381,24 @@ CMakeFiles/vision.dir/src/Receptor.cpp.o: /opt/ros/groovy/share/xmlrpcpp/package
 CMakeFiles/vision.dir/src/Receptor.cpp.o: /opt/ros/groovy/share/roscpp/package.xml
 CMakeFiles/vision.dir/src/Receptor.cpp.o: /opt/ros/groovy/share/geometry_msgs/package.xml
 CMakeFiles/vision.dir/src/Receptor.cpp.o: /opt/ros/groovy/share/sensor_msgs/package.xml
-CMakeFiles/vision.dir/src/Receptor.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/manifest.xml
+CMakeFiles/vision.dir/src/Receptor.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/manifest.xml
 CMakeFiles/vision.dir/src/Receptor.cpp.o: /opt/ros/groovy/share/catkin/package.xml
 CMakeFiles/vision.dir/src/Receptor.cpp.o: /opt/ros/groovy/share/rospack/package.xml
 CMakeFiles/vision.dir/src/Receptor.cpp.o: /opt/ros/groovy/share/roslib/package.xml
 CMakeFiles/vision.dir/src/Receptor.cpp.o: /opt/ros/groovy/share/opencv2/package.xml
-CMakeFiles/vision.dir/src/Receptor.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/ann/manifest.xml
-CMakeFiles/vision.dir/src/Receptor.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/msg_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Vision/build/CMakeFiles $(CMAKE_PROGRESS_8)
+CMakeFiles/vision.dir/src/Receptor.cpp.o: /home/mikel/workspace/ros/PacBot/ann/manifest.xml
+CMakeFiles/vision.dir/src/Receptor.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/msg_gen/generated
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Vision/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/vision.dir/src/Receptor.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/vision.dir/src/Receptor.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/Receptor.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/vision.dir/src/Receptor.cpp.o -c /home/mikel/workspace/ros/PacBot/Vision/src/Receptor.cpp
 
 CMakeFiles/vision.dir/src/Receptor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vision.dir/src/Receptor.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/Receptor.cpp > CMakeFiles/vision.dir/src/Receptor.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Vision/src/Receptor.cpp > CMakeFiles/vision.dir/src/Receptor.cpp.i
 
 CMakeFiles/vision.dir/src/Receptor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vision.dir/src/Receptor.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/Receptor.cpp -o CMakeFiles/vision.dir/src/Receptor.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Vision/src/Receptor.cpp -o CMakeFiles/vision.dir/src/Receptor.cpp.s
 
 CMakeFiles/vision.dir/src/Receptor.cpp.o.requires:
 .PHONY : CMakeFiles/vision.dir/src/Receptor.cpp.o.requires
@@ -426,24 +426,24 @@ CMakeFiles/vision.dir/src/VisionParameters.cpp.o: /opt/ros/groovy/share/xmlrpcpp
 CMakeFiles/vision.dir/src/VisionParameters.cpp.o: /opt/ros/groovy/share/roscpp/package.xml
 CMakeFiles/vision.dir/src/VisionParameters.cpp.o: /opt/ros/groovy/share/geometry_msgs/package.xml
 CMakeFiles/vision.dir/src/VisionParameters.cpp.o: /opt/ros/groovy/share/sensor_msgs/package.xml
-CMakeFiles/vision.dir/src/VisionParameters.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/manifest.xml
+CMakeFiles/vision.dir/src/VisionParameters.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/manifest.xml
 CMakeFiles/vision.dir/src/VisionParameters.cpp.o: /opt/ros/groovy/share/catkin/package.xml
 CMakeFiles/vision.dir/src/VisionParameters.cpp.o: /opt/ros/groovy/share/rospack/package.xml
 CMakeFiles/vision.dir/src/VisionParameters.cpp.o: /opt/ros/groovy/share/roslib/package.xml
 CMakeFiles/vision.dir/src/VisionParameters.cpp.o: /opt/ros/groovy/share/opencv2/package.xml
-CMakeFiles/vision.dir/src/VisionParameters.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/ann/manifest.xml
-CMakeFiles/vision.dir/src/VisionParameters.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/msg_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Vision/build/CMakeFiles $(CMAKE_PROGRESS_9)
+CMakeFiles/vision.dir/src/VisionParameters.cpp.o: /home/mikel/workspace/ros/PacBot/ann/manifest.xml
+CMakeFiles/vision.dir/src/VisionParameters.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/msg_gen/generated
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Vision/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/vision.dir/src/VisionParameters.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/vision.dir/src/VisionParameters.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/VisionParameters.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/vision.dir/src/VisionParameters.cpp.o -c /home/mikel/workspace/ros/PacBot/Vision/src/VisionParameters.cpp
 
 CMakeFiles/vision.dir/src/VisionParameters.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vision.dir/src/VisionParameters.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/VisionParameters.cpp > CMakeFiles/vision.dir/src/VisionParameters.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Vision/src/VisionParameters.cpp > CMakeFiles/vision.dir/src/VisionParameters.cpp.i
 
 CMakeFiles/vision.dir/src/VisionParameters.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vision.dir/src/VisionParameters.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/VisionParameters.cpp -o CMakeFiles/vision.dir/src/VisionParameters.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Vision/src/VisionParameters.cpp -o CMakeFiles/vision.dir/src/VisionParameters.cpp.s
 
 CMakeFiles/vision.dir/src/VisionParameters.cpp.o.requires:
 .PHONY : CMakeFiles/vision.dir/src/VisionParameters.cpp.o.requires
@@ -471,24 +471,24 @@ CMakeFiles/vision.dir/src/main.cpp.o: /opt/ros/groovy/share/xmlrpcpp/package.xml
 CMakeFiles/vision.dir/src/main.cpp.o: /opt/ros/groovy/share/roscpp/package.xml
 CMakeFiles/vision.dir/src/main.cpp.o: /opt/ros/groovy/share/geometry_msgs/package.xml
 CMakeFiles/vision.dir/src/main.cpp.o: /opt/ros/groovy/share/sensor_msgs/package.xml
-CMakeFiles/vision.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/manifest.xml
+CMakeFiles/vision.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/manifest.xml
 CMakeFiles/vision.dir/src/main.cpp.o: /opt/ros/groovy/share/catkin/package.xml
 CMakeFiles/vision.dir/src/main.cpp.o: /opt/ros/groovy/share/rospack/package.xml
 CMakeFiles/vision.dir/src/main.cpp.o: /opt/ros/groovy/share/roslib/package.xml
 CMakeFiles/vision.dir/src/main.cpp.o: /opt/ros/groovy/share/opencv2/package.xml
-CMakeFiles/vision.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/ann/manifest.xml
-CMakeFiles/vision.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/msg_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Vision/build/CMakeFiles $(CMAKE_PROGRESS_10)
+CMakeFiles/vision.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/ann/manifest.xml
+CMakeFiles/vision.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/msg_gen/generated
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Vision/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/vision.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/vision.dir/src/main.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/vision.dir/src/main.cpp.o -c /home/mikel/workspace/ros/PacBot/Vision/src/main.cpp
 
 CMakeFiles/vision.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vision.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/main.cpp > CMakeFiles/vision.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/Vision/src/main.cpp > CMakeFiles/vision.dir/src/main.cpp.i
 
 CMakeFiles/vision.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vision.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/main.cpp -o CMakeFiles/vision.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/Vision/src/main.cpp -o CMakeFiles/vision.dir/src/main.cpp.s
 
 CMakeFiles/vision.dir/src/main.cpp.o.requires:
 .PHONY : CMakeFiles/vision.dir/src/main.cpp.o.requires
@@ -551,6 +551,6 @@ CMakeFiles/vision.dir/clean:
 .PHONY : CMakeFiles/vision.dir/clean
 
 CMakeFiles/vision.dir/depend:
-	cd /home/mikel/workspace/ros/PacBot/PacBot/Vision/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/PacBot/Vision /home/mikel/workspace/ros/PacBot/PacBot/Vision /home/mikel/workspace/ros/PacBot/PacBot/Vision/build /home/mikel/workspace/ros/PacBot/PacBot/Vision/build /home/mikel/workspace/ros/PacBot/PacBot/Vision/build/CMakeFiles/vision.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mikel/workspace/ros/PacBot/Vision/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/Vision /home/mikel/workspace/ros/PacBot/Vision /home/mikel/workspace/ros/PacBot/Vision/build /home/mikel/workspace/ros/PacBot/Vision/build /home/mikel/workspace/ros/PacBot/Vision/build/CMakeFiles/vision.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/vision.dir/depend
 

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/PacBot/AI
+CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/AI
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/PacBot/AI/build
+CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/AI/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ai.dir/depend.make
@@ -52,8 +52,8 @@ include CMakeFiles/ai.dir/flags.make
 CMakeFiles/ai.dir/src/main.cpp.o: CMakeFiles/ai.dir/flags.make
 CMakeFiles/ai.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/ai.dir/src/main.cpp.o: ../manifest.xml
-CMakeFiles/ai.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/manifest.xml
-CMakeFiles/ai.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/manifest.xml
+CMakeFiles/ai.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/fuzzy/manifest.xml
+CMakeFiles/ai.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/brian/manifest.xml
 CMakeFiles/ai.dir/src/main.cpp.o: /opt/ros/groovy/share/cpp_common/package.xml
 CMakeFiles/ai.dir/src/main.cpp.o: /opt/ros/groovy/share/rostime/package.xml
 CMakeFiles/ai.dir/src/main.cpp.o: /opt/ros/groovy/share/roscpp_traits/package.xml
@@ -71,30 +71,30 @@ CMakeFiles/ai.dir/src/main.cpp.o: /opt/ros/groovy/share/catkin/package.xml
 CMakeFiles/ai.dir/src/main.cpp.o: /opt/ros/groovy/share/rospack/package.xml
 CMakeFiles/ai.dir/src/main.cpp.o: /opt/ros/groovy/share/roslib/package.xml
 CMakeFiles/ai.dir/src/main.cpp.o: /opt/ros/groovy/share/rospy/package.xml
-CMakeFiles/ai.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Echoes/manifest.xml
+CMakeFiles/ai.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/Echoes/manifest.xml
 CMakeFiles/ai.dir/src/main.cpp.o: /opt/ros/groovy/share/geometry_msgs/package.xml
 CMakeFiles/ai.dir/src/main.cpp.o: /opt/ros/groovy/share/sensor_msgs/package.xml
-CMakeFiles/ai.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/manifest.xml
+CMakeFiles/ai.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/manifest.xml
 CMakeFiles/ai.dir/src/main.cpp.o: /opt/ros/groovy/share/opencv2/package.xml
-CMakeFiles/ai.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/ann/manifest.xml
-CMakeFiles/ai.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Vision/manifest.xml
-CMakeFiles/ai.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/manifest.xml
-CMakeFiles/ai.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Echoes/msg_gen/generated
-CMakeFiles/ai.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Echoes/srv_gen/generated
-CMakeFiles/ai.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/msg_gen/generated
-CMakeFiles/ai.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Vision/msg_gen/generated
-CMakeFiles/ai.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/msg_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/AI/build/CMakeFiles $(CMAKE_PROGRESS_1)
+CMakeFiles/ai.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/ann/manifest.xml
+CMakeFiles/ai.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/Vision/manifest.xml
+CMakeFiles/ai.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/PhantomRobot/manifest.xml
+CMakeFiles/ai.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/Echoes/msg_gen/generated
+CMakeFiles/ai.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/Echoes/srv_gen/generated
+CMakeFiles/ai.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/msg_gen/generated
+CMakeFiles/ai.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/Vision/msg_gen/generated
+CMakeFiles/ai.dir/src/main.cpp.o: /home/mikel/workspace/ros/PacBot/PhantomRobot/msg_gen/generated
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/AI/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ai.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/ai.dir/src/main.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/AI/src/main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/ai.dir/src/main.cpp.o -c /home/mikel/workspace/ros/PacBot/AI/src/main.cpp
 
 CMakeFiles/ai.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ai.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/AI/src/main.cpp > CMakeFiles/ai.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/AI/src/main.cpp > CMakeFiles/ai.dir/src/main.cpp.i
 
 CMakeFiles/ai.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ai.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/AI/src/main.cpp -o CMakeFiles/ai.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/AI/src/main.cpp -o CMakeFiles/ai.dir/src/main.cpp.s
 
 CMakeFiles/ai.dir/src/main.cpp.o.requires:
 .PHONY : CMakeFiles/ai.dir/src/main.cpp.o.requires
@@ -108,8 +108,8 @@ CMakeFiles/ai.dir/src/main.cpp.o.provides.build: CMakeFiles/ai.dir/src/main.cpp.
 CMakeFiles/ai.dir/src/BrianParser.cpp.o: CMakeFiles/ai.dir/flags.make
 CMakeFiles/ai.dir/src/BrianParser.cpp.o: ../src/BrianParser.cpp
 CMakeFiles/ai.dir/src/BrianParser.cpp.o: ../manifest.xml
-CMakeFiles/ai.dir/src/BrianParser.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/manifest.xml
-CMakeFiles/ai.dir/src/BrianParser.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/manifest.xml
+CMakeFiles/ai.dir/src/BrianParser.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/fuzzy/manifest.xml
+CMakeFiles/ai.dir/src/BrianParser.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/brian/manifest.xml
 CMakeFiles/ai.dir/src/BrianParser.cpp.o: /opt/ros/groovy/share/cpp_common/package.xml
 CMakeFiles/ai.dir/src/BrianParser.cpp.o: /opt/ros/groovy/share/rostime/package.xml
 CMakeFiles/ai.dir/src/BrianParser.cpp.o: /opt/ros/groovy/share/roscpp_traits/package.xml
@@ -127,30 +127,30 @@ CMakeFiles/ai.dir/src/BrianParser.cpp.o: /opt/ros/groovy/share/catkin/package.xm
 CMakeFiles/ai.dir/src/BrianParser.cpp.o: /opt/ros/groovy/share/rospack/package.xml
 CMakeFiles/ai.dir/src/BrianParser.cpp.o: /opt/ros/groovy/share/roslib/package.xml
 CMakeFiles/ai.dir/src/BrianParser.cpp.o: /opt/ros/groovy/share/rospy/package.xml
-CMakeFiles/ai.dir/src/BrianParser.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Echoes/manifest.xml
+CMakeFiles/ai.dir/src/BrianParser.cpp.o: /home/mikel/workspace/ros/PacBot/Echoes/manifest.xml
 CMakeFiles/ai.dir/src/BrianParser.cpp.o: /opt/ros/groovy/share/geometry_msgs/package.xml
 CMakeFiles/ai.dir/src/BrianParser.cpp.o: /opt/ros/groovy/share/sensor_msgs/package.xml
-CMakeFiles/ai.dir/src/BrianParser.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/manifest.xml
+CMakeFiles/ai.dir/src/BrianParser.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/manifest.xml
 CMakeFiles/ai.dir/src/BrianParser.cpp.o: /opt/ros/groovy/share/opencv2/package.xml
-CMakeFiles/ai.dir/src/BrianParser.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/ann/manifest.xml
-CMakeFiles/ai.dir/src/BrianParser.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Vision/manifest.xml
-CMakeFiles/ai.dir/src/BrianParser.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/manifest.xml
-CMakeFiles/ai.dir/src/BrianParser.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Echoes/msg_gen/generated
-CMakeFiles/ai.dir/src/BrianParser.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Echoes/srv_gen/generated
-CMakeFiles/ai.dir/src/BrianParser.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/msg_gen/generated
-CMakeFiles/ai.dir/src/BrianParser.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Vision/msg_gen/generated
-CMakeFiles/ai.dir/src/BrianParser.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/msg_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/AI/build/CMakeFiles $(CMAKE_PROGRESS_2)
+CMakeFiles/ai.dir/src/BrianParser.cpp.o: /home/mikel/workspace/ros/PacBot/ann/manifest.xml
+CMakeFiles/ai.dir/src/BrianParser.cpp.o: /home/mikel/workspace/ros/PacBot/Vision/manifest.xml
+CMakeFiles/ai.dir/src/BrianParser.cpp.o: /home/mikel/workspace/ros/PacBot/PhantomRobot/manifest.xml
+CMakeFiles/ai.dir/src/BrianParser.cpp.o: /home/mikel/workspace/ros/PacBot/Echoes/msg_gen/generated
+CMakeFiles/ai.dir/src/BrianParser.cpp.o: /home/mikel/workspace/ros/PacBot/Echoes/srv_gen/generated
+CMakeFiles/ai.dir/src/BrianParser.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/msg_gen/generated
+CMakeFiles/ai.dir/src/BrianParser.cpp.o: /home/mikel/workspace/ros/PacBot/Vision/msg_gen/generated
+CMakeFiles/ai.dir/src/BrianParser.cpp.o: /home/mikel/workspace/ros/PacBot/PhantomRobot/msg_gen/generated
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/AI/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ai.dir/src/BrianParser.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/ai.dir/src/BrianParser.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/AI/src/BrianParser.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/ai.dir/src/BrianParser.cpp.o -c /home/mikel/workspace/ros/PacBot/AI/src/BrianParser.cpp
 
 CMakeFiles/ai.dir/src/BrianParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ai.dir/src/BrianParser.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/AI/src/BrianParser.cpp > CMakeFiles/ai.dir/src/BrianParser.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/AI/src/BrianParser.cpp > CMakeFiles/ai.dir/src/BrianParser.cpp.i
 
 CMakeFiles/ai.dir/src/BrianParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ai.dir/src/BrianParser.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/AI/src/BrianParser.cpp -o CMakeFiles/ai.dir/src/BrianParser.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/AI/src/BrianParser.cpp -o CMakeFiles/ai.dir/src/BrianParser.cpp.s
 
 CMakeFiles/ai.dir/src/BrianParser.cpp.o.requires:
 .PHONY : CMakeFiles/ai.dir/src/BrianParser.cpp.o.requires
@@ -164,8 +164,8 @@ CMakeFiles/ai.dir/src/BrianParser.cpp.o.provides.build: CMakeFiles/ai.dir/src/Br
 CMakeFiles/ai.dir/src/Sensors.cpp.o: CMakeFiles/ai.dir/flags.make
 CMakeFiles/ai.dir/src/Sensors.cpp.o: ../src/Sensors.cpp
 CMakeFiles/ai.dir/src/Sensors.cpp.o: ../manifest.xml
-CMakeFiles/ai.dir/src/Sensors.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/manifest.xml
-CMakeFiles/ai.dir/src/Sensors.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/manifest.xml
+CMakeFiles/ai.dir/src/Sensors.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/fuzzy/manifest.xml
+CMakeFiles/ai.dir/src/Sensors.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/brian/manifest.xml
 CMakeFiles/ai.dir/src/Sensors.cpp.o: /opt/ros/groovy/share/cpp_common/package.xml
 CMakeFiles/ai.dir/src/Sensors.cpp.o: /opt/ros/groovy/share/rostime/package.xml
 CMakeFiles/ai.dir/src/Sensors.cpp.o: /opt/ros/groovy/share/roscpp_traits/package.xml
@@ -183,30 +183,30 @@ CMakeFiles/ai.dir/src/Sensors.cpp.o: /opt/ros/groovy/share/catkin/package.xml
 CMakeFiles/ai.dir/src/Sensors.cpp.o: /opt/ros/groovy/share/rospack/package.xml
 CMakeFiles/ai.dir/src/Sensors.cpp.o: /opt/ros/groovy/share/roslib/package.xml
 CMakeFiles/ai.dir/src/Sensors.cpp.o: /opt/ros/groovy/share/rospy/package.xml
-CMakeFiles/ai.dir/src/Sensors.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Echoes/manifest.xml
+CMakeFiles/ai.dir/src/Sensors.cpp.o: /home/mikel/workspace/ros/PacBot/Echoes/manifest.xml
 CMakeFiles/ai.dir/src/Sensors.cpp.o: /opt/ros/groovy/share/geometry_msgs/package.xml
 CMakeFiles/ai.dir/src/Sensors.cpp.o: /opt/ros/groovy/share/sensor_msgs/package.xml
-CMakeFiles/ai.dir/src/Sensors.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/manifest.xml
+CMakeFiles/ai.dir/src/Sensors.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/manifest.xml
 CMakeFiles/ai.dir/src/Sensors.cpp.o: /opt/ros/groovy/share/opencv2/package.xml
-CMakeFiles/ai.dir/src/Sensors.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/ann/manifest.xml
-CMakeFiles/ai.dir/src/Sensors.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Vision/manifest.xml
-CMakeFiles/ai.dir/src/Sensors.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/manifest.xml
-CMakeFiles/ai.dir/src/Sensors.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Echoes/msg_gen/generated
-CMakeFiles/ai.dir/src/Sensors.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Echoes/srv_gen/generated
-CMakeFiles/ai.dir/src/Sensors.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/msg_gen/generated
-CMakeFiles/ai.dir/src/Sensors.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Vision/msg_gen/generated
-CMakeFiles/ai.dir/src/Sensors.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/msg_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/AI/build/CMakeFiles $(CMAKE_PROGRESS_3)
+CMakeFiles/ai.dir/src/Sensors.cpp.o: /home/mikel/workspace/ros/PacBot/ann/manifest.xml
+CMakeFiles/ai.dir/src/Sensors.cpp.o: /home/mikel/workspace/ros/PacBot/Vision/manifest.xml
+CMakeFiles/ai.dir/src/Sensors.cpp.o: /home/mikel/workspace/ros/PacBot/PhantomRobot/manifest.xml
+CMakeFiles/ai.dir/src/Sensors.cpp.o: /home/mikel/workspace/ros/PacBot/Echoes/msg_gen/generated
+CMakeFiles/ai.dir/src/Sensors.cpp.o: /home/mikel/workspace/ros/PacBot/Echoes/srv_gen/generated
+CMakeFiles/ai.dir/src/Sensors.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/msg_gen/generated
+CMakeFiles/ai.dir/src/Sensors.cpp.o: /home/mikel/workspace/ros/PacBot/Vision/msg_gen/generated
+CMakeFiles/ai.dir/src/Sensors.cpp.o: /home/mikel/workspace/ros/PacBot/PhantomRobot/msg_gen/generated
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/AI/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ai.dir/src/Sensors.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/ai.dir/src/Sensors.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/AI/src/Sensors.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/ai.dir/src/Sensors.cpp.o -c /home/mikel/workspace/ros/PacBot/AI/src/Sensors.cpp
 
 CMakeFiles/ai.dir/src/Sensors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ai.dir/src/Sensors.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/AI/src/Sensors.cpp > CMakeFiles/ai.dir/src/Sensors.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/AI/src/Sensors.cpp > CMakeFiles/ai.dir/src/Sensors.cpp.i
 
 CMakeFiles/ai.dir/src/Sensors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ai.dir/src/Sensors.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/AI/src/Sensors.cpp -o CMakeFiles/ai.dir/src/Sensors.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/AI/src/Sensors.cpp -o CMakeFiles/ai.dir/src/Sensors.cpp.s
 
 CMakeFiles/ai.dir/src/Sensors.cpp.o.requires:
 .PHONY : CMakeFiles/ai.dir/src/Sensors.cpp.o.requires
@@ -220,8 +220,8 @@ CMakeFiles/ai.dir/src/Sensors.cpp.o.provides.build: CMakeFiles/ai.dir/src/Sensor
 CMakeFiles/ai.dir/src/PacDot.cpp.o: CMakeFiles/ai.dir/flags.make
 CMakeFiles/ai.dir/src/PacDot.cpp.o: ../src/PacDot.cpp
 CMakeFiles/ai.dir/src/PacDot.cpp.o: ../manifest.xml
-CMakeFiles/ai.dir/src/PacDot.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/manifest.xml
-CMakeFiles/ai.dir/src/PacDot.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/manifest.xml
+CMakeFiles/ai.dir/src/PacDot.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/fuzzy/manifest.xml
+CMakeFiles/ai.dir/src/PacDot.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/brian/manifest.xml
 CMakeFiles/ai.dir/src/PacDot.cpp.o: /opt/ros/groovy/share/cpp_common/package.xml
 CMakeFiles/ai.dir/src/PacDot.cpp.o: /opt/ros/groovy/share/rostime/package.xml
 CMakeFiles/ai.dir/src/PacDot.cpp.o: /opt/ros/groovy/share/roscpp_traits/package.xml
@@ -239,30 +239,30 @@ CMakeFiles/ai.dir/src/PacDot.cpp.o: /opt/ros/groovy/share/catkin/package.xml
 CMakeFiles/ai.dir/src/PacDot.cpp.o: /opt/ros/groovy/share/rospack/package.xml
 CMakeFiles/ai.dir/src/PacDot.cpp.o: /opt/ros/groovy/share/roslib/package.xml
 CMakeFiles/ai.dir/src/PacDot.cpp.o: /opt/ros/groovy/share/rospy/package.xml
-CMakeFiles/ai.dir/src/PacDot.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Echoes/manifest.xml
+CMakeFiles/ai.dir/src/PacDot.cpp.o: /home/mikel/workspace/ros/PacBot/Echoes/manifest.xml
 CMakeFiles/ai.dir/src/PacDot.cpp.o: /opt/ros/groovy/share/geometry_msgs/package.xml
 CMakeFiles/ai.dir/src/PacDot.cpp.o: /opt/ros/groovy/share/sensor_msgs/package.xml
-CMakeFiles/ai.dir/src/PacDot.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/manifest.xml
+CMakeFiles/ai.dir/src/PacDot.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/manifest.xml
 CMakeFiles/ai.dir/src/PacDot.cpp.o: /opt/ros/groovy/share/opencv2/package.xml
-CMakeFiles/ai.dir/src/PacDot.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/ann/manifest.xml
-CMakeFiles/ai.dir/src/PacDot.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Vision/manifest.xml
-CMakeFiles/ai.dir/src/PacDot.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/manifest.xml
-CMakeFiles/ai.dir/src/PacDot.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Echoes/msg_gen/generated
-CMakeFiles/ai.dir/src/PacDot.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Echoes/srv_gen/generated
-CMakeFiles/ai.dir/src/PacDot.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/msg_gen/generated
-CMakeFiles/ai.dir/src/PacDot.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Vision/msg_gen/generated
-CMakeFiles/ai.dir/src/PacDot.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/msg_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/AI/build/CMakeFiles $(CMAKE_PROGRESS_4)
+CMakeFiles/ai.dir/src/PacDot.cpp.o: /home/mikel/workspace/ros/PacBot/ann/manifest.xml
+CMakeFiles/ai.dir/src/PacDot.cpp.o: /home/mikel/workspace/ros/PacBot/Vision/manifest.xml
+CMakeFiles/ai.dir/src/PacDot.cpp.o: /home/mikel/workspace/ros/PacBot/PhantomRobot/manifest.xml
+CMakeFiles/ai.dir/src/PacDot.cpp.o: /home/mikel/workspace/ros/PacBot/Echoes/msg_gen/generated
+CMakeFiles/ai.dir/src/PacDot.cpp.o: /home/mikel/workspace/ros/PacBot/Echoes/srv_gen/generated
+CMakeFiles/ai.dir/src/PacDot.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/msg_gen/generated
+CMakeFiles/ai.dir/src/PacDot.cpp.o: /home/mikel/workspace/ros/PacBot/Vision/msg_gen/generated
+CMakeFiles/ai.dir/src/PacDot.cpp.o: /home/mikel/workspace/ros/PacBot/PhantomRobot/msg_gen/generated
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/AI/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ai.dir/src/PacDot.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/ai.dir/src/PacDot.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/AI/src/PacDot.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/ai.dir/src/PacDot.cpp.o -c /home/mikel/workspace/ros/PacBot/AI/src/PacDot.cpp
 
 CMakeFiles/ai.dir/src/PacDot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ai.dir/src/PacDot.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/AI/src/PacDot.cpp > CMakeFiles/ai.dir/src/PacDot.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/AI/src/PacDot.cpp > CMakeFiles/ai.dir/src/PacDot.cpp.i
 
 CMakeFiles/ai.dir/src/PacDot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ai.dir/src/PacDot.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/AI/src/PacDot.cpp -o CMakeFiles/ai.dir/src/PacDot.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/AI/src/PacDot.cpp -o CMakeFiles/ai.dir/src/PacDot.cpp.s
 
 CMakeFiles/ai.dir/src/PacDot.cpp.o.requires:
 .PHONY : CMakeFiles/ai.dir/src/PacDot.cpp.o.requires
@@ -276,8 +276,8 @@ CMakeFiles/ai.dir/src/PacDot.cpp.o.provides.build: CMakeFiles/ai.dir/src/PacDot.
 CMakeFiles/ai.dir/src/PacDotRep.cpp.o: CMakeFiles/ai.dir/flags.make
 CMakeFiles/ai.dir/src/PacDotRep.cpp.o: ../src/PacDotRep.cpp
 CMakeFiles/ai.dir/src/PacDotRep.cpp.o: ../manifest.xml
-CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/manifest.xml
-CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/manifest.xml
+CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/fuzzy/manifest.xml
+CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/brian/manifest.xml
 CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /opt/ros/groovy/share/cpp_common/package.xml
 CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /opt/ros/groovy/share/rostime/package.xml
 CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /opt/ros/groovy/share/roscpp_traits/package.xml
@@ -295,30 +295,30 @@ CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /opt/ros/groovy/share/catkin/package.xml
 CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /opt/ros/groovy/share/rospack/package.xml
 CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /opt/ros/groovy/share/roslib/package.xml
 CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /opt/ros/groovy/share/rospy/package.xml
-CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Echoes/manifest.xml
+CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /home/mikel/workspace/ros/PacBot/Echoes/manifest.xml
 CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /opt/ros/groovy/share/geometry_msgs/package.xml
 CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /opt/ros/groovy/share/sensor_msgs/package.xml
-CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/manifest.xml
+CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/manifest.xml
 CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /opt/ros/groovy/share/opencv2/package.xml
-CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/ann/manifest.xml
-CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Vision/manifest.xml
-CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/manifest.xml
-CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Echoes/msg_gen/generated
-CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Echoes/srv_gen/generated
-CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/msg_gen/generated
-CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Vision/msg_gen/generated
-CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/msg_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/AI/build/CMakeFiles $(CMAKE_PROGRESS_5)
+CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /home/mikel/workspace/ros/PacBot/ann/manifest.xml
+CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /home/mikel/workspace/ros/PacBot/Vision/manifest.xml
+CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /home/mikel/workspace/ros/PacBot/PhantomRobot/manifest.xml
+CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /home/mikel/workspace/ros/PacBot/Echoes/msg_gen/generated
+CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /home/mikel/workspace/ros/PacBot/Echoes/srv_gen/generated
+CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/msg_gen/generated
+CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /home/mikel/workspace/ros/PacBot/Vision/msg_gen/generated
+CMakeFiles/ai.dir/src/PacDotRep.cpp.o: /home/mikel/workspace/ros/PacBot/PhantomRobot/msg_gen/generated
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/AI/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ai.dir/src/PacDotRep.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/ai.dir/src/PacDotRep.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/AI/src/PacDotRep.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/ai.dir/src/PacDotRep.cpp.o -c /home/mikel/workspace/ros/PacBot/AI/src/PacDotRep.cpp
 
 CMakeFiles/ai.dir/src/PacDotRep.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ai.dir/src/PacDotRep.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/AI/src/PacDotRep.cpp > CMakeFiles/ai.dir/src/PacDotRep.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/AI/src/PacDotRep.cpp > CMakeFiles/ai.dir/src/PacDotRep.cpp.i
 
 CMakeFiles/ai.dir/src/PacDotRep.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ai.dir/src/PacDotRep.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/AI/src/PacDotRep.cpp -o CMakeFiles/ai.dir/src/PacDotRep.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/AI/src/PacDotRep.cpp -o CMakeFiles/ai.dir/src/PacDotRep.cpp.s
 
 CMakeFiles/ai.dir/src/PacDotRep.cpp.o.requires:
 .PHONY : CMakeFiles/ai.dir/src/PacDotRep.cpp.o.requires
@@ -332,8 +332,8 @@ CMakeFiles/ai.dir/src/PacDotRep.cpp.o.provides.build: CMakeFiles/ai.dir/src/PacD
 CMakeFiles/ai.dir/src/GameControl.cpp.o: CMakeFiles/ai.dir/flags.make
 CMakeFiles/ai.dir/src/GameControl.cpp.o: ../src/GameControl.cpp
 CMakeFiles/ai.dir/src/GameControl.cpp.o: ../manifest.xml
-CMakeFiles/ai.dir/src/GameControl.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/manifest.xml
-CMakeFiles/ai.dir/src/GameControl.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/manifest.xml
+CMakeFiles/ai.dir/src/GameControl.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/fuzzy/manifest.xml
+CMakeFiles/ai.dir/src/GameControl.cpp.o: /home/mikel/workspace/ros/PacBot/Brian/brian/manifest.xml
 CMakeFiles/ai.dir/src/GameControl.cpp.o: /opt/ros/groovy/share/cpp_common/package.xml
 CMakeFiles/ai.dir/src/GameControl.cpp.o: /opt/ros/groovy/share/rostime/package.xml
 CMakeFiles/ai.dir/src/GameControl.cpp.o: /opt/ros/groovy/share/roscpp_traits/package.xml
@@ -351,30 +351,30 @@ CMakeFiles/ai.dir/src/GameControl.cpp.o: /opt/ros/groovy/share/catkin/package.xm
 CMakeFiles/ai.dir/src/GameControl.cpp.o: /opt/ros/groovy/share/rospack/package.xml
 CMakeFiles/ai.dir/src/GameControl.cpp.o: /opt/ros/groovy/share/roslib/package.xml
 CMakeFiles/ai.dir/src/GameControl.cpp.o: /opt/ros/groovy/share/rospy/package.xml
-CMakeFiles/ai.dir/src/GameControl.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Echoes/manifest.xml
+CMakeFiles/ai.dir/src/GameControl.cpp.o: /home/mikel/workspace/ros/PacBot/Echoes/manifest.xml
 CMakeFiles/ai.dir/src/GameControl.cpp.o: /opt/ros/groovy/share/geometry_msgs/package.xml
 CMakeFiles/ai.dir/src/GameControl.cpp.o: /opt/ros/groovy/share/sensor_msgs/package.xml
-CMakeFiles/ai.dir/src/GameControl.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/manifest.xml
+CMakeFiles/ai.dir/src/GameControl.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/manifest.xml
 CMakeFiles/ai.dir/src/GameControl.cpp.o: /opt/ros/groovy/share/opencv2/package.xml
-CMakeFiles/ai.dir/src/GameControl.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/ann/manifest.xml
-CMakeFiles/ai.dir/src/GameControl.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Vision/manifest.xml
-CMakeFiles/ai.dir/src/GameControl.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/manifest.xml
-CMakeFiles/ai.dir/src/GameControl.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Echoes/msg_gen/generated
-CMakeFiles/ai.dir/src/GameControl.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Echoes/srv_gen/generated
-CMakeFiles/ai.dir/src/GameControl.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/msg_gen/generated
-CMakeFiles/ai.dir/src/GameControl.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/Vision/msg_gen/generated
-CMakeFiles/ai.dir/src/GameControl.cpp.o: /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/msg_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/AI/build/CMakeFiles $(CMAKE_PROGRESS_6)
+CMakeFiles/ai.dir/src/GameControl.cpp.o: /home/mikel/workspace/ros/PacBot/ann/manifest.xml
+CMakeFiles/ai.dir/src/GameControl.cpp.o: /home/mikel/workspace/ros/PacBot/Vision/manifest.xml
+CMakeFiles/ai.dir/src/GameControl.cpp.o: /home/mikel/workspace/ros/PacBot/PhantomRobot/manifest.xml
+CMakeFiles/ai.dir/src/GameControl.cpp.o: /home/mikel/workspace/ros/PacBot/Echoes/msg_gen/generated
+CMakeFiles/ai.dir/src/GameControl.cpp.o: /home/mikel/workspace/ros/PacBot/Echoes/srv_gen/generated
+CMakeFiles/ai.dir/src/GameControl.cpp.o: /home/mikel/workspace/ros/PacBot/SpyKee/msg_gen/generated
+CMakeFiles/ai.dir/src/GameControl.cpp.o: /home/mikel/workspace/ros/PacBot/Vision/msg_gen/generated
+CMakeFiles/ai.dir/src/GameControl.cpp.o: /home/mikel/workspace/ros/PacBot/PhantomRobot/msg_gen/generated
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/AI/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ai.dir/src/GameControl.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/ai.dir/src/GameControl.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/AI/src/GameControl.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/ai.dir/src/GameControl.cpp.o -c /home/mikel/workspace/ros/PacBot/AI/src/GameControl.cpp
 
 CMakeFiles/ai.dir/src/GameControl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ai.dir/src/GameControl.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/AI/src/GameControl.cpp > CMakeFiles/ai.dir/src/GameControl.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/AI/src/GameControl.cpp > CMakeFiles/ai.dir/src/GameControl.cpp.i
 
 CMakeFiles/ai.dir/src/GameControl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ai.dir/src/GameControl.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/AI/src/GameControl.cpp -o CMakeFiles/ai.dir/src/GameControl.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/AI/src/GameControl.cpp -o CMakeFiles/ai.dir/src/GameControl.cpp.s
 
 CMakeFiles/ai.dir/src/GameControl.cpp.o.requires:
 .PHONY : CMakeFiles/ai.dir/src/GameControl.cpp.o.requires
@@ -425,6 +425,6 @@ CMakeFiles/ai.dir/clean:
 .PHONY : CMakeFiles/ai.dir/clean
 
 CMakeFiles/ai.dir/depend:
-	cd /home/mikel/workspace/ros/PacBot/PacBot/AI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/PacBot/AI /home/mikel/workspace/ros/PacBot/PacBot/AI /home/mikel/workspace/ros/PacBot/PacBot/AI/build /home/mikel/workspace/ros/PacBot/PacBot/AI/build /home/mikel/workspace/ros/PacBot/PacBot/AI/build/CMakeFiles/ai.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mikel/workspace/ros/PacBot/AI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/AI /home/mikel/workspace/ros/PacBot/AI /home/mikel/workspace/ros/PacBot/AI/build /home/mikel/workspace/ros/PacBot/AI/build /home/mikel/workspace/ros/PacBot/AI/build/CMakeFiles/ai.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ai.dir/depend
 

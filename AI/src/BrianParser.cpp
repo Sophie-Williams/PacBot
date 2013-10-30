@@ -95,12 +95,13 @@ void BrianParser::brianAnswer()
 			else if (temp.compare("RotSpeed") == 0)
 			{
 				rotSpeed = i->second->get_set_point();
-				//horizon += rotSpeed;
 				if (rotSpeed > 10) priority = RIGHT;
 				else if (rotSpeed < -10) priority = LEFT;
 
-				if (blockedTime > 70)
-					rotSpeed = randomValue > 0 ? rotSpeed + 10 : rotSpeed - 10;
+				if (blockedTime > 50)
+					rotSpeed = randomValue > 0 ? 1 : -1;
+				if (tanSpeed == 0)
+					sensor.updateHorizon(rotSpeed);
 			}
 			else if (temp.compare("Debug") == 0)
 			{

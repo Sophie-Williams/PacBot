@@ -584,29 +584,29 @@ fuzzy_set.h
 dmalloc.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/action.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/action.cpp
 action.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/action.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/action.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/action_list.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/action_list.cpp
 action_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/action_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/action_list.h
 action_multimap.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/action_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/action_multimap.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/action_list_debug.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/action_list_debug.cpp
 action_list_debug.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/action_list_debug.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/action_list_debug.h
 iostream
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/assoc_file_parser.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/assoc_file_parser.cpp
 assoc_file_parser.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/assoc_file_parser.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/assoc_file_parser.h
 math.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/math.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/math.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/assocflex.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/assocflex.cpp
 stdio.h
 -
 string.h
@@ -620,181 +620,181 @@ inttypes.h
 getFuzzy.h
 -
 assocgram.tab.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/assocgram.tab.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/assocgram.tab.h
 dmalloc.h
 -
 unistd.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/association.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/association.cpp
 association.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/association.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/association.h
 math.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/association_list.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/association_list.cpp
 association_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/association_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/association_list.h
 destroy_object.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/destroy_object.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/destroy_object.h
 math.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/association_set_multimap.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/association_set_multimap.cpp
 association_set_multimap.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/association_set_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/association_set_multimap.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/barycentre_defuzzyfier.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/barycentre_defuzzyfier.cpp
 barycentre_defuzzyfier.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/barycentre_defuzzyfier.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/barycentre_defuzzyfier.h
 shapes_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/shapes_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shapes_list.h
 trapezium.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/trapezium.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/trapezium.h
 point.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/point.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/point.h
 point_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/point_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/point_list.h
 shape_point.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/shape_point.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shape_point.h
 math.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/command.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/command.cpp
 command.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/command.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/command.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/command_list.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/command_list.cpp
 command_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/command_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/command_list.h
 command_multimap.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/command_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/command_multimap.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/command_list_debug.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/command_list_debug.cpp
 command_list_debug.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/command_list_debug.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/command_list_debug.h
 iostream
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/crisp_data.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/crisp_data.cpp
 crisp_data.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/crisp_data.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/crisp_data.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/crisp_data_list.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/crisp_data_list.cpp
 crisp_data_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/crisp_data_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/crisp_data_list.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/crisp_data_list_debug.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/crisp_data_list_debug.cpp
 crisp_data_list_debug.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/crisp_data_list_debug.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/crisp_data_list_debug.h
 iostream
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/data.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/data.cpp
 data.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/data.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/data.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/defuzzyfier.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/defuzzyfier.cpp
 defuzzyfier.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/defuzzyfier.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/defuzzyfier.h
 math.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/math.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/math.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/div_triangle.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/div_triangle.cpp
 div_triangle.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/div_triangle.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/div_triangle.h
 math.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/fuzzy_crisp_rel.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/fuzzy_crisp_rel.cpp
 fuzzy_crisp_rel.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/fuzzy_crisp_rel.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/fuzzy_crisp_rel.h
 math.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/fuzzy_data.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/fuzzy_data.cpp
 fuzzy_data.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/fuzzy_data.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/fuzzy_data.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/fuzzy_data_list.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/fuzzy_data_list.cpp
 fuzzy_data_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/fuzzy_data_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/fuzzy_data_list.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/fuzzy_data_list_debug.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/fuzzy_data_list_debug.cpp
 fuzzy_data_list_debug.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/fuzzy_data_list_debug.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/fuzzy_data_list_debug.h
 iostream
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/fuzzy_set.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/fuzzy_set.cpp
 fuzzy_set.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/fuzzy_set.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/fuzzy_set.h
 math.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/math.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/math.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/fuzzy_set_multimap.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/fuzzy_set_multimap.cpp
 fuzzy_set_multimap.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/fuzzy_set_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/fuzzy_set_multimap.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/fuzzyfier.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/fuzzyfier.cpp
 fuzzyfier.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/fuzzyfier.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/fuzzyfier.h
 math.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/getFuzzy.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/getFuzzy.cpp
 getFuzzy.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/getFuzzy.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/getFuzzy.h
 iostream
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/point.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/point.cpp
 point.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/point.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/point.h
 math.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/point_list.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/point_list.cpp
 point_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/point_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/point_list.h
 math.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/point_multimap.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/point_multimap.cpp
 point_multimap.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/point_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/point_multimap.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/rectangle.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/rectangle.cpp
 rectangle.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/rectangle.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/rectangle.h
 math.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/shape.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shape.cpp
 shape.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/shape.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shape.h
 destroy_object.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/destroy_object.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/destroy_object.h
 math.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/shape_file_parser.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shape_file_parser.cpp
 shape_file_parser.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/shape_file_parser.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shape_file_parser.h
 math.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/shape_multimap.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shape_multimap.cpp
 shape_multimap.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/shape_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shape_multimap.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/shape_point.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shape_point.cpp
 shape_point.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/shape_point.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shape_point.h
 math.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/shapeflex.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shapeflex.cpp
 stdio.h
 -
 string.h
@@ -808,53 +808,53 @@ inttypes.h
 getFuzzy.h
 -
 shapegram.tab.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/shapegram.tab.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shapegram.tab.h
 dmalloc.h
 -
 unistd.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/shapes_list.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shapes_list.cpp
 shapes_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/shapes_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shapes_list.h
 destroy_object.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/destroy_object.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/destroy_object.h
 math.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/math.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/math.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/singleton.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/singleton.cpp
 singleton.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/singleton.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/singleton.h
 math.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/math.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/math.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/singleton_defuzzyfier.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/singleton_defuzzyfier.cpp
 singleton_defuzzyfier.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/singleton_defuzzyfier.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/singleton_defuzzyfier.h
 math.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/trapezium.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/trapezium.cpp
 trapezium.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/trapezium.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/trapezium.h
 math.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/math.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/math.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/triangle.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/triangle.cpp
 triangle.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/triangle.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/triangle.h
 math.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/triangle_ol.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/triangle_ol.cpp
 triangle_ol.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/triangle_ol.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/triangle_ol.h
 math.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/triangle_or.cpp
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/triangle_or.cpp
 triangle_or.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/triangle_or.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/triangle_or.h
 math.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/src/math.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/math.h
 

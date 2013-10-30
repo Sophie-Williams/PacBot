@@ -5,15 +5,15 @@
 # it emulates the modifications of the setup script without recurring computations
 
 # new environment variables
-export CATKIN_TEST_RESULTS_DIR="/home/mikel/workspace/ros/PacBot/PacBot/AI/build/test_results"
-export ROS_TEST_RESULTS_DIR="/home/mikel/workspace/ros/PacBot/PacBot/AI/build/test_results"
+export CATKIN_TEST_RESULTS_DIR="/home/mikel/workspace/ros/PacBot/AI/build/test_results"
+export ROS_TEST_RESULTS_DIR="/home/mikel/workspace/ros/PacBot/AI/build/test_results"
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/mikel/workspace/ros/PacBot/PacBot/AI/build/devel:$CMAKE_PREFIX_PATH"
-export CPATH="/home/mikel/workspace/ros/PacBot/PacBot/AI/build/devel/include:$CPATH"
-export LD_LIBRARY_PATH="/home/mikel/workspace/ros/PacBot/PacBot/AI/build/devel/lib:$LD_LIBRARY_PATH"
-export PATH="/home/mikel/workspace/ros/PacBot/PacBot/AI/build/devel/bin:$PATH"
-export PKG_CONFIG_PATH="/home/mikel/workspace/ros/PacBot/PacBot/AI/build/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PYTHONPATH="/home/mikel/workspace/ros/PacBot/PacBot/AI/build/devel/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/mikel/workspace/ros/PacBot/PacBot/AI/build/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/mikel/workspace/ros/PacBot/PacBot/AI:/opt/ros/groovy/share:/opt/ros/groovy/stacks"
+export CMAKE_PREFIX_PATH="/home/mikel/workspace/ros/PacBot/AI/build/devel:$CMAKE_PREFIX_PATH"
+export CPATH="/home/mikel/workspace/ros/PacBot/AI/build/devel/include:$CPATH"
+export LD_LIBRARY_PATH="/home/mikel/workspace/ros/PacBot/AI/build/devel/lib:$LD_LIBRARY_PATH"
+export PATH="/home/mikel/workspace/ros/PacBot/AI/build/devel/bin:$PATH"
+export PKG_CONFIG_PATH="/home/mikel/workspace/ros/PacBot/AI/build/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PYTHONPATH="/home/mikel/workspace/ros/PacBot/AI/build/devel/lib/python2.7/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/mikel/workspace/ros/PacBot/AI/build/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/mikel/workspace/ros/PacBot/AI:/opt/ros/groovy/share:/opt/ros/groovy/stacks"

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot
+CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/PhantomRobot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/build
+CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/PhantomRobot/build
 
 # Utility rule file for ROSBUILD_genmsg_cpp.
 
@@ -63,9 +63,9 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/PhantomRobot/PhantomMsg.h
 ../msg_gen/cpp/include/PhantomRobot/PhantomMsg.h: /opt/ros/groovy/share/rosgraph_msgs/package.xml
 ../msg_gen/cpp/include/PhantomRobot/PhantomMsg.h: /opt/ros/groovy/share/xmlrpcpp/package.xml
 ../msg_gen/cpp/include/PhantomRobot/PhantomMsg.h: /opt/ros/groovy/share/roscpp/package.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PhantomRobot/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/PhantomRobot/PhantomMsg.h"
-	/opt/ros/groovy/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/msg/PhantomMsg.msg
+	/opt/ros/groovy/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/mikel/workspace/ros/PacBot/PhantomRobot/msg/PhantomMsg.msg
 
 ROSBUILD_genmsg_cpp: CMakeFiles/ROSBUILD_genmsg_cpp
 ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/PhantomRobot/PhantomMsg.h
@@ -81,6 +81,6 @@ CMakeFiles/ROSBUILD_genmsg_cpp.dir/clean:
 .PHONY : CMakeFiles/ROSBUILD_genmsg_cpp.dir/clean
 
 CMakeFiles/ROSBUILD_genmsg_cpp.dir/depend:
-	cd /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/build /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/build /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mikel/workspace/ros/PacBot/PhantomRobot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/PhantomRobot /home/mikel/workspace/ros/PacBot/PhantomRobot /home/mikel/workspace/ros/PacBot/PhantomRobot/build /home/mikel/workspace/ros/PacBot/PhantomRobot/build /home/mikel/workspace/ros/PacBot/PhantomRobot/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROSBUILD_genmsg_cpp.dir/depend
 

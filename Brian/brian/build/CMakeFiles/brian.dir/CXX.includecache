@@ -332,43 +332,43 @@ weight_want.h
 ltstr.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/behavior_eng.cpp
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/behavior_eng.cpp
 behavior_eng.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/behavior_eng.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/behavior_eng.h
 rules_behav.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/rules_behav.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/rules_behav.h
 iostream
 -
 smdebug.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/smdebug.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/smdebug.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/brian.cpp
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/brian.cpp
 iostream
 -
 brian.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/brian.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/brian.h
 smdebug.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/smdebug.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/smdebug.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/can_doer.cpp
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/can_doer.cpp
 can_doer.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/can_doer.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/can_doer.h
 smdebug.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/smdebug.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/smdebug.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/compose.cpp
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/compose.cpp
 compose.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/compose.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/compose.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/engine_objects.cpp
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/engine_objects.cpp
 engine_objects.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/engine_objects.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/engine_objects.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/preacher.cpp
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/preacher.cpp
 preacher.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/preacher.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/preacher.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predflex.cpp
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/predflex.cpp
 stdio.h
 -
 string.h
@@ -380,47 +380,47 @@ stdlib.h
 inttypes.h
 -
 engine_objects.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/engine_objects.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/engine_objects.h
 predgram.tab.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predgram.tab.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/predgram.tab.h
 dmalloc.h
 -
 unistd.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predicate.cpp
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/predicate.cpp
 predicate.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predicate.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/predicate.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predicate_list.cpp
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/predicate_list.cpp
 predicate_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predicate_list.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/predicate_list.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predicate_list_debug.cpp
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/predicate_list_debug.cpp
 predicate_list_debug.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/predicate_list_debug.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/predicate_list_debug.h
 iostream
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/proposed_action_list.cpp
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/proposed_action_list.cpp
 proposed_action_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/proposed_action_list.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/proposed_action_list.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/proposed_action_list_debug.cpp
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/proposed_action_list_debug.cpp
 proposed_action_list_debug.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/proposed_action_list_debug.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/proposed_action_list_debug.h
 iostream
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/rules_behav.cpp
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/rules_behav.cpp
 rules_behav.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/rules_behav.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/rules_behav.h
 string
 -
 smdebug.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/smdebug.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/smdebug.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/rulesflex.cpp
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/rulesflex.cpp
 stdio.h
 -
 string.h
@@ -432,37 +432,37 @@ stdlib.h
 inttypes.h
 -
 interf_obj.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/interf_obj.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/interf_obj.h
 rules_behav.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/rules_behav.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/rules_behav.h
 preacher.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/preacher.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/preacher.h
 rulesgram.tab.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/rulesgram.tab.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/rulesgram.tab.h
 dmalloc.h
 -
 unistd.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/wanter_eng.cpp
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/wanter_eng.cpp
 wanter_eng.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/wanter_eng.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/wanter_eng.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/weight_want.cpp
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/weight_want.cpp
 weight_want.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/weight_want.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/weight_want.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/weight_want_list.cpp
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/weight_want_list.cpp
 weight_want_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/weight_want_list.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/weight_want_list.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/weight_want_list_debug.cpp
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/weight_want_list_debug.cpp
 weight_want_list_debug.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/src/weight_want_list_debug.h
+/home/mikel/workspace/ros/PacBot/Brian/brian/src/weight_want_list_debug.h
 iostream
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/action.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/action.h
 dmalloc.h
 -
 stdio.h
@@ -474,13 +474,13 @@ string.h
 malloc.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/action_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/action_list.h
 action_multimap.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/action_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/action_multimap.h
 dmalloc.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/action_list_debug.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/action_list_debug.h
 stdio.h
 -
 stdlib.h
@@ -492,11 +492,11 @@ malloc.h
 dmalloc.h
 -
 action_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/action_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/action_list.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/action_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/action_multimap.h
 action.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/action.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/action.h
 stdio.h
 -
 stdlib.h
@@ -512,43 +512,43 @@ stl.h
 dmalloc.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/assoc_file_parser.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/assoc_file_parser.h
 dmalloc.h
 -
 association_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/association_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/association_list.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/association.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/association.h
 shape.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/shape.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/shape.h
 string.h
 -
 dmalloc.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/association_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/association_list.h
 dmalloc.h
 -
 association_set_multimap.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/association_set_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/association_set_multimap.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/association_set_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/association_set_multimap.h
 ltstr.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/ltstr.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/ltstr.h
 association.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/association.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/association.h
 stl.h
 -
 dmalloc.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/barycentre_defuzzyfier.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/barycentre_defuzzyfier.h
 dmalloc.h
 -
 defuzzyfier.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/defuzzyfier.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/defuzzyfier.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/command.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/command.h
 stdio.h
 -
 stdlib.h
@@ -560,9 +560,9 @@ malloc.h
 dmalloc.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/command_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/command_list.h
 command_multimap.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/command_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/command_multimap.h
 stdio.h
 -
 stdlib.h
@@ -574,7 +574,7 @@ malloc.h
 dmalloc.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/command_list_debug.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/command_list_debug.h
 stdio.h
 -
 stdlib.h
@@ -586,11 +586,11 @@ malloc.h
 dmalloc.h
 -
 command_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/command_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/command_list.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/command_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/command_multimap.h
 command.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/command.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/command.h
 dmalloc.h
 -
 stdio.h
@@ -602,11 +602,11 @@ string.h
 malloc.h
 -
 ltstr.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/ltstr.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/ltstr.h
 stl.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/crisp_data.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/crisp_data.h
 stdio.h
 -
 stdlib.h
@@ -620,9 +620,9 @@ dmalloc.h
 stl.h
 -
 data.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/data.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/data.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/crisp_data_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/crisp_data_list.h
 stdio.h
 -
 stdlib.h
@@ -636,17 +636,17 @@ dmalloc.h
 stl.h
 -
 crisp_data_multimap.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/crisp_data_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/crisp_data_multimap.h
 crisp_data.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/crisp_data.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/crisp_data.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/crisp_data_list_debug.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/crisp_data_list_debug.h
 dmalloc.h
 -
 crisp_data_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/crisp_data_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/crisp_data_list.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/crisp_data_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/crisp_data_multimap.h
 stdio.h
 -
 stdlib.h
@@ -660,11 +660,11 @@ dmalloc.h
 stl.h
 -
 crisp_data.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/crisp_data.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/crisp_data.h
 ltstr.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/ltstr.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/ltstr.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/data.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/data.h
 stdio.h
 -
 stdlib.h
@@ -678,21 +678,21 @@ dmalloc.h
 stl.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/defuzzyfier.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/defuzzyfier.h
 dmalloc.h
 -
 fuzzy_crisp_rel.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_crisp_rel.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_crisp_rel.h
 shape_file_parser.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/shape_file_parser.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/shape_file_parser.h
 assoc_file_parser.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/assoc_file_parser.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/assoc_file_parser.h
 action_list.h
 -
 command_list.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/destroy_object.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/destroy_object.h
 stdio.h
 -
 stdlib.h
@@ -706,25 +706,25 @@ dmalloc.h
 stl.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/div_triangle.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/div_triangle.h
 trapezium.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/trapezium.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/trapezium.h
 dmalloc.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_crisp_rel.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_crisp_rel.h
 dmalloc.h
 -
 shapes_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/shapes_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/shapes_list.h
 association_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/association_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/association_list.h
 shape_file_parser.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/shape_file_parser.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/shape_file_parser.h
 assoc_file_parser.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/assoc_file_parser.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/assoc_file_parser.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_data.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_data.h
 stdio.h
 -
 stdlib.h
@@ -734,13 +734,13 @@ string.h
 malloc.h
 -
 data.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/data.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/data.h
 dmalloc.h
 -
 stl.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_data_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_data_list.h
 stdio.h
 -
 stdlib.h
@@ -754,17 +754,17 @@ dmalloc.h
 stl.h
 -
 fuzzy_data.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_data.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_data.h
 fuzzy_data_multimap.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_data_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_data_multimap.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_data_list_debug.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_data_list_debug.h
 dmalloc.h
 -
 fuzzy_data_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_data_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_data_list.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_data_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_data_multimap.h
 stdio.h
 -
 stdlib.h
@@ -774,15 +774,15 @@ string.h
 malloc.h
 -
 fuzzy_data.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_data.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_data.h
 ltstr.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/ltstr.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/ltstr.h
 dmalloc.h
 -
 stl.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_set.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_set.h
 malloc.h
 -
 stl.h
@@ -792,121 +792,121 @@ string.h
 dmalloc.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_set_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_set_multimap.h
 fuzzy_set.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_set.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_set.h
 ltstr.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/ltstr.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/ltstr.h
 stl.h
 -
 dmalloc.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzyfier.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzyfier.h
 dmalloc.h
 -
 fuzzy_crisp_rel.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_crisp_rel.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_crisp_rel.h
 crisp_data_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/crisp_data_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/crisp_data_list.h
 fuzzy_data_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_data_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_data_list.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/getFuzzy.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/getFuzzy.h
 action.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/action.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/action.h
 action_multimap.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/action_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/action_multimap.h
 action_list_debug.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/action_list_debug.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/action_list_debug.h
 action_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/action_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/action_list.h
 assoc_file_parser.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/assoc_file_parser.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/assoc_file_parser.h
 association.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/association.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/association.h
 association_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/association_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/association_list.h
 association_set_multimap.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/association_set_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/association_set_multimap.h
 barycentre_defuzzyfier.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/barycentre_defuzzyfier.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/barycentre_defuzzyfier.h
 command.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/command.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/command.h
 command_multimap.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/command_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/command_multimap.h
 command_list_debug.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/command_list_debug.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/command_list_debug.h
 command_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/command_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/command_list.h
 crisp_data.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/crisp_data.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/crisp_data.h
 crisp_data_list_debug.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/crisp_data_list_debug.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/crisp_data_list_debug.h
 crisp_data_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/crisp_data_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/crisp_data_list.h
 crisp_data_multimap.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/crisp_data_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/crisp_data_multimap.h
 data.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/data.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/data.h
 defuzzyfier.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/defuzzyfier.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/defuzzyfier.h
 destroy_object.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/destroy_object.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/destroy_object.h
 div_triangle.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/div_triangle.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/div_triangle.h
 fuzzy_crisp_rel.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_crisp_rel.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_crisp_rel.h
 fuzzy_data.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_data.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_data.h
 fuzzy_data_list_debug.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_data_list_debug.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_data_list_debug.h
 fuzzy_data_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_data_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_data_list.h
 fuzzy_data_multimap.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_data_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_data_multimap.h
 fuzzyfier.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzyfier.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzyfier.h
 fuzzy_set.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_set.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_set.h
 fuzzy_set_multimap.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_set_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_set_multimap.h
 ltstr.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/ltstr.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/ltstr.h
 ord.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/ord.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/ord.h
 point.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/point.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/point.h
 point_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/point_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/point_list.h
 point_multimap.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/point_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/point_multimap.h
 rectangle.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/rectangle.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/rectangle.h
 shape_file_parser.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/shape_file_parser.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/shape_file_parser.h
 shape.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/shape.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/shape.h
 shape_multimap.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/shape_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/shape_multimap.h
 shape_point.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/shape_point.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/shape_point.h
 shapes_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/shapes_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/shapes_list.h
 singleton_defuzzyfier.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/singleton_defuzzyfier.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/singleton_defuzzyfier.h
 singleton.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/singleton.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/singleton.h
 trapezium.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/trapezium.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/trapezium.h
 triangle.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/triangle.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/triangle.h
 triangle_ol.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/triangle_ol.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/triangle_ol.h
 triangle_or.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/triangle_or.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/triangle_or.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/ltstr.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/ltstr.h
 stdio.h
 -
 stdlib.h
@@ -918,107 +918,107 @@ malloc.h
 dmalloc.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/ord.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/ord.h
 dmalloc.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/point.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/point.h
 dmalloc.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/point_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/point_list.h
 point_multimap.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/point_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/point_multimap.h
 destroy_object.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/destroy_object.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/destroy_object.h
 dmalloc.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/point_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/point_multimap.h
 ord.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/ord.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/ord.h
 point.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/point.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/point.h
 stl.h
 -
 dmalloc.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/rectangle.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/rectangle.h
 trapezium.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/trapezium.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/trapezium.h
 dmalloc.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/shape.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/shape.h
 dmalloc.h
 -
 fuzzy_set_multimap.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_set_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_set_multimap.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/shape_file_parser.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/shape_file_parser.h
 shapes_list.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/shapes_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/shapes_list.h
 dmalloc.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/shape_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/shape_multimap.h
 ltstr.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/ltstr.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/ltstr.h
 shape.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/shape.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/shape.h
 stl.h
 -
 dmalloc.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/shape_point.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/shape_point.h
 point.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/point.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/point.h
 dmalloc.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/shapes_list.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/shapes_list.h
 dmalloc.h
 -
 shape_multimap.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/shape_multimap.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/shape_multimap.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/singleton.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/singleton.h
 fuzzy_set.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_set.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_set.h
 dmalloc.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/singleton_defuzzyfier.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/singleton_defuzzyfier.h
 dmalloc.h
 -
 singleton.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/singleton.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/singleton.h
 defuzzyfier.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/defuzzyfier.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/defuzzyfier.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/trapezium.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/trapezium.h
 fuzzy_set.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_set.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_set.h
 dmalloc.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/triangle.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/triangle.h
 trapezium.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/trapezium.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/trapezium.h
 dmalloc.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/triangle_ol.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/triangle_ol.h
 fuzzy_set.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_set.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_set.h
 dmalloc.h
 -
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/triangle_or.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/triangle_or.h
 fuzzy_set.h
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include/fuzzy_set.h
+/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/fuzzy_set.h
 dmalloc.h
 -
 

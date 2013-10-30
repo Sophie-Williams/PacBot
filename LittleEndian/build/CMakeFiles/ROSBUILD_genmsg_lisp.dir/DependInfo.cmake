@@ -10,7 +10,7 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
   "../include"
-  "/home/mikel/workspace/ros/PacBot/PacBot/SpyKee/msg_gen/cpp/include"
+  "/home/mikel/workspace/ros/PacBot/SpyKee/msg_gen/cpp/include"
   "/opt/ros/groovy/include"
   "/opt/ros/groovy/include/opencv"
   "../msg_gen/cpp/include"

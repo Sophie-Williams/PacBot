@@ -3,17 +3,17 @@
 
 CMakeFiles/Echoes.dir/src/CharCircularBuffer.cpp.o
  ../include/CharCircularBuffer.h
- /home/mikel/workspace/ros/PacBot/PacBot/Echoes/src/CharCircularBuffer.cpp
+ /home/mikel/workspace/ros/PacBot/Echoes/src/CharCircularBuffer.cpp
 CMakeFiles/Echoes.dir/src/Dispatcher.cpp.o
  ../include/Dispatcher.h
  ../include/Processer.h
- /home/mikel/workspace/ros/PacBot/PacBot/Echoes/src/Dispatcher.cpp
+ /home/mikel/workspace/ros/PacBot/Echoes/src/Dispatcher.cpp
 CMakeFiles/Echoes.dir/src/IRProcesser.cpp.o
  ../include/IRProcesser.h
  ../include/MovingAverageFilter.h
  ../include/Processer.h
  ../msg_gen/cpp/include/Echoes/IR.h
- /home/mikel/workspace/ros/PacBot/PacBot/Echoes/src/IRProcesser.cpp
+ /home/mikel/workspace/ros/PacBot/Echoes/src/IRProcesser.cpp
  /opt/ros/groovy/include/XmlRpcDecl.h
  /opt/ros/groovy/include/XmlRpcValue.h
  /opt/ros/groovy/include/ros/advertise_options.h
@@ -75,7 +75,7 @@ CMakeFiles/Echoes.dir/src/LedParser.cpp.o
  ../srv_gen/cpp/include/Echoes/BlinkingLed.h
  ../srv_gen/cpp/include/Echoes/FixedLed.h
  ../srv_gen/cpp/include/Echoes/ResetLed.h
- /home/mikel/workspace/ros/PacBot/PacBot/Echoes/src/LedParser.cpp
+ /home/mikel/workspace/ros/PacBot/Echoes/src/LedParser.cpp
  /opt/ros/groovy/include/XmlRpcDecl.h
  /opt/ros/groovy/include/XmlRpcValue.h
  /opt/ros/groovy/include/ros/advertise_options.h
@@ -132,12 +132,12 @@ CMakeFiles/Echoes.dir/src/LedParser.cpp.o
  /opt/ros/groovy/include/rosconsole/macros_generated.h
 CMakeFiles/Echoes.dir/src/Processer.cpp.o
  ../include/Processer.h
- /home/mikel/workspace/ros/PacBot/PacBot/Echoes/src/Processer.cpp
+ /home/mikel/workspace/ros/PacBot/Echoes/src/Processer.cpp
 CMakeFiles/Echoes.dir/src/RfidProcesser.cpp.o
  ../include/Processer.h
  ../include/RfidProcesser.h
  ../msg_gen/cpp/include/Echoes/Rfid.h
- /home/mikel/workspace/ros/PacBot/PacBot/Echoes/src/RfidProcesser.cpp
+ /home/mikel/workspace/ros/PacBot/Echoes/src/RfidProcesser.cpp
  /opt/ros/groovy/include/XmlRpcDecl.h
  /opt/ros/groovy/include/XmlRpcValue.h
  /opt/ros/groovy/include/ros/advertise_options.h
@@ -195,13 +195,13 @@ CMakeFiles/Echoes.dir/src/RfidProcesser.cpp.o
 CMakeFiles/Echoes.dir/src/SerialCommunication.cpp.o
  ../include/CharCircularBuffer.h
  ../include/SerialCommunication.h
- /home/mikel/workspace/ros/PacBot/PacBot/Echoes/src/SerialCommunication.cpp
+ /home/mikel/workspace/ros/PacBot/Echoes/src/SerialCommunication.cpp
 CMakeFiles/Echoes.dir/src/SonarProcesser.cpp.o
  ../include/MovingAverageFilter.h
  ../include/Processer.h
  ../include/SonarProcesser.h
  ../msg_gen/cpp/include/Echoes/Sonar.h
- /home/mikel/workspace/ros/PacBot/PacBot/Echoes/src/SonarProcesser.cpp
+ /home/mikel/workspace/ros/PacBot/Echoes/src/SonarProcesser.cpp
  /opt/ros/groovy/include/XmlRpcDecl.h
  /opt/ros/groovy/include/XmlRpcValue.h
  /opt/ros/groovy/include/ros/advertise_options.h
@@ -260,7 +260,7 @@ CMakeFiles/Echoes.dir/src/TowerProcesser.cpp.o
  ../include/Processer.h
  ../include/TowerProcesser.h
  ../msg_gen/cpp/include/Echoes/Towers.h
- /home/mikel/workspace/ros/PacBot/PacBot/Echoes/src/TowerProcesser.cpp
+ /home/mikel/workspace/ros/PacBot/Echoes/src/TowerProcesser.cpp
  /opt/ros/groovy/include/XmlRpcDecl.h
  /opt/ros/groovy/include/XmlRpcValue.h
  /opt/ros/groovy/include/ros/advertise_options.h
@@ -333,7 +333,7 @@ CMakeFiles/Echoes.dir/src/main.cpp.o
  ../srv_gen/cpp/include/Echoes/BlinkingLed.h
  ../srv_gen/cpp/include/Echoes/FixedLed.h
  ../srv_gen/cpp/include/Echoes/ResetLed.h
- /home/mikel/workspace/ros/PacBot/PacBot/Echoes/src/main.cpp
+ /home/mikel/workspace/ros/PacBot/Echoes/src/main.cpp
  /opt/ros/groovy/include/XmlRpcDecl.h
  /opt/ros/groovy/include/XmlRpcValue.h
  /opt/ros/groovy/include/ros/advertise_options.h

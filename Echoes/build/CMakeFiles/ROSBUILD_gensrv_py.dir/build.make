@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/PacBot/Echoes
+CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/Echoes
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build
+CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/Echoes/build
 
 # Utility rule file for ROSBUILD_gensrv_py.
 
@@ -50,9 +50,9 @@ CMakeFiles/ROSBUILD_gensrv_py: ../src/Echoes/srv/__init__.py
 ../src/Echoes/srv/__init__.py: ../src/Echoes/srv/_FixedLed.py
 ../src/Echoes/srv/__init__.py: ../src/Echoes/srv/_ResetLed.py
 ../src/Echoes/srv/__init__.py: ../src/Echoes/srv/_BlinkingLed.py
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Echoes/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../src/Echoes/srv/__init__.py"
-	/opt/ros/groovy/share/rospy/rosbuild/scripts/gensrv_py.py --initpy /home/mikel/workspace/ros/PacBot/PacBot/Echoes/srv/FixedLed.srv /home/mikel/workspace/ros/PacBot/PacBot/Echoes/srv/ResetLed.srv /home/mikel/workspace/ros/PacBot/PacBot/Echoes/srv/BlinkingLed.srv
+	/opt/ros/groovy/share/rospy/rosbuild/scripts/gensrv_py.py --initpy /home/mikel/workspace/ros/PacBot/Echoes/srv/FixedLed.srv /home/mikel/workspace/ros/PacBot/Echoes/srv/ResetLed.srv /home/mikel/workspace/ros/PacBot/Echoes/srv/BlinkingLed.srv
 
 ../src/Echoes/srv/_FixedLed.py: ../srv/FixedLed.srv
 ../src/Echoes/srv/_FixedLed.py: /opt/ros/groovy/share/rospy/rosbuild/scripts/gensrv_py.py
@@ -75,9 +75,9 @@ CMakeFiles/ROSBUILD_gensrv_py: ../src/Echoes/srv/__init__.py
 ../src/Echoes/srv/_FixedLed.py: /opt/ros/groovy/share/rospack/package.xml
 ../src/Echoes/srv/_FixedLed.py: /opt/ros/groovy/share/roslib/package.xml
 ../src/Echoes/srv/_FixedLed.py: /opt/ros/groovy/share/rospy/package.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Echoes/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../src/Echoes/srv/_FixedLed.py"
-	/opt/ros/groovy/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/mikel/workspace/ros/PacBot/PacBot/Echoes/srv/FixedLed.srv
+	/opt/ros/groovy/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/mikel/workspace/ros/PacBot/Echoes/srv/FixedLed.srv
 
 ../src/Echoes/srv/_ResetLed.py: ../srv/ResetLed.srv
 ../src/Echoes/srv/_ResetLed.py: /opt/ros/groovy/share/rospy/rosbuild/scripts/gensrv_py.py
@@ -100,9 +100,9 @@ CMakeFiles/ROSBUILD_gensrv_py: ../src/Echoes/srv/__init__.py
 ../src/Echoes/srv/_ResetLed.py: /opt/ros/groovy/share/rospack/package.xml
 ../src/Echoes/srv/_ResetLed.py: /opt/ros/groovy/share/roslib/package.xml
 ../src/Echoes/srv/_ResetLed.py: /opt/ros/groovy/share/rospy/package.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Echoes/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../src/Echoes/srv/_ResetLed.py"
-	/opt/ros/groovy/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/mikel/workspace/ros/PacBot/PacBot/Echoes/srv/ResetLed.srv
+	/opt/ros/groovy/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/mikel/workspace/ros/PacBot/Echoes/srv/ResetLed.srv
 
 ../src/Echoes/srv/_BlinkingLed.py: ../srv/BlinkingLed.srv
 ../src/Echoes/srv/_BlinkingLed.py: /opt/ros/groovy/share/rospy/rosbuild/scripts/gensrv_py.py
@@ -125,9 +125,9 @@ CMakeFiles/ROSBUILD_gensrv_py: ../src/Echoes/srv/__init__.py
 ../src/Echoes/srv/_BlinkingLed.py: /opt/ros/groovy/share/rospack/package.xml
 ../src/Echoes/srv/_BlinkingLed.py: /opt/ros/groovy/share/roslib/package.xml
 ../src/Echoes/srv/_BlinkingLed.py: /opt/ros/groovy/share/rospy/package.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Echoes/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../src/Echoes/srv/_BlinkingLed.py"
-	/opt/ros/groovy/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/mikel/workspace/ros/PacBot/PacBot/Echoes/srv/BlinkingLed.srv
+	/opt/ros/groovy/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/mikel/workspace/ros/PacBot/Echoes/srv/BlinkingLed.srv
 
 ROSBUILD_gensrv_py: CMakeFiles/ROSBUILD_gensrv_py
 ROSBUILD_gensrv_py: ../src/Echoes/srv/__init__.py
@@ -146,6 +146,6 @@ CMakeFiles/ROSBUILD_gensrv_py.dir/clean:
 .PHONY : CMakeFiles/ROSBUILD_gensrv_py.dir/clean
 
 CMakeFiles/ROSBUILD_gensrv_py.dir/depend:
-	cd /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/PacBot/Echoes /home/mikel/workspace/ros/PacBot/PacBot/Echoes /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build/CMakeFiles/ROSBUILD_gensrv_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mikel/workspace/ros/PacBot/Echoes/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/Echoes /home/mikel/workspace/ros/PacBot/Echoes /home/mikel/workspace/ros/PacBot/Echoes/build /home/mikel/workspace/ros/PacBot/Echoes/build /home/mikel/workspace/ros/PacBot/Echoes/build/CMakeFiles/ROSBUILD_gensrv_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROSBUILD_gensrv_py.dir/depend
 

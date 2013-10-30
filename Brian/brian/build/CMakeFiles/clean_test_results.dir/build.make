@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian
+CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/Brian/brian
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build
+CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/Brian/brian/build
 
 # Utility rule file for clean_test_results.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/cmake -E remove_directory /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/test_results
+	/usr/bin/cmake -E remove_directory /home/mikel/workspace/ros/PacBot/Brian/brian/build/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -61,6 +61,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mikel/workspace/ros/PacBot/Brian/brian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/Brian/brian /home/mikel/workspace/ros/PacBot/Brian/brian /home/mikel/workspace/ros/PacBot/Brian/brian/build /home/mikel/workspace/ros/PacBot/Brian/brian/build /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

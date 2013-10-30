@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian
+CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/Brian/brian
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build
+CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/Brian/brian/build
 
 # Include any dependencies generated for this target.
 include gtest/CMakeFiles/gtest_main.dir/depend.make
@@ -51,17 +51,17 @@ include gtest/CMakeFiles/gtest_main.dir/flags.make
 
 gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: gtest/CMakeFiles/gtest_main.dir/flags.make
 gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: /usr/src/gtest/src/gtest_main.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/brian/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
-	cd /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/gtest && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS)  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/gtest/src/gtest_main.cc
+	cd /home/mikel/workspace/ros/PacBot/Brian/brian/build/gtest && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS)  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/gtest/src/gtest_main.cc
 
 gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest_main.dir/src/gtest_main.cc.i"
-	cd /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS)  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -E /usr/src/gtest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
+	cd /home/mikel/workspace/ros/PacBot/Brian/brian/build/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS)  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -E /usr/src/gtest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
 
 gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest_main.dir/src/gtest_main.cc.s"
-	cd /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS)  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -S /usr/src/gtest/src/gtest_main.cc -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
+	cd /home/mikel/workspace/ros/PacBot/Brian/brian/build/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS)  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -S /usr/src/gtest/src/gtest_main.cc -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
 
 gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.requires:
 .PHONY : gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.requires
@@ -79,25 +79,25 @@ gtest_main_OBJECTS = \
 # External object files for target gtest_main
 gtest_main_EXTERNAL_OBJECTS =
 
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/lib/libgtest_main.so: gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/lib/libgtest_main.so: gtest/CMakeFiles/gtest_main.dir/build.make
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/lib/libgtest_main.so: /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/lib/libgtest.so
-/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/lib/libgtest_main.so: gtest/CMakeFiles/gtest_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/lib/libgtest_main.so"
-	cd /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=$(VERBOSE)
+/home/mikel/workspace/ros/PacBot/Brian/brian/lib/libgtest_main.so: gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+/home/mikel/workspace/ros/PacBot/Brian/brian/lib/libgtest_main.so: gtest/CMakeFiles/gtest_main.dir/build.make
+/home/mikel/workspace/ros/PacBot/Brian/brian/lib/libgtest_main.so: /home/mikel/workspace/ros/PacBot/Brian/brian/lib/libgtest.so
+/home/mikel/workspace/ros/PacBot/Brian/brian/lib/libgtest_main.so: gtest/CMakeFiles/gtest_main.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library /home/mikel/workspace/ros/PacBot/Brian/brian/lib/libgtest_main.so"
+	cd /home/mikel/workspace/ros/PacBot/Brian/brian/build/gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-gtest/CMakeFiles/gtest_main.dir/build: /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/lib/libgtest_main.so
+gtest/CMakeFiles/gtest_main.dir/build: /home/mikel/workspace/ros/PacBot/Brian/brian/lib/libgtest_main.so
 .PHONY : gtest/CMakeFiles/gtest_main.dir/build
 
 gtest/CMakeFiles/gtest_main.dir/requires: gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.requires
 .PHONY : gtest/CMakeFiles/gtest_main.dir/requires
 
 gtest/CMakeFiles/gtest_main.dir/clean:
-	cd /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean.cmake
+	cd /home/mikel/workspace/ros/PacBot/Brian/brian/build/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean.cmake
 .PHONY : gtest/CMakeFiles/gtest_main.dir/clean
 
 gtest/CMakeFiles/gtest_main.dir/depend:
-	cd /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian /usr/src/gtest /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/gtest /home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/build/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mikel/workspace/ros/PacBot/Brian/brian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/Brian/brian /usr/src/gtest /home/mikel/workspace/ros/PacBot/Brian/brian/build /home/mikel/workspace/ros/PacBot/Brian/brian/build/gtest /home/mikel/workspace/ros/PacBot/Brian/brian/build/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gtest/CMakeFiles/gtest_main.dir/depend
 

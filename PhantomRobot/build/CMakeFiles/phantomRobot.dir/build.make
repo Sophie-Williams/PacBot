@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot
+CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/PhantomRobot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/build
+CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/PhantomRobot/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/phantomRobot.dir/depend.make
@@ -64,17 +64,17 @@ CMakeFiles/phantomRobot.dir/src/main.cpp.o: /opt/ros/groovy/share/std_msgs/packa
 CMakeFiles/phantomRobot.dir/src/main.cpp.o: /opt/ros/groovy/share/rosgraph_msgs/package.xml
 CMakeFiles/phantomRobot.dir/src/main.cpp.o: /opt/ros/groovy/share/xmlrpcpp/package.xml
 CMakeFiles/phantomRobot.dir/src/main.cpp.o: /opt/ros/groovy/share/roscpp/package.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PhantomRobot/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/phantomRobot.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/phantomRobot.dir/src/main.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/src/main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/phantomRobot.dir/src/main.cpp.o -c /home/mikel/workspace/ros/PacBot/PhantomRobot/src/main.cpp
 
 CMakeFiles/phantomRobot.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/phantomRobot.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/src/main.cpp > CMakeFiles/phantomRobot.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PhantomRobot/src/main.cpp > CMakeFiles/phantomRobot.dir/src/main.cpp.i
 
 CMakeFiles/phantomRobot.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/phantomRobot.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/src/main.cpp -o CMakeFiles/phantomRobot.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PhantomRobot/src/main.cpp -o CMakeFiles/phantomRobot.dir/src/main.cpp.s
 
 CMakeFiles/phantomRobot.dir/src/main.cpp.o.requires:
 .PHONY : CMakeFiles/phantomRobot.dir/src/main.cpp.o.requires
@@ -100,17 +100,17 @@ CMakeFiles/phantomRobot.dir/src/BTReader.cpp.o: /opt/ros/groovy/share/std_msgs/p
 CMakeFiles/phantomRobot.dir/src/BTReader.cpp.o: /opt/ros/groovy/share/rosgraph_msgs/package.xml
 CMakeFiles/phantomRobot.dir/src/BTReader.cpp.o: /opt/ros/groovy/share/xmlrpcpp/package.xml
 CMakeFiles/phantomRobot.dir/src/BTReader.cpp.o: /opt/ros/groovy/share/roscpp/package.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PhantomRobot/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/phantomRobot.dir/src/BTReader.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/phantomRobot.dir/src/BTReader.cpp.o -c /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/src/BTReader.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/phantomRobot.dir/src/BTReader.cpp.o -c /home/mikel/workspace/ros/PacBot/PhantomRobot/src/BTReader.cpp
 
 CMakeFiles/phantomRobot.dir/src/BTReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/phantomRobot.dir/src/BTReader.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/src/BTReader.cpp > CMakeFiles/phantomRobot.dir/src/BTReader.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/mikel/workspace/ros/PacBot/PhantomRobot/src/BTReader.cpp > CMakeFiles/phantomRobot.dir/src/BTReader.cpp.i
 
 CMakeFiles/phantomRobot.dir/src/BTReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/phantomRobot.dir/src/BTReader.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/src/BTReader.cpp -o CMakeFiles/phantomRobot.dir/src/BTReader.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/mikel/workspace/ros/PacBot/PhantomRobot/src/BTReader.cpp -o CMakeFiles/phantomRobot.dir/src/BTReader.cpp.s
 
 CMakeFiles/phantomRobot.dir/src/BTReader.cpp.o.requires:
 .PHONY : CMakeFiles/phantomRobot.dir/src/BTReader.cpp.o.requires
@@ -149,6 +149,6 @@ CMakeFiles/phantomRobot.dir/clean:
 .PHONY : CMakeFiles/phantomRobot.dir/clean
 
 CMakeFiles/phantomRobot.dir/depend:
-	cd /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/build /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/build /home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/build/CMakeFiles/phantomRobot.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mikel/workspace/ros/PacBot/PhantomRobot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/PhantomRobot /home/mikel/workspace/ros/PacBot/PhantomRobot /home/mikel/workspace/ros/PacBot/PhantomRobot/build /home/mikel/workspace/ros/PacBot/PhantomRobot/build /home/mikel/workspace/ros/PacBot/PhantomRobot/build/CMakeFiles/phantomRobot.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/phantomRobot.dir/depend
 

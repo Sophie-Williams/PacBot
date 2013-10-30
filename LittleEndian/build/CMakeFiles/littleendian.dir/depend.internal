@@ -4,7 +4,7 @@
 CMakeFiles/littleendian.dir/src/LittleObject.cpp.o
  ../include/LittleObject.h
  ../include/Zone.h
- /home/mikel/workspace/ros/PacBot/PacBot/LittleEndian/src/LittleObject.cpp
+ /home/mikel/workspace/ros/PacBot/LittleEndian/src/LittleObject.cpp
  /opt/ros/groovy/include/XmlRpcDecl.h
  /opt/ros/groovy/include/XmlRpcValue.h
  /opt/ros/groovy/include/opencv2/calib3d/calib3d.hpp
@@ -90,7 +90,7 @@ CMakeFiles/littleendian.dir/src/LittleObject.cpp.o
  /opt/ros/groovy/include/std_msgs/Header.h
 CMakeFiles/littleendian.dir/src/Zone.cpp.o
  ../include/Zone.h
- /home/mikel/workspace/ros/PacBot/PacBot/LittleEndian/src/Zone.cpp
+ /home/mikel/workspace/ros/PacBot/LittleEndian/src/Zone.cpp
  /opt/ros/groovy/include/opencv2/calib3d/calib3d.hpp
  /opt/ros/groovy/include/opencv2/contrib/contrib.hpp
  /opt/ros/groovy/include/opencv2/contrib/openfabmap.hpp
@@ -121,7 +121,7 @@ CMakeFiles/littleendian.dir/src/Zone.cpp.o
 CMakeFiles/littleendian.dir/src/littleendian.cpp.o
  ../include/LittleObject.h
  ../include/Zone.h
- /home/mikel/workspace/ros/PacBot/PacBot/LittleEndian/src/littleendian.cpp
+ /home/mikel/workspace/ros/PacBot/LittleEndian/src/littleendian.cpp
  /opt/ros/groovy/include/XmlRpcDecl.h
  /opt/ros/groovy/include/XmlRpcValue.h
  /opt/ros/groovy/include/opencv2/calib3d/calib3d.hpp

@@ -3,16 +3,16 @@
 
 CMakeFiles/spykee.dir/src/PracticalSocket.cpp.o
  ../include/PracticalSocket.h
- /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/src/PracticalSocket.cpp
+ /home/mikel/workspace/ros/PacBot/SpyKee/src/PracticalSocket.cpp
 CMakeFiles/spykee.dir/src/SpykeeManager.cpp.o
  ../include/PracticalSocket.h
  ../include/SpykeeManager.h
- /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/src/SpykeeManager.cpp
+ /home/mikel/workspace/ros/PacBot/SpyKee/src/SpykeeManager.cpp
 CMakeFiles/spykee.dir/src/spykee.cpp.o
  ../include/PracticalSocket.h
  ../include/SpykeeManager.h
  ../msg_gen/cpp/include/SpyKee/Motion.h
- /home/mikel/workspace/ros/PacBot/PacBot/SpyKee/src/spykee.cpp
+ /home/mikel/workspace/ros/PacBot/SpyKee/src/spykee.cpp
  /opt/ros/groovy/include/XmlRpcDecl.h
  /opt/ros/groovy/include/XmlRpcValue.h
  /opt/ros/groovy/include/ros/advertise_options.h

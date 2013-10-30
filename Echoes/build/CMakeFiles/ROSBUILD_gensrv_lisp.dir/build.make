@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/PacBot/Echoes
+CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/Echoes
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build
+CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/Echoes/build
 
 # Utility rule file for ROSBUILD_gensrv_lisp.
 
@@ -76,9 +76,9 @@ CMakeFiles/ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package_BlinkingLed.lisp
 ../srv_gen/lisp/FixedLed.lisp: /opt/ros/groovy/share/rospack/package.xml
 ../srv_gen/lisp/FixedLed.lisp: /opt/ros/groovy/share/roslib/package.xml
 ../srv_gen/lisp/FixedLed.lisp: /opt/ros/groovy/share/rospy/package.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Echoes/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../srv_gen/lisp/FixedLed.lisp, ../srv_gen/lisp/_package.lisp, ../srv_gen/lisp/_package_FixedLed.lisp"
-	/opt/ros/groovy/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/mikel/workspace/ros/PacBot/PacBot/Echoes/srv/FixedLed.srv
+	/opt/ros/groovy/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/mikel/workspace/ros/PacBot/Echoes/srv/FixedLed.srv
 
 ../srv_gen/lisp/_package.lisp: ../srv_gen/lisp/FixedLed.lisp
 
@@ -105,9 +105,9 @@ CMakeFiles/ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package_BlinkingLed.lisp
 ../srv_gen/lisp/ResetLed.lisp: /opt/ros/groovy/share/rospack/package.xml
 ../srv_gen/lisp/ResetLed.lisp: /opt/ros/groovy/share/roslib/package.xml
 ../srv_gen/lisp/ResetLed.lisp: /opt/ros/groovy/share/rospy/package.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Echoes/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../srv_gen/lisp/ResetLed.lisp, ../srv_gen/lisp/_package.lisp, ../srv_gen/lisp/_package_ResetLed.lisp"
-	/opt/ros/groovy/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/mikel/workspace/ros/PacBot/PacBot/Echoes/srv/ResetLed.srv
+	/opt/ros/groovy/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/mikel/workspace/ros/PacBot/Echoes/srv/ResetLed.srv
 
 ../srv_gen/lisp/_package.lisp: ../srv_gen/lisp/ResetLed.lisp
 
@@ -134,9 +134,9 @@ CMakeFiles/ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package_BlinkingLed.lisp
 ../srv_gen/lisp/BlinkingLed.lisp: /opt/ros/groovy/share/rospack/package.xml
 ../srv_gen/lisp/BlinkingLed.lisp: /opt/ros/groovy/share/roslib/package.xml
 ../srv_gen/lisp/BlinkingLed.lisp: /opt/ros/groovy/share/rospy/package.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Echoes/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../srv_gen/lisp/BlinkingLed.lisp, ../srv_gen/lisp/_package.lisp, ../srv_gen/lisp/_package_BlinkingLed.lisp"
-	/opt/ros/groovy/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/mikel/workspace/ros/PacBot/PacBot/Echoes/srv/BlinkingLed.srv
+	/opt/ros/groovy/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/mikel/workspace/ros/PacBot/Echoes/srv/BlinkingLed.srv
 
 ../srv_gen/lisp/_package.lisp: ../srv_gen/lisp/BlinkingLed.lisp
 
@@ -164,6 +164,6 @@ CMakeFiles/ROSBUILD_gensrv_lisp.dir/clean:
 .PHONY : CMakeFiles/ROSBUILD_gensrv_lisp.dir/clean
 
 CMakeFiles/ROSBUILD_gensrv_lisp.dir/depend:
-	cd /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/PacBot/Echoes /home/mikel/workspace/ros/PacBot/PacBot/Echoes /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build/CMakeFiles/ROSBUILD_gensrv_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mikel/workspace/ros/PacBot/Echoes/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/Echoes /home/mikel/workspace/ros/PacBot/Echoes /home/mikel/workspace/ros/PacBot/Echoes/build /home/mikel/workspace/ros/PacBot/Echoes/build /home/mikel/workspace/ros/PacBot/Echoes/build/CMakeFiles/ROSBUILD_gensrv_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROSBUILD_gensrv_lisp.dir/depend
 

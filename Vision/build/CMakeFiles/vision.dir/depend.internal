@@ -4,11 +4,11 @@
 CMakeFiles/vision.dir/src/Blob.cpp.o
  ../include/Blob.h
  ../include/Receptor.h
- /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/Blob.cpp
+ /home/mikel/workspace/ros/PacBot/Vision/src/Blob.cpp
 CMakeFiles/vision.dir/src/BlobBuffer.cpp.o
  ../include/BlobBuffer.h
  ../include/BlobInfo.h
- /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/BlobBuffer.cpp
+ /home/mikel/workspace/ros/PacBot/Vision/src/BlobBuffer.cpp
  /opt/ros/groovy/include/opencv2/calib3d/calib3d.hpp
  /opt/ros/groovy/include/opencv2/contrib/contrib.hpp
  /opt/ros/groovy/include/opencv2/contrib/openfabmap.hpp
@@ -39,14 +39,14 @@ CMakeFiles/vision.dir/src/BlobBuffer.cpp.o
 CMakeFiles/vision.dir/src/ColorClassifier.cpp.o
  ../include/ColorClassifier.h
  ../include/ColorDataset.h
- /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/ColorClassifier.cpp
- /home/mikel/workspace/ros/PacBot/PacBot/ann/include/ANN/ANN.h
+ /home/mikel/workspace/ros/PacBot/Vision/src/ColorClassifier.cpp
+ /home/mikel/workspace/ros/PacBot/ann/include/ANN/ANN.h
 CMakeFiles/vision.dir/src/ColorDataset.cpp.o
  ../include/ColorDataset.h
- /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/ColorDataset.cpp
+ /home/mikel/workspace/ros/PacBot/Vision/src/ColorDataset.cpp
 CMakeFiles/vision.dir/src/DistanceCalculator.cpp.o
  ../include/DistanceCalculator.h
- /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/DistanceCalculator.cpp
+ /home/mikel/workspace/ros/PacBot/Vision/src/DistanceCalculator.cpp
 CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.o
  ../include/Blob.h
  ../include/BlobBuffer.h
@@ -59,8 +59,8 @@ CMakeFiles/vision.dir/src/ImageAnalyzer.cpp.o
  ../include/PixelMap.h
  ../include/Receptor.h
  ../msg_gen/cpp/include/Vision/Results.h
- /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/ImageAnalyzer.cpp
- /home/mikel/workspace/ros/PacBot/PacBot/ann/include/ANN/ANN.h
+ /home/mikel/workspace/ros/PacBot/Vision/src/ImageAnalyzer.cpp
+ /home/mikel/workspace/ros/PacBot/ann/include/ANN/ANN.h
  /opt/ros/groovy/include/opencv2/calib3d/calib3d.hpp
  /opt/ros/groovy/include/opencv2/contrib/contrib.hpp
  /opt/ros/groovy/include/opencv2/contrib/openfabmap.hpp
@@ -112,11 +112,11 @@ CMakeFiles/vision.dir/src/PixelMap.cpp.o
  ../include/ColorDataset.h
  ../include/PixelMap.h
  ../include/Receptor.h
- /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/PixelMap.cpp
- /home/mikel/workspace/ros/PacBot/PacBot/ann/include/ANN/ANN.h
+ /home/mikel/workspace/ros/PacBot/Vision/src/PixelMap.cpp
+ /home/mikel/workspace/ros/PacBot/ann/include/ANN/ANN.h
 CMakeFiles/vision.dir/src/Receptor.cpp.o
  ../include/Receptor.h
- /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/Receptor.cpp
+ /home/mikel/workspace/ros/PacBot/Vision/src/Receptor.cpp
 CMakeFiles/vision.dir/src/VisionParameters.cpp.o
  ../include/Blob.h
  ../include/BlobBuffer.h
@@ -130,8 +130,8 @@ CMakeFiles/vision.dir/src/VisionParameters.cpp.o
  ../include/Receptor.h
  ../include/VisionParameters.h
  ../msg_gen/cpp/include/Vision/Results.h
- /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/VisionParameters.cpp
- /home/mikel/workspace/ros/PacBot/PacBot/ann/include/ANN/ANN.h
+ /home/mikel/workspace/ros/PacBot/Vision/src/VisionParameters.cpp
+ /home/mikel/workspace/ros/PacBot/ann/include/ANN/ANN.h
  /opt/ros/groovy/include/opencv2/calib3d/calib3d.hpp
  /opt/ros/groovy/include/opencv2/contrib/contrib.hpp
  /opt/ros/groovy/include/opencv2/contrib/openfabmap.hpp
@@ -191,8 +191,8 @@ CMakeFiles/vision.dir/src/main.cpp.o
  ../include/Receptor.h
  ../include/VisionParameters.h
  ../msg_gen/cpp/include/Vision/Results.h
- /home/mikel/workspace/ros/PacBot/PacBot/Vision/src/main.cpp
- /home/mikel/workspace/ros/PacBot/PacBot/ann/include/ANN/ANN.h
+ /home/mikel/workspace/ros/PacBot/Vision/src/main.cpp
+ /home/mikel/workspace/ros/PacBot/ann/include/ANN/ANN.h
  /opt/ros/groovy/include/XmlRpcDecl.h
  /opt/ros/groovy/include/XmlRpcValue.h
  /opt/ros/groovy/include/opencv2/calib3d/calib3d.hpp

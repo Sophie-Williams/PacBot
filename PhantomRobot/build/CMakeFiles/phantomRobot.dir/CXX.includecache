@@ -44,13 +44,25 @@ ros/macros.h
 ros/assert.h
 ../msg_gen/cpp/include/PhantomRobot/ros/assert.h
 
-/home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/src/main.cpp
+/home/mikel/workspace/ros/PacBot/PhantomRobot/src/BTReader.cpp
 BTReader.h
-/home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/src/BTReader.h
+/home/mikel/workspace/ros/PacBot/PhantomRobot/src/BTReader.h
+sstream
+-
+errno.h
+-
+iostream
+-
+stdio.h
+-
+
+/home/mikel/workspace/ros/PacBot/PhantomRobot/src/main.cpp
+BTReader.h
+/home/mikel/workspace/ros/PacBot/PhantomRobot/src/BTReader.h
 ros/ros.h
-/home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/src/ros/ros.h
+/home/mikel/workspace/ros/PacBot/PhantomRobot/src/ros/ros.h
 PhantomRobot/PhantomMsg.h
-/home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/src/PhantomRobot/PhantomMsg.h
+/home/mikel/workspace/ros/PacBot/PhantomRobot/src/PhantomRobot/PhantomMsg.h
 
 /opt/ros/groovy/include/XmlRpcDecl.h
 ros/macros.h

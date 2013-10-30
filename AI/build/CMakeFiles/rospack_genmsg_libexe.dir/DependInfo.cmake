@@ -10,14 +10,14 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
   "../include"
-  "/home/mikel/workspace/ros/PacBot/PacBot/Brian/brian/include"
-  "/home/mikel/workspace/ros/PacBot/PacBot/Brian/fuzzy/include"
-  "/home/mikel/workspace/ros/PacBot/PacBot/Echoes/msg_gen/cpp/include"
-  "/home/mikel/workspace/ros/PacBot/PacBot/Echoes/srv_gen/cpp/include"
-  "/home/mikel/workspace/ros/PacBot/PacBot/SpyKee/msg_gen/cpp/include"
-  "/home/mikel/workspace/ros/PacBot/PacBot/Vision/msg_gen/cpp/include"
-  "/home/mikel/workspace/ros/PacBot/PacBot/ann/include"
-  "/home/mikel/workspace/ros/PacBot/PacBot/PhantomRobot/msg_gen/cpp/include"
+  "/home/mikel/workspace/ros/PacBot/Brian/brian/include"
+  "/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include"
+  "/home/mikel/workspace/ros/PacBot/Echoes/msg_gen/cpp/include"
+  "/home/mikel/workspace/ros/PacBot/Echoes/srv_gen/cpp/include"
+  "/home/mikel/workspace/ros/PacBot/SpyKee/msg_gen/cpp/include"
+  "/home/mikel/workspace/ros/PacBot/Vision/msg_gen/cpp/include"
+  "/home/mikel/workspace/ros/PacBot/ann/include"
+  "/home/mikel/workspace/ros/PacBot/PhantomRobot/msg_gen/cpp/include"
   "/opt/ros/groovy/include"
   "/opt/ros/groovy/include/opencv"
   )

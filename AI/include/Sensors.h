@@ -34,6 +34,7 @@ class Sensors
 		int ghostDistance;
 		int ghostBlobHeight;
 		int ghostBlobWidth;
+		int timeToEscapeGhost;
 		int horizon;
 		clock_t startEscapingFromGhost;
 		clock_t newRFIDPriority;

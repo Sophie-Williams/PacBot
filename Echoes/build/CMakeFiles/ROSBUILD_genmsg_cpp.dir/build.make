@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/PacBot/Echoes
+CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/Echoes
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build
+CMAKE_BINARY_DIR = /home/mikel/workspace/ros/PacBot/Echoes/build
 
 # Utility rule file for ROSBUILD_genmsg_cpp.
 
@@ -71,9 +71,9 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/Echoes/Sonar.h
 ../msg_gen/cpp/include/Echoes/Rfid.h: /opt/ros/groovy/share/rospack/package.xml
 ../msg_gen/cpp/include/Echoes/Rfid.h: /opt/ros/groovy/share/roslib/package.xml
 ../msg_gen/cpp/include/Echoes/Rfid.h: /opt/ros/groovy/share/rospy/package.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Echoes/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/Echoes/Rfid.h"
-	/opt/ros/groovy/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/mikel/workspace/ros/PacBot/PacBot/Echoes/msg/Rfid.msg
+	/opt/ros/groovy/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/mikel/workspace/ros/PacBot/Echoes/msg/Rfid.msg
 
 ../msg_gen/cpp/include/Echoes/IR.h: ../msg/IR.msg
 ../msg_gen/cpp/include/Echoes/IR.h: /opt/ros/groovy/share/roscpp/rosbuild/scripts/genmsg_cpp.py
@@ -96,9 +96,9 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/Echoes/Sonar.h
 ../msg_gen/cpp/include/Echoes/IR.h: /opt/ros/groovy/share/rospack/package.xml
 ../msg_gen/cpp/include/Echoes/IR.h: /opt/ros/groovy/share/roslib/package.xml
 ../msg_gen/cpp/include/Echoes/IR.h: /opt/ros/groovy/share/rospy/package.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Echoes/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/Echoes/IR.h"
-	/opt/ros/groovy/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/mikel/workspace/ros/PacBot/PacBot/Echoes/msg/IR.msg
+	/opt/ros/groovy/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/mikel/workspace/ros/PacBot/Echoes/msg/IR.msg
 
 ../msg_gen/cpp/include/Echoes/Towers.h: ../msg/Towers.msg
 ../msg_gen/cpp/include/Echoes/Towers.h: /opt/ros/groovy/share/roscpp/rosbuild/scripts/genmsg_cpp.py
@@ -121,9 +121,9 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/Echoes/Sonar.h
 ../msg_gen/cpp/include/Echoes/Towers.h: /opt/ros/groovy/share/rospack/package.xml
 ../msg_gen/cpp/include/Echoes/Towers.h: /opt/ros/groovy/share/roslib/package.xml
 ../msg_gen/cpp/include/Echoes/Towers.h: /opt/ros/groovy/share/rospy/package.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Echoes/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/Echoes/Towers.h"
-	/opt/ros/groovy/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/mikel/workspace/ros/PacBot/PacBot/Echoes/msg/Towers.msg
+	/opt/ros/groovy/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/mikel/workspace/ros/PacBot/Echoes/msg/Towers.msg
 
 ../msg_gen/cpp/include/Echoes/Sonar.h: ../msg/Sonar.msg
 ../msg_gen/cpp/include/Echoes/Sonar.h: /opt/ros/groovy/share/roscpp/rosbuild/scripts/genmsg_cpp.py
@@ -146,9 +146,9 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/Echoes/Sonar.h
 ../msg_gen/cpp/include/Echoes/Sonar.h: /opt/ros/groovy/share/rospack/package.xml
 ../msg_gen/cpp/include/Echoes/Sonar.h: /opt/ros/groovy/share/roslib/package.xml
 ../msg_gen/cpp/include/Echoes/Sonar.h: /opt/ros/groovy/share/rospy/package.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Echoes/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/Echoes/Sonar.h"
-	/opt/ros/groovy/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/mikel/workspace/ros/PacBot/PacBot/Echoes/msg/Sonar.msg
+	/opt/ros/groovy/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/mikel/workspace/ros/PacBot/Echoes/msg/Sonar.msg
 
 ROSBUILD_genmsg_cpp: CMakeFiles/ROSBUILD_genmsg_cpp
 ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/Echoes/Rfid.h
@@ -167,6 +167,6 @@ CMakeFiles/ROSBUILD_genmsg_cpp.dir/clean:
 .PHONY : CMakeFiles/ROSBUILD_genmsg_cpp.dir/clean
 
 CMakeFiles/ROSBUILD_genmsg_cpp.dir/depend:
-	cd /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/PacBot/Echoes /home/mikel/workspace/ros/PacBot/PacBot/Echoes /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build /home/mikel/workspace/ros/PacBot/PacBot/Echoes/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mikel/workspace/ros/PacBot/Echoes/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/ros/PacBot/Echoes /home/mikel/workspace/ros/PacBot/Echoes /home/mikel/workspace/ros/PacBot/Echoes/build /home/mikel/workspace/ros/PacBot/Echoes/build /home/mikel/workspace/ros/PacBot/Echoes/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROSBUILD_genmsg_cpp.dir/depend
 
