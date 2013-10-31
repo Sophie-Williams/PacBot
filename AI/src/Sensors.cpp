@@ -144,14 +144,15 @@ int Sensors::calculateRFIDPriority(int priority)
 void Sensors::updateHorizon(int rotSpeed)
 {
 	horizon += rotSpeed;
+	horizon %= 160;
 	cout << "Horizon: " << horizon << endl;
 }
 
 int Sensors::getHorizon()
 {
-	//TODO return horizon mod something
 	return horizon;
 }
+
 int Sensors::getRFIDPriority()
 {
 	if (100 * (clock() - newRFIDPriority) / (double)CLOCKS_PER_SEC > 1)

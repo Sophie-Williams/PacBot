@@ -60,6 +60,12 @@ void BrianParser::askBrian()
 		cdl->add(new crisp_data("Priority", RIGHT, reliability));
 
 	cdl->add(new crisp_data("EscapingFromGhost", sensor.isEscapingFromGhost() == true ? 1 : 0, reliability));
+
+	if (sensor.isEscapingFromGhost())
+	{
+		cout << "Escaping\n";
+	}
+
 	brian->run();
 	//brian->debug();
 	crisp_data_list::iterator i;
@@ -100,13 +106,11 @@ void BrianParser::brianAnswer()
 
 				if (blockedTime > 50)
 					rotSpeed = randomValue > 0 ? 1 : -1;
-				if (tanSpeed == 0)
-					sensor.updateHorizon(rotSpeed);
 			}
 			else if (temp.compare("Debug") == 0)
 			{
 				int debug = i->second->get_set_point();
-				//cout << "Debug: " << debug << endl;
+				cout << "Debug: " << debug << endl;
 			}
 		}
 	}

@@ -55,7 +55,7 @@ void PacDotRep::loadStrategy()
 		else if (token3 == "AHEAD")
 			priority = AHEAD;
 		else priority = BACKWARDS;
-		PacDot pacDot(token1, isBigDot, priority);
+		PacDot pacDot((i + 1), token1, isBigDot, priority);
 		pacDotMap.insert(std::pair<PacDot, bool>(pacDot, false));
 	}
 	rfidCardsFH.close();

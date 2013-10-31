@@ -9,11 +9,13 @@
 
 PacDot::PacDot()
 {
+	this->number = 0;
 	this->rfidCode = "";
 	this->bigDot = false;
 	this->priority = AHEAD;
 }
-PacDot::PacDot(string rfidCode, bool bigDot, Priority priority) {
+PacDot::PacDot(int number, string rfidCode, bool bigDot, Priority priority) {
+	this->number = number;
 	this->rfidCode = rfidCode;
 	this->bigDot = bigDot;
 	this->priority = priority;
