@@ -17,6 +17,7 @@ Sensors::Sensors(GameControl& gameControl) : gameControl(gameControl)
 	horizon = 0;
 	timeToEscapeGhost = 0;
 	rfidPriority = 0;
+	oldRFIDNumber = 0;
 }
 
 void Sensors::sonarCallBack(const Echoes::Sonar& msg)
@@ -93,11 +94,14 @@ void Sensors::rfidCallBack(const Echoes::Rfid& msg)
 	rfidPriority = gameControl.getPriority(rfid);
 	if (gameControl.finishedPacDots())
 		std::cout << "Finished Pac Dots." << std::endl;
+
+	//Set the horizon
+	this->setHorizon(oldRFIDNumber, gameControl.getNumber(rfid));
+	oldRFIDNumber = gameControl.getNumber(rfid);
 }
 
 int Sensors::calculateRFIDPriority(int priority)
 {
-	int horizon = this->getHorizon();
 	if (horizon == NORTH)
 	{
 		if (priority == LEFT)
@@ -141,16 +145,56 @@ int Sensors::calculateRFIDPriority(int priority)
 	else return AHEAD;
 }
 
-void Sensors::updateHorizon(int rotSpeed)
+void Sensors::setHorizon(int oldNumber, int newNumber)
 {
-	horizon += rotSpeed;
-	horizon %= 160;
-	cout << "Horizon: " << horizon << endl;
-}
-
-int Sensors::getHorizon()
-{
-	return horizon;
+	if (newNumber == oldNumber + 1)
+	{
+		horizon = EAST;
+	}
+	else if (newNumber == oldNumber - 1)
+	{
+		horizon = WEST;
+	}
+	else if (newNumber == 6 && oldNumber == 2)
+	{
+		horizon = WEST;
+	}
+	else if (newNumber == 3 && oldNumber == 1)
+	{
+		horizon = EAST;
+	}
+	else if (newNumber == 2 && oldNumber == 6)
+	{
+		horizon = WEST;
+	}
+	else if (newNumber == 1 && oldNumber == 3)
+	{
+		horizon = EAST;
+	}
+	else if (newNumber == 7 && oldNumber == 11)
+	{
+		horizon = EAST;
+	}
+	else if (newNumber == 11 && oldNumber == 7)
+	{
+		horizon = EAST;
+	}
+	else if (newNumber == 12 && oldNumber == 10)
+	{
+		horizon = WEST;
+	}
+	else if (newNumber == 10 && oldNumber == 12)
+	{
+		horizon = WEST;
+	}
+	else if (newNumber == oldNumber + 3 || newNumber == oldNumber + 4)
+	{
+		horizon = SOUTH;
+	}
+	else if (newNumber == oldNumber - 3 || newNumber == oldNumber - 4)
+	{
+		horizon = NORTH;
+	}
 }
 
 int Sensors::getRFIDPriority()

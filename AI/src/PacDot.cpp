@@ -35,6 +35,11 @@ Priority PacDot::getPriority() const
 {
 	return priority;
 }
+
+int PacDot::getNumber() const
+{
+	return number;
+}
 //this operator needs to be implemented but cards are never compared
 bool PacDot::operator<(const PacDot & p1) const
 {

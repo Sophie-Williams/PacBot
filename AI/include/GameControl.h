@@ -22,6 +22,7 @@ public:
 	bool isEaten(string rfidCode);
 	bool finishedPacDots();
 	int getPriority(string rfidCode);
+	int getNumber(string rfidCode);
 	void loadStrategy();
 
 private:

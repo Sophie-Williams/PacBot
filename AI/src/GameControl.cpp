@@ -61,6 +61,9 @@ int GameControl::getPriority(string rfidCode)
 	case AHEAD:
 		return 0;
 		break;
+	case BACKWARDS:
+		return 5;
+		break;
 	default:
 		return 0;
 		break;
@@ -70,4 +73,9 @@ int GameControl::getPriority(string rfidCode)
 void GameControl::loadStrategy()
 {
 	this->pacDotRep.loadStrategy();
+}
+
+int GameControl::getNumber(string rfidCode)
+{
+	return (pacDotRep.getPacDot(rfidCode)).getNumber();
 }

@@ -76,6 +76,24 @@ GameControl.h
 BrianParser.h
 /home/mikel/workspace/ros/PacBot/AI/src/BrianParser.h
 
+/home/mikel/workspace/ros/PacBot/AI/src/GameControl.cpp
+GameControl.h
+/home/mikel/workspace/ros/PacBot/AI/src/GameControl.h
+
+/home/mikel/workspace/ros/PacBot/AI/src/PacDot.cpp
+PacDot.h
+/home/mikel/workspace/ros/PacBot/AI/src/PacDot.h
+
+/home/mikel/workspace/ros/PacBot/AI/src/PacDotRep.cpp
+PacDotRep.h
+/home/mikel/workspace/ros/PacBot/AI/src/PacDotRep.h
+
+/home/mikel/workspace/ros/PacBot/AI/src/Sensors.cpp
+Sensors.h
+/home/mikel/workspace/ros/PacBot/AI/src/Sensors.h
+stdio.h
+-
+
 /home/mikel/workspace/ros/PacBot/AI/src/main.cpp
 stdio.h
 -

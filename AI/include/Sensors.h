@@ -29,6 +29,7 @@ class Sensors
 		bool contact;
 		GameControl gameControl;
 		int rfidPriority;
+		int oldRFIDNumber;
 		bool ghostFound;
 		int ghostPos;
 		int ghostDistance;
@@ -39,7 +40,7 @@ class Sensors
 		clock_t startEscapingFromGhost;
 		clock_t newRFIDPriority;
 		int calculateRFIDPriority(int priority);
-		int getHorizon();
+		void setHorizon(int oldNumber, int newNumber);
 
 	public:
 		Sensors(GameControl& gameControl);
@@ -54,7 +55,6 @@ class Sensors
 		bool getContact();
 		int getRFIDPriority();
 		bool isEscapingFromGhost();
-		void updateHorizon(int rotSpeed);
 		bool isGhostFound();
 		int getGhostBlobHeight();
 };

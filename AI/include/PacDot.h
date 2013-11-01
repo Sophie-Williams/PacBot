@@ -20,6 +20,7 @@ public:
 	bool isBigDot() const;
 	string getRfidCode() const; //Pacdot becomes const when put in the map
 	Priority getPriority() const;
+	int getNumber() const;
 	bool operator<(const PacDot & p1) const;
 private:
 	int number;
