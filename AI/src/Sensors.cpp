@@ -84,8 +84,7 @@ void Sensors::rfidCallBack(const Echoes::Rfid& msg)
 
 	if (gameControl.isEaten(rfid))
 	{
-		std::cout << "already eaten." << std::endl;
-		return;
+		std::cout << rfid << " already eaten." << std::endl;
 	}
 	else
 		gameControl.eatPacDot(rfid);
