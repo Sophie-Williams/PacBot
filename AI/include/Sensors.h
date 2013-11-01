@@ -30,6 +30,7 @@ class Sensors
 		GameControl gameControl;
 		int rfidPriority;
 		int oldRFIDNumber;
+		int newRFIDNumber;
 		bool ghostFound;
 		int ghostPos;
 		int ghostDistance;

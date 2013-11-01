@@ -1,7 +1,8 @@
 #include "Sensors.h"
 #include <stdio.h>
 
-Sensors::Sensors(GameControl& gameControl) : gameControl(gameControl)
+Sensors::Sensors(GameControl& gameControl) :
+		gameControl(gameControl)
 {
 	for (int i = 0; i < 4; i++)
 	{
@@ -18,6 +19,7 @@ Sensors::Sensors(GameControl& gameControl) : gameControl(gameControl)
 	timeToEscapeGhost = 0;
 	rfidPriority = 0;
 	oldRFIDNumber = 0;
+	newRFIDNumber = 0;
 }
 
 void Sensors::sonarCallBack(const Echoes::Sonar& msg)
@@ -95,8 +97,10 @@ void Sensors::rfidCallBack(const Echoes::Rfid& msg)
 		std::cout << "Finished Pac Dots." << std::endl;
 
 	//Set the horizon
-	this->setHorizon(oldRFIDNumber, gameControl.getNumber(rfid));
-	oldRFIDNumber = gameControl.getNumber(rfid);
+	newRFIDNumber = gameControl.getNumber(rfid);
+	this->setHorizon(oldRFIDNumber, newRFIDNumber);
+	if (oldRFIDNumber != newRFIDNumber)
+		oldRFIDNumber = gameControl.getNumber(rfid);
 }
 
 int Sensors::calculateRFIDPriority(int priority)
@@ -111,7 +115,8 @@ int Sensors::calculateRFIDPriority(int priority)
 			return RIGHT;
 		else if (priority == BACKWARDS)
 			return LEFT;
-		else return AHEAD;
+		else
+			return AHEAD;
 	}
 	else if (horizon == SOUTH)
 	{
@@ -123,7 +128,8 @@ int Sensors::calculateRFIDPriority(int priority)
 			return LEFT;
 		else if (priority == BACKWARDS)
 			return RIGHT;
-		else return AHEAD;
+		else
+			return AHEAD;
 	}
 	else if (horizon == EAST)
 	{
@@ -139,9 +145,11 @@ int Sensors::calculateRFIDPriority(int priority)
 			return BACKWARDS;
 		else if (priority == BACKWARDS)
 			return AHEAD;
-		else return AHEAD;
+		else
+			return AHEAD;
 	}
-	else return AHEAD;
+	else
+		return AHEAD;
 }
 
 void Sensors::setHorizon(int oldNumber, int newNumber)
@@ -198,7 +206,7 @@ void Sensors::setHorizon(int oldNumber, int newNumber)
 
 int Sensors::getRFIDPriority()
 {
-	if (100 * (clock() - newRFIDPriority) / (double)CLOCKS_PER_SEC > 1)
+	if (100 * (clock() - newRFIDPriority) / (double) CLOCKS_PER_SEC > 1)
 		return 0;
 	return this->calculateRFIDPriority(this->rfidPriority);
 }
@@ -215,7 +223,9 @@ int Sensors::getGhostBlobHeight()
 
 bool Sensors::isEscapingFromGhost()
 {
-	double durationOfEscape = 100 * (clock() - startEscapingFromGhost) / (double)CLOCKS_PER_SEC;
-	if (durationOfEscape > timeToEscapeGhost) return false;
+	double durationOfEscape = 100 * (clock() - startEscapingFromGhost)
+			/ (double) CLOCKS_PER_SEC;
+	if (durationOfEscape > timeToEscapeGhost)
+		return false;
 	return true;
 }
