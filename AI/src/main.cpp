@@ -33,10 +33,10 @@ int main(int argc, char** argv)
 		msg.tanSpeed = parser.getTanSpeed();
 		msg.rotSpeed = parser.getRotSpeed();
 
-		ROS_INFO("tanSpeed: %d, rotSpeed: %d", msg.tanSpeed, msg.rotSpeed);
+		//ROS_INFO("tanSpeed: %d, rotSpeed: %d", msg.tanSpeed, msg.rotSpeed);
 
-		//msg.tanSpeed = 0;
-		//msg.rotSpeed = 0;
+		msg.tanSpeed = 0;
+		msg.rotSpeed = 0;
 		if (sensor.getContact())
 		{
 			if (gameControl.isSuperMode())

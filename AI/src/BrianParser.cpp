@@ -61,10 +61,10 @@ void BrianParser::askBrian()
 
 	cdl->add(new crisp_data("EscapingFromGhost", sensor.isEscapingFromGhost() == true ? 1 : 0, reliability));
 
-	if (sensor.isEscapingFromGhost())
+	/*if (sensor.isEscapingFromGhost())
 	{
 		cout << "Escaping\n";
-	}
+	}*/
 
 	brian->run();
 	//brian->debug();
@@ -110,7 +110,7 @@ void BrianParser::brianAnswer()
 			else if (temp.compare("Debug") == 0)
 			{
 				int debug = i->second->get_set_point();
-				cout << "Debug: " << debug << endl;
+				//cout << "Debug: " << debug << endl;
 			}
 		}
 	}

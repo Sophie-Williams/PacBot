@@ -34,6 +34,7 @@ void PacDotRep::loadStrategy()
 
 	rfidCardsFH.open(filename.c_str());
 
+	string token0;
 	string token1;
 	string token2;
 	string token3;
@@ -42,10 +43,12 @@ void PacDotRep::loadStrategy()
 	rfidCardsFH >> size;
 	for (int i = 0; i < size; i++)
 	{
+		rfidCardsFH >> token0;
 		rfidCardsFH >> token1;
 		rfidCardsFH >> token2;
 		rfidCardsFH >> token3;
 
+		int cardNumber = atoi(token0.c_str());
 		bool isBigDot = token2 == "true" ? true : false;
 		Priority priority;
 		if (token3 == "RIGHT")
@@ -55,10 +58,19 @@ void PacDotRep::loadStrategy()
 		else if (token3 == "AHEAD")
 			priority = AHEAD;
 		else priority = BACKWARDS;
-		PacDot pacDot((i + 1), token1, isBigDot, priority);
+		PacDot pacDot(cardNumber, token1, isBigDot, priority);
 		pacDotMap.insert(std::pair<PacDot, bool>(pacDot, false));
 	}
 	rfidCardsFH.close();
+}
+
+void PacDotRep::printMap()
+{
+	std::map<PacDot, bool>::iterator it;
+	for (it = this->pacDotMap.begin(); it != this->pacDotMap.end(); ++it)
+	{
+		cout << (it->first).getRfidCode() << endl;
+	}
 }
 
 std::map<PacDot, bool> PacDotRep::getMap()

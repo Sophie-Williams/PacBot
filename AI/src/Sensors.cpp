@@ -162,43 +162,43 @@ void Sensors::setHorizon(int oldNumber, int newNumber)
 	{
 		horizon = WEST;
 	}
-	else if (newNumber == 6 && oldNumber == 2)
+	else if (newNumber == 5 && oldNumber == 2)
 	{
 		horizon = WEST;
 	}
-	else if (newNumber == 3 && oldNumber == 1)
-	{
-		horizon = EAST;
-	}
-	else if (newNumber == 2 && oldNumber == 6)
+	else if (newNumber == 2 && oldNumber == 5)
 	{
 		horizon = WEST;
 	}
 	else if (newNumber == 1 && oldNumber == 3)
 	{
-		horizon = EAST;
+		horizon = SOUTH;
 	}
-	else if (newNumber == 7 && oldNumber == 11)
+	else if (newNumber == 3 && oldNumber == 1)
 	{
 		horizon = EAST;
 	}
-	else if (newNumber == 11 && oldNumber == 7)
+	else if (newNumber == 6 && oldNumber == 9)
+	{
+		horizon = NORTH;
+	}
+	else if (newNumber == 9 && oldNumber == 6)
 	{
 		horizon = EAST;
 	}
-	else if (newNumber == 12 && oldNumber == 10)
+	else if (newNumber == 8 && oldNumber == 10)
 	{
 		horizon = WEST;
 	}
-	else if (newNumber == 10 && oldNumber == 12)
+	else if (newNumber == 10 && oldNumber == 8)
 	{
 		horizon = WEST;
 	}
-	else if (newNumber == oldNumber + 3 || newNumber == oldNumber + 4)
+	else if (newNumber == oldNumber + 3 || newNumber == oldNumber + 2)
 	{
 		horizon = SOUTH;
 	}
-	else if (newNumber == oldNumber - 3 || newNumber == oldNumber - 4)
+	else if (newNumber == oldNumber - 3 || newNumber == oldNumber - 2)
 	{
 		horizon = NORTH;
 	}

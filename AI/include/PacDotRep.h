@@ -27,6 +27,7 @@ public:
 	~PacDotRep();
 private:
 	std::map<PacDot, bool> pacDotMap;
+	void printMap();
 
 };
 
