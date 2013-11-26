@@ -21,7 +21,7 @@ public:
 	bool isSuperMode();
 	bool isEaten(string rfidCode);
 	bool finishedPacDots();
-	int getPriority(string rfidCode);
+	Priority getPriority(string rfidCode);
 	int getNumber(string rfidCode);
 	void loadStrategy();
 

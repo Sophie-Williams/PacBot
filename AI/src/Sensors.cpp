@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 Sensors::Sensors(GameControl& gameControl) :
-		gameControl(gameControl)
+gameControl(gameControl)
 {
 	for (int i = 0; i < 4; i++)
 	{
@@ -17,7 +17,7 @@ Sensors::Sensors(GameControl& gameControl) :
 	ghostBlobHeight = 0;
 	horizon = 0;
 	timeToEscapeGhost = 0;
-	rfidPriority = 0;
+	rfidPriority = AHEAD;
 	oldRFIDNumber = 0;
 	newRFIDNumber = 0;
 }
@@ -103,7 +103,7 @@ void Sensors::rfidCallBack(const Echoes::Rfid& msg)
 		oldRFIDNumber = gameControl.getNumber(rfid);
 }
 
-int Sensors::calculateRFIDPriority(int priority)
+Priority Sensors::calculateRFIDPriority(Priority priority)
 {
 	if (horizon == NORTH)
 	{
@@ -208,7 +208,27 @@ int Sensors::getRFIDPriority()
 {
 	if (100 * (clock() - newRFIDPriority) / (double) CLOCKS_PER_SEC > 1)
 		return 0;
-	return this->calculateRFIDPriority(this->rfidPriority);
+	else if (100 * (clock() - startEscapingFromGhost) / (double) CLOCKS_PER_SEC < 20)
+		return 0;
+	Priority priorityToReturn = this->calculateRFIDPriority(this->rfidPriority);
+	switch (priorityToReturn)
+	{
+	case LEFT:
+		return -1;
+		break;
+	case RIGHT:
+		return 1;
+		break;
+	case AHEAD:
+		return 0;
+		break;
+	case BACKWARDS:
+		return 5;
+		break;
+	default:
+		return 0;
+		break;
+	}
 }
 
 bool Sensors::isGhostFound()
@@ -224,7 +244,7 @@ int Sensors::getGhostBlobHeight()
 bool Sensors::isEscapingFromGhost()
 {
 	double durationOfEscape = 100 * (clock() - startEscapingFromGhost)
-			/ (double) CLOCKS_PER_SEC;
+					/ (double) CLOCKS_PER_SEC;
 	if (durationOfEscape > timeToEscapeGhost)
 		return false;
 	return true;

@@ -47,10 +47,11 @@ bool GameControl::finishedPacDots()
 	return this->pacDotRep.finishedPacDots();
 }
 
-int GameControl::getPriority(string rfidCode)
+Priority GameControl::getPriority(string rfidCode)
 {
 	PacDot pacDot = this->pacDotRep.getPacDot(rfidCode);
-	switch (pacDot.getPriority())
+	return pacDot.getPriority();
+	/*switch (pacDot.getPriority())
 	{
 	case LEFT:
 		return -1;
@@ -67,7 +68,7 @@ int GameControl::getPriority(string rfidCode)
 	default:
 		return 0;
 		break;
-	}
+	}*/
 }
 
 void GameControl::loadStrategy()

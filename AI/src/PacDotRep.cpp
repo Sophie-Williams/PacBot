@@ -18,6 +18,7 @@ void PacDotRep::loadStrategy()
 	ifstream rfidCardsFH;
 	string filename;
 	int randomValue = rand() % 3;
+	cout << "RandomValue to choose cards: " << randomValue << endl;
 
 	switch(randomValue)
 	{
@@ -69,7 +70,11 @@ void PacDotRep::printMap()
 	std::map<PacDot, bool>::iterator it;
 	for (it = this->pacDotMap.begin(); it != this->pacDotMap.end(); ++it)
 	{
-		cout << (it->first).getRfidCode() << endl;
+		cout << (it->first).getNumber();
+		if (it->second == true)
+			cout << " true" << endl;
+		else
+			cout << " false" << endl;
 	}
 }
 
@@ -95,13 +100,20 @@ PacDot PacDotRep::getPacDot(string rfidCode)
 
 void PacDotRep::eatPacDot(string rfidCode)
 {
+	int pacDotNumber = 0;
 	std::map<PacDot, bool>::iterator it;
 	for (it = this->pacDotMap.begin(); it != this->pacDotMap.end(); ++it)
 	{
 		if ((it->first).getRfidCode() == rfidCode)
 		{
+			pacDotNumber = (it->first).getNumber();
+		}
+	}
+	for (it = this->pacDotMap.begin(); it != this->pacDotMap.end(); ++it)
+	{
+		if ((it->first).getNumber() == pacDotNumber)
+		{
 			it->second = true;
-			break;
 		}
 	}
 }

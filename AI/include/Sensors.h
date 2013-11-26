@@ -28,7 +28,7 @@ class Sensors
 		std::string rfid;
 		bool contact;
 		GameControl gameControl;
-		int rfidPriority;
+		Priority rfidPriority;
 		int oldRFIDNumber;
 		int newRFIDNumber;
 		bool ghostFound;
@@ -40,7 +40,7 @@ class Sensors
 		int horizon;
 		clock_t startEscapingFromGhost;
 		clock_t newRFIDPriority;
-		int calculateRFIDPriority(int priority);
+		Priority calculateRFIDPriority(Priority priority);
 		void setHorizon(int oldNumber, int newNumber);
 
 	public:

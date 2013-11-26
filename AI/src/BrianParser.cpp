@@ -61,11 +61,6 @@ void BrianParser::askBrian()
 
 	cdl->add(new crisp_data("EscapingFromGhost", sensor.isEscapingFromGhost() == true ? 1 : 0, reliability));
 
-	/*if (sensor.isEscapingFromGhost())
-	{
-		cout << "Escaping\n";
-	}*/
-
 	brian->run();
 	//brian->debug();
 	crisp_data_list::iterator i;
