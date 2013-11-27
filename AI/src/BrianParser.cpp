@@ -100,12 +100,12 @@ void BrianParser::brianAnswer()
 				else if (rotSpeed < -10) priority = LEFT;
 
 				if (blockedTime > 50)
-					rotSpeed = randomValue > 0 ? 1 : -1;
+					rotSpeed = randomValue > 0 ? 10 : -10;
 			}
 			else if (temp.compare("Debug") == 0)
 			{
 				int debug = i->second->get_set_point();
-				//cout << "Debug: " << debug << endl;
+				cout << "Debug: " << debug << endl;
 			}
 		}
 	}
