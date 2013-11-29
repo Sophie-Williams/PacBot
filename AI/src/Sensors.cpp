@@ -15,11 +15,12 @@ gameControl(gameControl)
 	ghostDistance = 0;
 	ghostBlobWidth = 0;
 	ghostBlobHeight = 0;
-	horizon = 0;
+	horizon = EAST;
 	timeToEscapeGhost = 0;
 	rfidPriority = AHEAD;
 	oldRFIDNumber = 0;
-	newRFIDNumber = 0;
+	newRFIDNumber = 1;
+	newRFIDPriority = clock();
 }
 
 void Sensors::sonarCallBack(const Echoes::Sonar& msg)
@@ -82,25 +83,25 @@ int Sensors::getIR(int i)
 void Sensors::rfidCallBack(const Echoes::Rfid& msg)
 {
 	rfid = msg.id.c_str();
-	cout << rfid << endl;
 
-	if (gameControl.isEaten(rfid))
-	{
-		std::cout << rfid << " already eaten." << std::endl;
-	}
-	else
+	if (!gameControl.isEaten(rfid))
 		gameControl.eatPacDot(rfid);
 
 	newRFIDPriority = clock();
 	rfidPriority = gameControl.getPriority(rfid);
-	if (gameControl.finishedPacDots())
-		std::cout << "Finished Pac Dots." << std::endl;
 
 	//Set the horizon
 	newRFIDNumber = gameControl.getNumber(rfid);
 	this->setHorizon(oldRFIDNumber, newRFIDNumber);
-	if (oldRFIDNumber != newRFIDNumber)
-		oldRFIDNumber = gameControl.getNumber(rfid);
+
+	//update the old rfid number
+	oldRFIDNumber = gameControl.getNumber(rfid);
+
+	cout << "OldRFIDNumber: " << oldRFIDNumber << "\n" <<
+			"NewRFIDNumber: " << newRFIDNumber << "\n" <<
+			"Horizon: " << horizon << "\n" <<
+			"Priority on the card: " << rfidPriority << "\n" <<
+			"Priority to be sent: " << this->getRFIDPriority() << endl;
 }
 
 Priority Sensors::calculateRFIDPriority(Priority priority)
@@ -154,59 +155,50 @@ Priority Sensors::calculateRFIDPriority(Priority priority)
 
 void Sensors::setHorizon(int oldNumber, int newNumber)
 {
-	if (newNumber == oldNumber + 1)
-	{
+	if (oldNumber == 0)
 		horizon = EAST;
-	}
-	else if (newNumber == oldNumber - 1)
-	{
-		horizon = WEST;
-	}
-	else if (newNumber == 5 && oldNumber == 2)
-	{
-		horizon = WEST;
-	}
-	else if (newNumber == 2 && oldNumber == 5)
-	{
-		horizon = WEST;
-	}
-	else if (newNumber == 1 && oldNumber == 3)
-	{
+
+	if (oldNumber == 1 && newNumber == 5)
 		horizon = SOUTH;
-	}
-	else if (newNumber == 3 && oldNumber == 1)
-	{
-		horizon = EAST;
-	}
-	else if (newNumber == 6 && oldNumber == 9)
-	{
-		horizon = NORTH;
-	}
-	else if (newNumber == 9 && oldNumber == 6)
-	{
-		horizon = EAST;
-	}
-	else if (newNumber == 8 && oldNumber == 10)
-	{
-		horizon = WEST;
-	}
-	else if (newNumber == 10 && oldNumber == 8)
-	{
-		horizon = WEST;
-	}
-	else if (newNumber == oldNumber + 3 || newNumber == oldNumber + 2)
-	{
+	else if (oldNumber == 1 && newNumber == 2)
 		horizon = SOUTH;
-	}
-	else if (newNumber == oldNumber - 3 || newNumber == oldNumber - 2)
-	{
+	else if (oldNumber == 1 && newNumber == 3)
+		horizon = SOUTH;
+	else if (oldNumber == 2 && newNumber == 1)
+		horizon = EAST;
+	else if (oldNumber == 2 && newNumber == 3)
+		horizon = EAST;
+	else if (oldNumber == 2 && newNumber == 6)
+		horizon = EAST;
+	else if (oldNumber == 3 && newNumber == 2)
+		horizon = WEST;
+	else if (oldNumber == 3 && newNumber == 4)
+		horizon = EAST;
+	else if (oldNumber == 3 && newNumber == 1)
 		horizon = NORTH;
-	}
+	else if (oldNumber == 4 && newNumber == 3)
+		horizon = WEST;
+	else if (oldNumber == 4 && newNumber == 5)
+		horizon = EAST;
+	else if (oldNumber == 4 && newNumber == 6)
+		horizon = SOUTH;
+	else if (oldNumber == 5 && newNumber == 4)
+		horizon = WEST;
+	else if (oldNumber == 5 && newNumber == 1)
+		horizon = WEST;
+	else if (oldNumber == 5 && newNumber == 6)
+		horizon = WEST;
+	else if (oldNumber == 6 && newNumber == 2)
+		horizon = NORTH;
+	else if (oldNumber == 6 && newNumber == 4)
+		horizon = NORTH;
+	else if (oldNumber == 6 && newNumber == 5)
+		horizon = NORTH;
 }
 
 int Sensors::getRFIDPriority()
 {
-	if (100 * (clock() - newRFIDPriority) / (double) CLOCKS_PER_SEC > 1)
+	if (100 * (clock() - newRFIDPriority) / (double) CLOCKS_PER_SEC > 2)
 		return 0;
 	else if (100 * (clock() - startEscapingFromGhost) / (double) CLOCKS_PER_SEC < 20)
 		return 0;
@@ -229,6 +221,7 @@ int Sensors::getRFIDPriority()
 		return 0;
 		break;
 	}
+	return 0;
 }
 
 bool Sensors::isGhostFound()
@@ -244,7 +237,7 @@ int Sensors::getGhostBlobHeight()
 bool Sensors::isEscapingFromGhost()
 {
 	double durationOfEscape = 100 * (clock() - startEscapingFromGhost)
-					/ (double) CLOCKS_PER_SEC;
+											/ (double) CLOCKS_PER_SEC;
 	if (durationOfEscape > timeToEscapeGhost)
 		return false;
 	return true;

@@ -17,6 +17,7 @@ int main(int argc, char** argv)
 	GameControl gameControl;
 	Sensors sensor(gameControl);
 	BrianParser parser(gameControl, sensor);
+	clock_t startGame = clock();
 
 	ros::Publisher motion = ros_node.advertise<SpyKee::Motion>("spykee_motion", 1000);
 	ros::Subscriber sonar_sub = ros_node.subscribe("sonar_data", 1000, &Sensors::sonarCallBack, &sensor);
@@ -33,10 +34,8 @@ int main(int argc, char** argv)
 		msg.tanSpeed = parser.getTanSpeed();
 		msg.rotSpeed = parser.getRotSpeed();
 
-		//ROS_INFO("tanSpeed: %d, rotSpeed: %d", msg.tanSpeed, msg.rotSpeed);
-
-		//msg.tanSpeed = 0;
-		//msg.rotSpeed = 0;
+		msg.tanSpeed = 0;
+		msg.rotSpeed = 0;
 		if (sensor.getContact())
 		{
 			if (gameControl.isSuperMode())
@@ -52,7 +51,8 @@ int main(int argc, char** argv)
 			exit(EXIT_SUCCESS);
 		}
 
-		motion.publish(msg);
+		if (100 * (clock() - startGame) / (double) CLOCKS_PER_SEC > 15)
+			motion.publish(msg);
 		ros::spinOnce();
 		loop_rate.sleep();
 	}

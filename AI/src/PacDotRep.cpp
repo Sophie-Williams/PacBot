@@ -18,7 +18,6 @@ void PacDotRep::loadStrategy()
 	ifstream rfidCardsFH;
 	string filename;
 	int randomValue = rand() % 3;
-	cout << "RandomValue to choose cards: " << randomValue << endl;
 
 	switch(randomValue)
 	{

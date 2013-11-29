@@ -105,7 +105,7 @@ void BrianParser::brianAnswer()
 			else if (temp.compare("Debug") == 0)
 			{
 				int debug = i->second->get_set_point();
-				cout << "Debug: " << debug << endl;
+				//cout << "Debug: " << debug << endl;
 			}
 		}
 	}
