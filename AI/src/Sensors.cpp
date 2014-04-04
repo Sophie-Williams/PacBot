@@ -97,11 +97,13 @@ void Sensors::rfidCallBack(const Echoes::Rfid& msg)
 	//update the old rfid number
 	oldRFIDNumber = gameControl.getNumber(rfid);
 
-	cout << "OldRFIDNumber: " << oldRFIDNumber << "\n" <<
+	/*
+	 cout << "OldRFIDNumber: " << oldRFIDNumber << "\n" <<
 			"NewRFIDNumber: " << newRFIDNumber << "\n" <<
 			"Horizon: " << horizon << "\n" <<
 			"Priority on the card: " << rfidPriority << "\n" <<
 			"Priority to be sent: " << this->getRFIDPriority() << endl;
+	 */
 }
 
 Priority Sensors::calculateRFIDPriority(Priority priority)
@@ -237,8 +239,13 @@ int Sensors::getGhostBlobHeight()
 bool Sensors::isEscapingFromGhost()
 {
 	double durationOfEscape = 100 * (clock() - startEscapingFromGhost)
-											/ (double) CLOCKS_PER_SEC;
+													/ (double) CLOCKS_PER_SEC;
 	if (durationOfEscape > timeToEscapeGhost)
 		return false;
 	return true;
+}
+
+bool Sensors::finishedPacDots()
+{
+	return gameControl.finishedPacDots();
 }

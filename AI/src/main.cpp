@@ -4,6 +4,8 @@
 #include "brian.h"
 #include "ros/ros.h"
 #include "SpyKee/Motion.h"
+#include "Echoes/FixedLed.h"
+#include "Echoes/ResetLed.h"
 #include "BrianParser.h"
 #include "Sensors.h"
 #include "GameControl.h"
@@ -25,6 +27,9 @@ int main(int argc, char** argv)
 	ros::Subscriber bt_sub = ros_node.subscribe("bt_data", 1000, &Sensors::btCallBack, &sensor);
 	ros::Subscriber ir_sub = ros_node.subscribe("ir_data", 1000, &Sensors::irCallBack, &sensor);
 	ros::Subscriber video_sub = ros_node.subscribe("vision_results", 1000, &Sensors::videoCallBack, &sensor);
+	ros::ServiceClient redLedClient = ros_node.serviceClient<Echoes::FixedLed>("red_led");
+	ros::ServiceClient greenLedClient = ros_node.serviceClient<Echoes::BlinkingLed>("green_led");
+	ros::ServiceClient redResetClient = ros_node.serviceClient<Echoes::ResetLed>("reset_led");
 
 	while(ros::ok())
 	{
@@ -36,6 +41,19 @@ int main(int argc, char** argv)
 
 		//msg.tanSpeed = 0;
 		//msg.rotSpeed = 0;
+
+		if (gameControl.isSuperMode())
+		{
+			Echoes::FixedLed service;
+			service.request.numOn = 4;
+			redLedClient.call(service);
+		}
+		else
+		{
+			Echoes::ResetLed service;
+			redResetClient.call(service);
+		}
+
 		if (sensor.getContact())
 		{
 			if (gameControl.isSuperMode())
@@ -45,9 +63,9 @@ int main(int argc, char** argv)
 
 			exit(EXIT_SUCCESS);
 		}
-		if (gameControl.finishedPacDots())
+		if (sensor.finishedPacDots())
 		{
-			cout << "The winner is PacBot" << endl;
+			cout << "Finished Pac Dots.\nThe winner is PacBot" << endl;
 			exit(EXIT_SUCCESS);
 		}
 

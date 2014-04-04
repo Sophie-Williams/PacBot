@@ -58,6 +58,7 @@ class Sensors
 		bool isEscapingFromGhost();
 		bool isGhostFound();
 		int getGhostBlobHeight();
+		bool finishedPacDots();
 };
 
 #endif
