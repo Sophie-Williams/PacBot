@@ -1,13 +1,13 @@
 (cl:defpackage Echoes-msg
   (:use )
   (:export
-   "<RFID>"
-   "RFID"
+   "<SONAR>"
+   "SONAR"
    "<IR>"
    "IR"
    "<TOWERS>"
    "TOWERS"
-   "<SONAR>"
-   "SONAR"
+   "<RFID>"
+   "RFID"
   ))
 

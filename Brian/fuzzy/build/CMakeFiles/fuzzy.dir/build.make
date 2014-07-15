@@ -31,9 +31,6 @@ CMAKE_COMMAND = /usr/bin/cmake
 # The command to remove a file.
 RM = /usr/bin/cmake -E remove -f
 
-# Escaping for special characters.
-EQUALS = =
-
 # The top-level source directory on which CMake was run.
 CMAKE_SOURCE_DIR = /home/mikel/workspace/ros/PacBot/Brian/fuzzy
 
@@ -49,34 +46,10 @@ include CMakeFiles/fuzzy.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/fuzzy.dir/flags.make
 
-../src/shapegram.tab.cpp: ../prs/shapegram.y
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "[BISON][ShapeParser] Building parser with bison 2.5"
-	cd /home/mikel/workspace/ros/PacBot/Brian/fuzzy && /usr/bin/bison --defines="/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/shapegram.tab.h" -p shape -d -o /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shapegram.tab.cpp prs/shapegram.y
-
-../src/shapegram.tab.hpp: ../src/shapegram.tab.cpp
-
-../src/shapeflex.cpp: ../prs/shapeflex.l
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "[FLEX][ShapeScanner] Building scanner with flex 2.5.35"
-	cd /home/mikel/workspace/ros/PacBot/Brian/fuzzy && /usr/bin/flex -Pshape -o/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shapeflex.cpp prs/shapeflex.l
-
-../src/assocgram.tab.cpp: ../prs/assocgram.y
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "[BISON][AssocParser] Building parser with bison 2.5"
-	cd /home/mikel/workspace/ros/PacBot/Brian/fuzzy && /usr/bin/bison --defines="/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/assocgram.tab.h" -p assoc -d -o /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/assocgram.tab.cpp prs/assocgram.y
-
-../src/assocgram.tab.hpp: ../src/assocgram.tab.cpp
-
-../src/assocflex.cpp: ../prs/assocflex.l
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "[FLEX][AssocScanner] Building scanner with flex 2.5.35"
-	cd /home/mikel/workspace/ros/PacBot/Brian/fuzzy && /usr/bin/flex -Passoc -o/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/assocflex.cpp prs/assocflex.l
-
 CMakeFiles/fuzzy.dir/src/action.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/action.cpp.o: ../src/action.cpp
 CMakeFiles/fuzzy.dir/src/action.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/action.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/action.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/action.cpp
 
@@ -100,7 +73,7 @@ CMakeFiles/fuzzy.dir/src/action.cpp.o.provides.build: CMakeFiles/fuzzy.dir/src/a
 CMakeFiles/fuzzy.dir/src/action_list.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/action_list.cpp.o: ../src/action_list.cpp
 CMakeFiles/fuzzy.dir/src/action_list.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/action_list.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/action_list.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/action_list.cpp
 
@@ -124,7 +97,7 @@ CMakeFiles/fuzzy.dir/src/action_list.cpp.o.provides.build: CMakeFiles/fuzzy.dir/
 CMakeFiles/fuzzy.dir/src/action_list_debug.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/action_list_debug.cpp.o: ../src/action_list_debug.cpp
 CMakeFiles/fuzzy.dir/src/action_list_debug.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/action_list_debug.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/action_list_debug.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/action_list_debug.cpp
 
@@ -148,7 +121,7 @@ CMakeFiles/fuzzy.dir/src/action_list_debug.cpp.o.provides.build: CMakeFiles/fuzz
 CMakeFiles/fuzzy.dir/src/assoc_file_parser.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/assoc_file_parser.cpp.o: ../src/assoc_file_parser.cpp
 CMakeFiles/fuzzy.dir/src/assoc_file_parser.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/assoc_file_parser.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/assoc_file_parser.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/assoc_file_parser.cpp
 
@@ -172,7 +145,7 @@ CMakeFiles/fuzzy.dir/src/assoc_file_parser.cpp.o.provides.build: CMakeFiles/fuzz
 CMakeFiles/fuzzy.dir/src/association.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/association.cpp.o: ../src/association.cpp
 CMakeFiles/fuzzy.dir/src/association.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/association.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/association.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/association.cpp
 
@@ -196,7 +169,7 @@ CMakeFiles/fuzzy.dir/src/association.cpp.o.provides.build: CMakeFiles/fuzzy.dir/
 CMakeFiles/fuzzy.dir/src/association_list.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/association_list.cpp.o: ../src/association_list.cpp
 CMakeFiles/fuzzy.dir/src/association_list.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/association_list.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/association_list.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/association_list.cpp
 
@@ -220,7 +193,7 @@ CMakeFiles/fuzzy.dir/src/association_list.cpp.o.provides.build: CMakeFiles/fuzzy
 CMakeFiles/fuzzy.dir/src/association_set_multimap.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/association_set_multimap.cpp.o: ../src/association_set_multimap.cpp
 CMakeFiles/fuzzy.dir/src/association_set_multimap.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/association_set_multimap.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/association_set_multimap.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/association_set_multimap.cpp
 
@@ -244,7 +217,7 @@ CMakeFiles/fuzzy.dir/src/association_set_multimap.cpp.o.provides.build: CMakeFil
 CMakeFiles/fuzzy.dir/src/barycentre_defuzzyfier.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/barycentre_defuzzyfier.cpp.o: ../src/barycentre_defuzzyfier.cpp
 CMakeFiles/fuzzy.dir/src/barycentre_defuzzyfier.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/barycentre_defuzzyfier.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/barycentre_defuzzyfier.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/barycentre_defuzzyfier.cpp
 
@@ -268,7 +241,7 @@ CMakeFiles/fuzzy.dir/src/barycentre_defuzzyfier.cpp.o.provides.build: CMakeFiles
 CMakeFiles/fuzzy.dir/src/command.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/command.cpp.o: ../src/command.cpp
 CMakeFiles/fuzzy.dir/src/command.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/command.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/command.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/command.cpp
 
@@ -292,7 +265,7 @@ CMakeFiles/fuzzy.dir/src/command.cpp.o.provides.build: CMakeFiles/fuzzy.dir/src/
 CMakeFiles/fuzzy.dir/src/command_list.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/command_list.cpp.o: ../src/command_list.cpp
 CMakeFiles/fuzzy.dir/src/command_list.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/command_list.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/command_list.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/command_list.cpp
 
@@ -316,7 +289,7 @@ CMakeFiles/fuzzy.dir/src/command_list.cpp.o.provides.build: CMakeFiles/fuzzy.dir
 CMakeFiles/fuzzy.dir/src/command_list_debug.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/command_list_debug.cpp.o: ../src/command_list_debug.cpp
 CMakeFiles/fuzzy.dir/src/command_list_debug.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/command_list_debug.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/command_list_debug.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/command_list_debug.cpp
 
@@ -340,7 +313,7 @@ CMakeFiles/fuzzy.dir/src/command_list_debug.cpp.o.provides.build: CMakeFiles/fuz
 CMakeFiles/fuzzy.dir/src/crisp_data.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/crisp_data.cpp.o: ../src/crisp_data.cpp
 CMakeFiles/fuzzy.dir/src/crisp_data.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/crisp_data.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/crisp_data.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/crisp_data.cpp
 
@@ -364,7 +337,7 @@ CMakeFiles/fuzzy.dir/src/crisp_data.cpp.o.provides.build: CMakeFiles/fuzzy.dir/s
 CMakeFiles/fuzzy.dir/src/crisp_data_list.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/crisp_data_list.cpp.o: ../src/crisp_data_list.cpp
 CMakeFiles/fuzzy.dir/src/crisp_data_list.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/crisp_data_list.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/crisp_data_list.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/crisp_data_list.cpp
 
@@ -388,7 +361,7 @@ CMakeFiles/fuzzy.dir/src/crisp_data_list.cpp.o.provides.build: CMakeFiles/fuzzy.
 CMakeFiles/fuzzy.dir/src/crisp_data_list_debug.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/crisp_data_list_debug.cpp.o: ../src/crisp_data_list_debug.cpp
 CMakeFiles/fuzzy.dir/src/crisp_data_list_debug.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/crisp_data_list_debug.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/crisp_data_list_debug.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/crisp_data_list_debug.cpp
 
@@ -412,7 +385,7 @@ CMakeFiles/fuzzy.dir/src/crisp_data_list_debug.cpp.o.provides.build: CMakeFiles/
 CMakeFiles/fuzzy.dir/src/data.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/data.cpp.o: ../src/data.cpp
 CMakeFiles/fuzzy.dir/src/data.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/data.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/data.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/data.cpp
 
@@ -436,7 +409,7 @@ CMakeFiles/fuzzy.dir/src/data.cpp.o.provides.build: CMakeFiles/fuzzy.dir/src/dat
 CMakeFiles/fuzzy.dir/src/defuzzyfier.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/defuzzyfier.cpp.o: ../src/defuzzyfier.cpp
 CMakeFiles/fuzzy.dir/src/defuzzyfier.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/defuzzyfier.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/defuzzyfier.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/defuzzyfier.cpp
 
@@ -460,7 +433,7 @@ CMakeFiles/fuzzy.dir/src/defuzzyfier.cpp.o.provides.build: CMakeFiles/fuzzy.dir/
 CMakeFiles/fuzzy.dir/src/div_triangle.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/div_triangle.cpp.o: ../src/div_triangle.cpp
 CMakeFiles/fuzzy.dir/src/div_triangle.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/div_triangle.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/div_triangle.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/div_triangle.cpp
 
@@ -484,7 +457,7 @@ CMakeFiles/fuzzy.dir/src/div_triangle.cpp.o.provides.build: CMakeFiles/fuzzy.dir
 CMakeFiles/fuzzy.dir/src/fuzzy_crisp_rel.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/fuzzy_crisp_rel.cpp.o: ../src/fuzzy_crisp_rel.cpp
 CMakeFiles/fuzzy.dir/src/fuzzy_crisp_rel.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/fuzzy_crisp_rel.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/fuzzy_crisp_rel.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/fuzzy_crisp_rel.cpp
 
@@ -508,7 +481,7 @@ CMakeFiles/fuzzy.dir/src/fuzzy_crisp_rel.cpp.o.provides.build: CMakeFiles/fuzzy.
 CMakeFiles/fuzzy.dir/src/fuzzy_data.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/fuzzy_data.cpp.o: ../src/fuzzy_data.cpp
 CMakeFiles/fuzzy.dir/src/fuzzy_data.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/fuzzy_data.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/fuzzy_data.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/fuzzy_data.cpp
 
@@ -532,7 +505,7 @@ CMakeFiles/fuzzy.dir/src/fuzzy_data.cpp.o.provides.build: CMakeFiles/fuzzy.dir/s
 CMakeFiles/fuzzy.dir/src/fuzzy_data_list.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/fuzzy_data_list.cpp.o: ../src/fuzzy_data_list.cpp
 CMakeFiles/fuzzy.dir/src/fuzzy_data_list.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/fuzzy_data_list.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/fuzzy_data_list.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/fuzzy_data_list.cpp
 
@@ -556,7 +529,7 @@ CMakeFiles/fuzzy.dir/src/fuzzy_data_list.cpp.o.provides.build: CMakeFiles/fuzzy.
 CMakeFiles/fuzzy.dir/src/fuzzy_data_list_debug.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/fuzzy_data_list_debug.cpp.o: ../src/fuzzy_data_list_debug.cpp
 CMakeFiles/fuzzy.dir/src/fuzzy_data_list_debug.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/fuzzy_data_list_debug.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/fuzzy_data_list_debug.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/fuzzy_data_list_debug.cpp
 
@@ -580,7 +553,7 @@ CMakeFiles/fuzzy.dir/src/fuzzy_data_list_debug.cpp.o.provides.build: CMakeFiles/
 CMakeFiles/fuzzy.dir/src/fuzzyfier.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/fuzzyfier.cpp.o: ../src/fuzzyfier.cpp
 CMakeFiles/fuzzy.dir/src/fuzzyfier.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/fuzzyfier.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/fuzzyfier.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/fuzzyfier.cpp
 
@@ -604,7 +577,7 @@ CMakeFiles/fuzzy.dir/src/fuzzyfier.cpp.o.provides.build: CMakeFiles/fuzzy.dir/sr
 CMakeFiles/fuzzy.dir/src/fuzzy_set.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/fuzzy_set.cpp.o: ../src/fuzzy_set.cpp
 CMakeFiles/fuzzy.dir/src/fuzzy_set.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/fuzzy_set.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/fuzzy_set.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/fuzzy_set.cpp
 
@@ -628,7 +601,7 @@ CMakeFiles/fuzzy.dir/src/fuzzy_set.cpp.o.provides.build: CMakeFiles/fuzzy.dir/sr
 CMakeFiles/fuzzy.dir/src/fuzzy_set_multimap.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/fuzzy_set_multimap.cpp.o: ../src/fuzzy_set_multimap.cpp
 CMakeFiles/fuzzy.dir/src/fuzzy_set_multimap.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/fuzzy_set_multimap.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/fuzzy_set_multimap.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/fuzzy_set_multimap.cpp
 
@@ -652,7 +625,7 @@ CMakeFiles/fuzzy.dir/src/fuzzy_set_multimap.cpp.o.provides.build: CMakeFiles/fuz
 CMakeFiles/fuzzy.dir/src/getFuzzy.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/getFuzzy.cpp.o: ../src/getFuzzy.cpp
 CMakeFiles/fuzzy.dir/src/getFuzzy.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/getFuzzy.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/getFuzzy.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/getFuzzy.cpp
 
@@ -676,7 +649,7 @@ CMakeFiles/fuzzy.dir/src/getFuzzy.cpp.o.provides.build: CMakeFiles/fuzzy.dir/src
 CMakeFiles/fuzzy.dir/src/point.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/point.cpp.o: ../src/point.cpp
 CMakeFiles/fuzzy.dir/src/point.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/point.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/point.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/point.cpp
 
@@ -700,7 +673,7 @@ CMakeFiles/fuzzy.dir/src/point.cpp.o.provides.build: CMakeFiles/fuzzy.dir/src/po
 CMakeFiles/fuzzy.dir/src/point_list.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/point_list.cpp.o: ../src/point_list.cpp
 CMakeFiles/fuzzy.dir/src/point_list.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/point_list.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/point_list.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/point_list.cpp
 
@@ -724,7 +697,7 @@ CMakeFiles/fuzzy.dir/src/point_list.cpp.o.provides.build: CMakeFiles/fuzzy.dir/s
 CMakeFiles/fuzzy.dir/src/point_multimap.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/point_multimap.cpp.o: ../src/point_multimap.cpp
 CMakeFiles/fuzzy.dir/src/point_multimap.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/point_multimap.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/point_multimap.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/point_multimap.cpp
 
@@ -748,7 +721,7 @@ CMakeFiles/fuzzy.dir/src/point_multimap.cpp.o.provides.build: CMakeFiles/fuzzy.d
 CMakeFiles/fuzzy.dir/src/rectangle.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/rectangle.cpp.o: ../src/rectangle.cpp
 CMakeFiles/fuzzy.dir/src/rectangle.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/rectangle.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/rectangle.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/rectangle.cpp
 
@@ -772,7 +745,7 @@ CMakeFiles/fuzzy.dir/src/rectangle.cpp.o.provides.build: CMakeFiles/fuzzy.dir/sr
 CMakeFiles/fuzzy.dir/src/shape.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/shape.cpp.o: ../src/shape.cpp
 CMakeFiles/fuzzy.dir/src/shape.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/shape.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/shape.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shape.cpp
 
@@ -796,7 +769,7 @@ CMakeFiles/fuzzy.dir/src/shape.cpp.o.provides.build: CMakeFiles/fuzzy.dir/src/sh
 CMakeFiles/fuzzy.dir/src/shape_file_parser.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/shape_file_parser.cpp.o: ../src/shape_file_parser.cpp
 CMakeFiles/fuzzy.dir/src/shape_file_parser.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/shape_file_parser.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/shape_file_parser.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shape_file_parser.cpp
 
@@ -820,7 +793,7 @@ CMakeFiles/fuzzy.dir/src/shape_file_parser.cpp.o.provides.build: CMakeFiles/fuzz
 CMakeFiles/fuzzy.dir/src/shape_multimap.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/shape_multimap.cpp.o: ../src/shape_multimap.cpp
 CMakeFiles/fuzzy.dir/src/shape_multimap.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/shape_multimap.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/shape_multimap.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shape_multimap.cpp
 
@@ -844,7 +817,7 @@ CMakeFiles/fuzzy.dir/src/shape_multimap.cpp.o.provides.build: CMakeFiles/fuzzy.d
 CMakeFiles/fuzzy.dir/src/shape_point.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/shape_point.cpp.o: ../src/shape_point.cpp
 CMakeFiles/fuzzy.dir/src/shape_point.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/shape_point.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/shape_point.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shape_point.cpp
 
@@ -868,7 +841,7 @@ CMakeFiles/fuzzy.dir/src/shape_point.cpp.o.provides.build: CMakeFiles/fuzzy.dir/
 CMakeFiles/fuzzy.dir/src/shapes_list.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/shapes_list.cpp.o: ../src/shapes_list.cpp
 CMakeFiles/fuzzy.dir/src/shapes_list.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/shapes_list.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/shapes_list.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shapes_list.cpp
 
@@ -892,7 +865,7 @@ CMakeFiles/fuzzy.dir/src/shapes_list.cpp.o.provides.build: CMakeFiles/fuzzy.dir/
 CMakeFiles/fuzzy.dir/src/singleton.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/singleton.cpp.o: ../src/singleton.cpp
 CMakeFiles/fuzzy.dir/src/singleton.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/singleton.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/singleton.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/singleton.cpp
 
@@ -916,7 +889,7 @@ CMakeFiles/fuzzy.dir/src/singleton.cpp.o.provides.build: CMakeFiles/fuzzy.dir/sr
 CMakeFiles/fuzzy.dir/src/singleton_defuzzyfier.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/singleton_defuzzyfier.cpp.o: ../src/singleton_defuzzyfier.cpp
 CMakeFiles/fuzzy.dir/src/singleton_defuzzyfier.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/singleton_defuzzyfier.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/singleton_defuzzyfier.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/singleton_defuzzyfier.cpp
 
@@ -940,7 +913,7 @@ CMakeFiles/fuzzy.dir/src/singleton_defuzzyfier.cpp.o.provides.build: CMakeFiles/
 CMakeFiles/fuzzy.dir/src/trapezium.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/trapezium.cpp.o: ../src/trapezium.cpp
 CMakeFiles/fuzzy.dir/src/trapezium.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/trapezium.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/trapezium.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/trapezium.cpp
 
@@ -964,7 +937,7 @@ CMakeFiles/fuzzy.dir/src/trapezium.cpp.o.provides.build: CMakeFiles/fuzzy.dir/sr
 CMakeFiles/fuzzy.dir/src/triangle.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/triangle.cpp.o: ../src/triangle.cpp
 CMakeFiles/fuzzy.dir/src/triangle.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/triangle.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/triangle.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/triangle.cpp
 
@@ -988,7 +961,7 @@ CMakeFiles/fuzzy.dir/src/triangle.cpp.o.provides.build: CMakeFiles/fuzzy.dir/src
 CMakeFiles/fuzzy.dir/src/triangle_ol.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/triangle_ol.cpp.o: ../src/triangle_ol.cpp
 CMakeFiles/fuzzy.dir/src/triangle_ol.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/triangle_ol.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/triangle_ol.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/triangle_ol.cpp
 
@@ -1012,7 +985,7 @@ CMakeFiles/fuzzy.dir/src/triangle_ol.cpp.o.provides.build: CMakeFiles/fuzzy.dir/
 CMakeFiles/fuzzy.dir/src/triangle_or.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/triangle_or.cpp.o: ../src/triangle_or.cpp
 CMakeFiles/fuzzy.dir/src/triangle_or.cpp.o: ../manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/triangle_or.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/triangle_or.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/triangle_or.cpp
 
@@ -1035,7 +1008,7 @@ CMakeFiles/fuzzy.dir/src/triangle_or.cpp.o.provides.build: CMakeFiles/fuzzy.dir/
 
 CMakeFiles/fuzzy.dir/src/shapegram.tab.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/shapegram.tab.cpp.o: ../src/shapegram.tab.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/shapegram.tab.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/shapegram.tab.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shapegram.tab.cpp
 
@@ -1059,7 +1032,7 @@ CMakeFiles/fuzzy.dir/src/shapegram.tab.cpp.o.provides.build: CMakeFiles/fuzzy.di
 CMakeFiles/fuzzy.dir/src/shapeflex.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/shapeflex.cpp.o: ../src/shapeflex.cpp
 CMakeFiles/fuzzy.dir/src/shapeflex.cpp.o: ../src/shapegram.tab.hpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/shapeflex.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/shapeflex.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shapeflex.cpp
 
@@ -1082,7 +1055,7 @@ CMakeFiles/fuzzy.dir/src/shapeflex.cpp.o.provides.build: CMakeFiles/fuzzy.dir/sr
 
 CMakeFiles/fuzzy.dir/src/assocgram.tab.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/assocgram.tab.cpp.o: ../src/assocgram.tab.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/assocgram.tab.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/assocgram.tab.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/assocgram.tab.cpp
 
@@ -1106,7 +1079,7 @@ CMakeFiles/fuzzy.dir/src/assocgram.tab.cpp.o.provides.build: CMakeFiles/fuzzy.di
 CMakeFiles/fuzzy.dir/src/assocflex.cpp.o: CMakeFiles/fuzzy.dir/flags.make
 CMakeFiles/fuzzy.dir/src/assocflex.cpp.o: ../src/assocflex.cpp
 CMakeFiles/fuzzy.dir/src/assocflex.cpp.o: ../src/assocgram.tab.hpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fuzzy.dir/src/assocflex.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/fuzzy.dir/src/assocflex.cpp.o -c /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/assocflex.cpp
 
@@ -1126,6 +1099,30 @@ CMakeFiles/fuzzy.dir/src/assocflex.cpp.o.provides: CMakeFiles/fuzzy.dir/src/asso
 .PHONY : CMakeFiles/fuzzy.dir/src/assocflex.cpp.o.provides
 
 CMakeFiles/fuzzy.dir/src/assocflex.cpp.o.provides.build: CMakeFiles/fuzzy.dir/src/assocflex.cpp.o
+
+../src/shapegram.tab.cpp: ../prs/shapegram.y
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_45)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "[BISON][ShapeParser] Building parser with bison 2.5"
+	cd /home/mikel/workspace/ros/PacBot/Brian/fuzzy && /usr/bin/bison --defines="/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/shapegram.tab.h" -p shape -d -o /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shapegram.tab.cpp prs/shapegram.y
+
+../src/shapegram.tab.hpp: ../src/shapegram.tab.cpp
+
+../src/shapeflex.cpp: ../prs/shapeflex.l
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_46)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "[FLEX][ShapeScanner] Building scanner with flex 2.5.35"
+	cd /home/mikel/workspace/ros/PacBot/Brian/fuzzy && /usr/bin/flex -Pshape -o/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/shapeflex.cpp prs/shapeflex.l
+
+../src/assocgram.tab.cpp: ../prs/assocgram.y
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_47)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "[BISON][AssocParser] Building parser with bison 2.5"
+	cd /home/mikel/workspace/ros/PacBot/Brian/fuzzy && /usr/bin/bison --defines="/home/mikel/workspace/ros/PacBot/Brian/fuzzy/include/assocgram.tab.h" -p assoc -d -o /home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/assocgram.tab.cpp prs/assocgram.y
+
+../src/assocgram.tab.hpp: ../src/assocgram.tab.cpp
+
+../src/assocflex.cpp: ../prs/assocflex.l
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mikel/workspace/ros/PacBot/Brian/fuzzy/build/CMakeFiles $(CMAKE_PROGRESS_48)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "[FLEX][AssocScanner] Building scanner with flex 2.5.35"
+	cd /home/mikel/workspace/ros/PacBot/Brian/fuzzy && /usr/bin/flex -Passoc -o/home/mikel/workspace/ros/PacBot/Brian/fuzzy/src/assocflex.cpp prs/assocflex.l
 
 # Object files for target fuzzy
 fuzzy_OBJECTS = \

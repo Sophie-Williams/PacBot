@@ -1,10 +1,4 @@
 FILE(REMOVE_RECURSE
-  "../src/predgram.tab.cpp"
-  "../src/predgram.tab.hpp"
-  "../src/predflex.cpp"
-  "../src/rulesgram.tab.cpp"
-  "../src/rulesgram.tab.hpp"
-  "../src/rulesflex.cpp"
   "CMakeFiles/brian.dir/src/brian.cpp.o"
   "CMakeFiles/brian.dir/src/behavior_eng.cpp.o"
   "CMakeFiles/brian.dir/src/can_doer.cpp.o"
@@ -25,6 +19,12 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/brian.dir/src/predgram.tab.cpp.o"
   "CMakeFiles/brian.dir/src/rulesgram.tab.cpp.o"
   "CMakeFiles/brian.dir/src/rulesflex.cpp.o"
+  "../src/predgram.tab.cpp"
+  "../src/predgram.tab.hpp"
+  "../src/predflex.cpp"
+  "../src/rulesgram.tab.cpp"
+  "../src/rulesgram.tab.hpp"
+  "../src/rulesflex.cpp"
   "../lib/libbrian.pdb"
   "../lib/libbrian.a"
 )

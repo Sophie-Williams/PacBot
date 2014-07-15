@@ -1,11 +1,11 @@
 # Rotation when I've seen the ghost recently
 (Priority_Left) =>		(&DEL.TanSpeed ANY)
 						(&DEL.RotSpeed ANY)
-						(RotSpeed VERY_SLOW_LEFT)
+						(RotSpeed SLOW_LEFT)
 						(TanSpeed STEADY)
 						(Debug TWENTYONE);
 (Priority_Right) =>		(&DEL.TanSpeed ANY)
 						(&DEL.RotSpeed ANY)
-						(RotSpeed VERY_SLOW_RIGHT)
+						(RotSpeed SLOW_RIGHT)
 						(TanSpeed STEADY)
 						(Debug TWENTYTWO);

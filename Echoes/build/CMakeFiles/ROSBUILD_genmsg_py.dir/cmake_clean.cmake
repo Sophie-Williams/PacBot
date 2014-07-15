@@ -7,10 +7,10 @@ FILE(REMOVE_RECURSE
   "../src/Echoes/srv"
   "CMakeFiles/ROSBUILD_genmsg_py"
   "../src/Echoes/msg/__init__.py"
-  "../src/Echoes/msg/_Rfid.py"
+  "../src/Echoes/msg/_Sonar.py"
   "../src/Echoes/msg/_IR.py"
   "../src/Echoes/msg/_Towers.py"
-  "../src/Echoes/msg/_Sonar.py"
+  "../src/Echoes/msg/_Rfid.py"
 )
 
 # Per-language clean rules from dependency scanning.

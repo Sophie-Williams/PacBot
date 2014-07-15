@@ -11,7 +11,7 @@
 
 int main(int argc, char** argv)
 {
-	const char* deviceFile = "/dev/ttyS99";
+	const char* deviceFile = "/dev/rfcomm0";
 	BTReader btReader(deviceFile);
 	// Init ROS
 	ros::init(argc, argv, "PhantomRobot");

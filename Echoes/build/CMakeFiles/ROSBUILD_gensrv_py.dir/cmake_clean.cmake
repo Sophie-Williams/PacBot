@@ -7,9 +7,9 @@ FILE(REMOVE_RECURSE
   "../src/Echoes/srv"
   "CMakeFiles/ROSBUILD_gensrv_py"
   "../src/Echoes/srv/__init__.py"
-  "../src/Echoes/srv/_FixedLed.py"
   "../src/Echoes/srv/_ResetLed.py"
   "../src/Echoes/srv/_BlinkingLed.py"
+  "../src/Echoes/srv/_FixedLed.py"
 )
 
 # Per-language clean rules from dependency scanning.

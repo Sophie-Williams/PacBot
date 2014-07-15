@@ -1,10 +1,4 @@
 FILE(REMOVE_RECURSE
-  "../src/shapegram.tab.cpp"
-  "../src/shapegram.tab.hpp"
-  "../src/shapeflex.cpp"
-  "../src/assocgram.tab.cpp"
-  "../src/assocgram.tab.hpp"
-  "../src/assocflex.cpp"
   "CMakeFiles/fuzzy.dir/src/action.cpp.o"
   "CMakeFiles/fuzzy.dir/src/action_list.cpp.o"
   "CMakeFiles/fuzzy.dir/src/action_list_debug.cpp.o"
@@ -49,6 +43,12 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/fuzzy.dir/src/shapeflex.cpp.o"
   "CMakeFiles/fuzzy.dir/src/assocgram.tab.cpp.o"
   "CMakeFiles/fuzzy.dir/src/assocflex.cpp.o"
+  "../src/shapegram.tab.cpp"
+  "../src/shapegram.tab.hpp"
+  "../src/shapeflex.cpp"
+  "../src/assocgram.tab.cpp"
+  "../src/assocgram.tab.hpp"
+  "../src/assocflex.cpp"
   "../lib/libfuzzy.pdb"
   "../lib/libfuzzy.a"
 )
